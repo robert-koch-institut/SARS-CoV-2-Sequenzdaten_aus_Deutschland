@@ -45,18 +45,15 @@ Die Sequenzdaten können  über eine REST-API auch automatisert bereitgestellt w
 ### Veröffentlichung der Sequenzdaten
 In der Veröffentlichung von Sequenzdaten im [ENA](https://www.ebi.ac.uk/ena/browser/home) und [GISAID](https://www.gisaid.org/)  kommt es durch notwendige Zwischenschritte zu einer zeitlichen Verzögerung der Publikation. Daher stellt das RKI zusätzlich alle über DESH empfangenen Sequenzdaten tagesaktuell zu Verfügung. 
 
-:::info 
-**Der Datensatz ist keiner weitere Qualitätskontrolle durch das RKI durchlaufen.**  
 
-Zu beachten ist, dass Daten in diesem Datensatz zum Beispiel:  
+:warning:Der Datensatz ist keiner weitere Qualitätskontrolle durch das RKI durchlaufen. Zu beachten ist, dass Daten in diesem Datensatz zum Beispiel:  
 
-   - Sequenzdaten von niedriger Qualität enthalten
-   - unverifizierte Frameshifts vorhersagen
-   - mehrmals im Datensatz vorhanden sind
-   - bereits vom sequenzierendem Labor veröffentlicht worden sind
+   - Sequenzdaten von niedriger Qualität enthalten  
+   - unverifizierte Frameshifts vorhersagen  
+   - mehrmals im Datensatz vorhanden sind  
+   - bereits vom sequenzierendem Labor veröffentlicht worden sind  
 
-Die hier veröffentlichten Daten können daher nicht ohne weiteres mit dem wöchentlichen [Bericht zu Virusvarianten von SARS-CoV-2 in Deutschland des RKIs](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Berichte-VOC-tab.html) vergleichen werden. Außerdem können diese Daten ausdrücklich nicht als Grundlage für die Abrechnung der Labore mit der KBV verwendet werden.
-:::
+Die hier veröffentlichten Daten können daher nicht ohne weiteres mit dem wöchentlichen [Bericht zu Virusvarianten von SARS-CoV-2 in Deutschland des RKIs](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Berichte-VOC-tab.html) vergleichen werden. Außerdem können diese Daten ausdrücklich nicht als Grundlage für die Abrechnung der Labore mit der KBV verwendet werden.  
 
 
 ## Aufbau und Inhalt des Datensatzes
@@ -114,15 +111,15 @@ In den bereitgestelten Sequenzdaten enhält die Kopfzeile die FASTA-ID, die in d
 Daraus ergibt sich beispielhaft folgende Struktur der .fasta-Datein:
 
 >&gt;IMS-101XX-CVDP-XX  
-NNNNNNNNNNNNNNNNNNNNNNNNNNCCAACCAACTTTCGATCTCTTGTAGATCT
-AACTSRCTAAACGAACTTTAAAATCTGTGTGGCTGTCACTCGGCTGCATGCTTAGTGCACT
-...
-ACACGTCCAACTCAGTTTGCRCTGTTTTACAGGTTCGCGACGTGCTCGTACGTGGCTTTGG
-GGGAGGACTTGAAAGAGCCACCACATTTTCACCGAGGCN
->&gt;IMS-101YY-CVDP-YY  
-NNNNNNNNNNNNNNNNNNNNNNNNNNCCAACCAACTTTCGATCTCTTGTAGATCT
-CACGCAGRRTATAATTAATAACTAATTACTGTCGTTGACAGGACACGAGTAACTCGTCTATC
-...
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACCAACCAACTTTCGATCTCTTGTAGATCT  
+GTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCTCTCGGCTGCATGCTTAGTGCACT  
+...  
+YGACCGGGTGTGACCGAAAGGTAAGATGGAGAGCCTTGTCCCTGGTTTCAACGAGAAAAC  
+GGGAGGACTTGAAAGAGCCACCACATTTTCACCGAGGCN  
+>&gt;IMS-101YY-CVDP-YY   
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACCAACTCTCGGCTGCATGCTTAGTGCACT  
+GTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCTTGAAAGAGCCACCACATTTTCAT  
+...  
 
 ### Variablen und Variablenausprägungen Metadaten der Sequenzierung  
 
@@ -143,20 +140,16 @@ In den als .csv bereitgestellten Metadaten der Sequenzierung enthalten in folgen
 
 Weitere Informationen zu den aufgeführten Variablen finden sich in der [Anleitung zur Bereitstellung der Sequenzdaten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?) die auch in [Kontextmaterialien](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontexmaterialien/) hinterlegt ist.  
 
-## Hinweise zur Nachnutzung der Daten
+## Hinweise zur Nachnutzung der Daten 
 
-:::info 
-**Der Datensatz ist keiner weitere Qualitätskontrolle durch das RKI durchlaufen.**  
+:warning: Der Datensatz ist keiner weitere Qualitätskontrolle durch das RKI durchlaufen. Zu beachten ist, dass Daten in diesem Datensatz zum Beispiel:  
 
-Zu beachten ist, dass Daten in diesem Datensatz zum Beispiel:  
+   - Sequenzdaten von niedriger Qualität enthalten  
+   - unverifizierte Frameshifts vorhersagen  
+   - mehrmals im Datensatz vorhanden sind  
+   - bereits vom sequenzierendem Labor veröffentlicht worden sind  
 
-   - Sequenzdaten von niedriger Qualität enthalten
-   - unverifizierte Frameshifts vorhersagen
-   - mehrmals im Datensatz vorhanden sind
-   - bereits vom sequenzierendem Labor veröffentlicht worden sind
-
-Die hier veröffentlichten Daten können daher nicht ohne weiteres mit dem wöchentlichen [Bericht zu Virusvarianten von SARS-CoV-2 in Deutschland des RKIs](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Berichte-VOC-tab.html) vergleichen werden. Außerdem können diese Daten ausdrücklich nicht als Grundlage für die Abrechnung der Labore mit der KBV verwendet werden.
-:::
+Die hier veröffentlichten Daten können daher nicht ohne weiteres mit dem wöchentlichen [Bericht zu Virusvarianten von SARS-CoV-2 in Deutschland des RKIs](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Berichte-VOC-tab.html) vergleichen werden. Außerdem können diese Daten ausdrücklich nicht als Grundlage für die Abrechnung der Labore mit der KBV verwendet werden.  
 
 Weitere, offene Forschungsdaten des RKI werden auf GitHub.com sowie Zenodo.org bereitgestellt:  
 
