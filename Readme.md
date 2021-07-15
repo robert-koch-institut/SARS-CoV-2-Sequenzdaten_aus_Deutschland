@@ -21,8 +21,8 @@ Im Projekt "OSEDA - Offene Sequenzdaten" verpflichtet sich das RKI, die aufgearb
 
 ![**Abbildung:** Systemaufbau des Deutschen Elektronischen Sequenzdaten-Hub (DESH)](Kontexmaterialien/2021-07-13_DESH_Systemaufbau.jpg "Abbildung: Systemaufbau des Deutschen Elektronischen Sequenzdaten-Hub (DESH)")  
 
->[Kontexmaterialien/2021-01-29_DESH_CorSurV_BAnz_AT_V2.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontexmaterialien/2021-01-29_DESH_CorSurV_BAnz_AT_V2.pdf)  
->[Kontexmaterialien/2021-02-05_DESH_KBV-Vorgaben_CorSurV.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontexmaterialien/2021-02-05_DESH_KBV-Vorgaben_CorSurV.pdf)  
+>[Kontexmaterialien/2021-01-29_DESH_CorSurV_BAnz_AT_V2.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Virusvarianten_in_Deutschaland/blob/master/Kontexmaterialien/2021-01-29_DESH_CorSurV_BAnz_AT_V2.pdf)  
+>[Kontexmaterialien/2021-02-05_DESH_KBV-Vorgaben_CorSurV.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Virusvarianten_in_Deutschaland/blob/master/Kontexmaterialien/2021-02-05_DESH_KBV-Vorgaben_CorSurV.pdf)  
  
 ### Administrative und organisatorische Angaben
 
@@ -35,12 +35,12 @@ Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagemen
 Auf der [DESH Projektwebseite](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/DESH.html) des RKI befindet sich eine [Anleitung zur Bereitstellung der Sequenzdaten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?), die Sequenzierenden Laboren im  Prozess der Bereitstellung Ihrer Sequenzdaten über https://desh.bdr.de (nur mit einem individuellen Zetifikat aufrufbar) behilflich ist. Das RKI stellt außerdem beispielhaft eine [.csv-Datei](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Metadatenschema-csv.csv?) mit dem in der Anleitung geforderten Metadatenschema zur Verfügung. Außerdem werden bestimmte [Qualitätskriterien](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Qualitaetskriterien.html?) für die Sequenzdaten gefordert. Die Einhaltung der Qualitätskritierien wird durch die sequenzierenden Labore sichergestellt. Das RKI hat keine Kentniss über die zugrundeliegenden Rohdaten (sog. "Reads").  
 Die Sequenzdaten können  über eine REST-API auch automatisert bereitgestellt werden. Dazu stellt das RKI eine [Anleitung](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Spezifikation-Upload.html) nebst einem ergänzendem [Sequenzdiagramm](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Sequenzdiagramm.html?nn=13490888) bereit. Die Upload-Spezifikation nach OpenAPI 3.0.3 können der [Receiver.yaml](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Receiver-yaml.zip) entnommen werden.  
 
->[Kontexmaterialien/2021-02-18_DESH_Anleitung_zur_Bereitstellung_Sequenzdaten.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontexmaterialien/2021-02-18_DESH_Anleitung_zur_Bereitstellung_Sequenzdaten.pdf)  
->[Kontexmaterialien/2021-02-18_DESH_Metadatenschema.csv](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontexmaterialien/2021-02-18_DESH_Metadatenschema.csv)  
->[Kontexmaterialien/2021-02-08_DESH_Qualitätsvorgaben_für_die_Sequenzdaten.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontexmaterialien/2021-02-08_DESH_Qualitätsvorgaben_für_die_Sequenzdaten.pdf)  
->[Kontexmaterialien/2021-04-27_DESH_Spezifikation der Bereitstellung über REST API.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontexmaterialien/2021-04-27_DESH_Spezifikation_der_Bereitstellung_über_REST_API.pdf)  
->[Kontexmaterialien/2021-05-03_DESH_Sequenzdiagramm_REST_API.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontexmaterialien/2021-05-03_DESH_Sequenzdiagramm_REST_API.pdf)  
->[Kontexmaterialien/2021-04-08_DESH_Receiver_Spezifikationen.yaml](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontexmaterialien/2021-04-08_DESH_Receiver_Spezifikationen.yaml)  
+>[Kontexmaterialien/2021-02-18_DESH_Anleitung_zur_Bereitstellung_Sequenzdaten.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Virusvarianten_in_Deutschaland/blob/master/Kontexmaterialien/2021-02-18_DESH_Anleitung_zur_Bereitstellung_Sequenzdaten.pdf)  
+>[Kontexmaterialien/2021-02-18_DESH_Metadatenschema.csv](https://github.com/robert-koch-institut/SARS-CoV-2-Virusvarianten_in_Deutschaland/blob/master/Kontexmaterialien/2021-02-18_DESH_Metadatenschema.csv)  
+>[Kontexmaterialien/2021-02-08_DESH_Qualitätsvorgaben_für_die_Sequenzdaten.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Virusvarianten_in_Deutschaland/blob/master/Kontexmaterialien/2021-02-08_DESH_Qualitätsvorgaben_für_die_Sequenzdaten.pdf)  
+>[Kontexmaterialien/2021-04-27_DESH_Spezifikation der Bereitstellung über REST API.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Virusvarianten_in_Deutschaland/blob/master/Kontexmaterialien/2021-04-27_DESH_Spezifikation_der_Bereitstellung_über_REST_API.pdf)  
+>[Kontexmaterialien/2021-05-03_DESH_Sequenzdiagramm_REST_API.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Virusvarianten_in_Deutschaland/blob/master/Kontexmaterialien/2021-05-03_DESH_Sequenzdiagramm_REST_API.pdf)  
+>[Kontexmaterialien/2021-04-08_DESH_Receiver_Spezifikationen.yaml](https://github.com/robert-koch-institut/SARS-CoV-2-Virusvarianten_in_Deutschaland/blob/master/Kontexmaterialien/2021-04-08_DESH_Receiver_Spezifikationen.yaml)  
 
 ### Veröffentlichung der Sequenzdaten
 In der Veröffentlichung von Sequenzdaten im [ENA](https://www.ebi.ac.uk/ena/browser/home) und [GISAID](https://www.gisaid.org/)  kommt es durch notwendige Zwischenschritte zu einer zeitlichen Verzögerung der Publikation. Daher stellt das RKI zusätzlich alle über DESH empfangenen Sequenzdaten tagesaktuell zu Verfügung. 
@@ -71,17 +71,17 @@ Der Datensatz enthält Daten über SARS-CoV-2-Genomsequenzend in Deutschland und
 
 Die SARS-CoV-2-Sequenzdaten werden als [xz-komprimierte](https://en.wikipedia.org/wiki/XZ_Utils) [.fasta](https://en.wikipedia.org/wiki/FASTA_format) Datei bereitgestellt. Daraus ergibt sich die Dateiendung .fasta.xz. Die Zeilen werden bei 80 Zeichen umgebrochen. Es werden Linux Zeilenumbrüche verwendet.
 
-* Zeichensatz: UTF-8
-* Komprimierung: [.xz](https://en.wikipedia.org/wiki/XZ_Utils)
-* Enhaltenes Dateiformat: [.fasta](https://de.wikipedia.org/wiki/FASTA-Format)
-* Zeilenlänge: maximal 80 Zeichen
-* Zeilenumbüche: Linux Zeilenumbrüche
+* Zeichensatz: UTF-8  
+* Komprimierung: [.xz](https://en.wikipedia.org/wiki/XZ_Utils)  
+* Enhaltenes Dateiformat: [.fasta](https://de.wikipedia.org/wiki/FASTA-Format)  
+* Zeilenlänge: maximal 80 Zeichen  
+* Zeilenumbüche: Linux Zeilenumbrüche  
 
 Die Metadaten der Sequenzierung werden als [xz-komprimierte](https://en.wikipedia.org/wiki/XZ_Utils), kommaseparierte .csv-Datei bereitgestellt. Daraus ergibt sich die Dateiendung .csv.xz. Der verwendete Zeichensatz der .csv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO-8601-Standard formatiert.
 
 * Zeichensatz: UTF-8  
 * Datumsformat: ISO 8601  
-* Komprimierung: [.xz](https://en.wikipedia.org/wiki/XZ_Utils)
+* Komprimierung: [.xz](https://en.wikipedia.org/wiki/XZ_Utils)  
 * Enhaltenes Dateiformat: .csv
 * .csv-Trennzeichen: Komma ","  
 
@@ -111,14 +111,14 @@ In den bereitgestelten Sequenzdaten enhält die Kopfzeile die FASTA-ID, die in d
 Daraus ergibt sich beispielhaft folgende Struktur der .fasta-Datein:
 
 >&gt;IMS-101XX-CVDP-XX  
-NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACCAACCAACTTTCGATCTCTTGTAGATCT  
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACCAACCAACTTTCGATCTCTT  
 GTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCTCTCGGCTGCATGCTTAGTGCACT  
 ...  
-YGACCGGGTGTGACCGAAAGGTAAGATGGAGAGCCTTGTCCCTGGTTTCAACGAGAAAAC  
+YGACCGGGTGTGACCGAAAGGTAAGATGGAGAGCCTTGTCCCTGGTTTCAACGAGAA  
 GGGAGGACTTGAAAGAGCCACCACATTTTCACCGAGGCN  
 >&gt;IMS-101YY-CVDP-YY   
-NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACCAACTCTCGGCTGCATGCTTAGTGCACT  
-GTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCTTGAAAGAGCCACCACATTTTCAT  
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACCAACTCTCGGCTGCATGCT  
+GTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCTTGAAAGAGCCACCACATTTTCA  
 ...  
 
 ### Variablen und Variablenausprägungen Metadaten der Sequenzierung  
@@ -138,7 +138,7 @@ In den als .csv bereitgestellten Metadaten der Sequenzierung enthalten in folgen
 | SENDING_LAB_PC | Die Postleitzahl des sequenzierenden Labors|
 | PRIMEDIAGNOSTIC_LAB_PC | Die Postleitzahl des primärdiagnostischen Labors|
 
-Weitere Informationen zu den aufgeführten Variablen finden sich in der [Anleitung zur Bereitstellung der Sequenzdaten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?) die auch in [Kontextmaterialien](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontexmaterialien/) hinterlegt ist.  
+Weitere Informationen zu den aufgeführten Variablen finden sich in der [Anleitung zur Bereitstellung der Sequenzdaten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?) die auch in [Kontextmaterialien](https://github.com/robert-koch-institut/SARS-CoV-2-Virusvarianten_in_Deutschaland/blob/master/Kontexmaterialien/) hinterlegt ist.  
 
 ## Hinweise zur Nachnutzung der Daten 
 
