@@ -1,0 +1,56 @@
+{
+	"title": "SARS-CoV-2-Virusvarianten in Deutschaland",
+	"description": "<p>Für die Planung von Maßnahmen zur Eindämmung von COVID-19 kommt der genauen Kenntnis der Eigenschaften von SARS-CoV-2 eine zentrale Bedeutung zu. Eine besondere Rolle spielen in diesem Zusammenhang Mutationen des Virus. Für eine erfolgreiche Eindämmung der Pandemie ist es daher entscheidend, einen detaillierten Überblick über die Ausbreitungsmuster spezifischer SARS-CoV-2-Mutationen zu erhalten und auch neue Mutation frühzeitig zu entdecken.</p><p>Hierfür stellt das Robert Koch-Institut die Systeme zur bundesweiten molekularen Surveillance bereit. Jedes Labor in Deutschland, das SARS-CoV-2 sequenziert, ist laut der <a href='https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/2021/1-quartal/coronavirus-surveillanceverordnung.html'>Verordnung zur molekulargenetischen Surveillance des Coronavirus SARS-CoV-2</a> verpflichtet, dem Robert Koch-Institut die Sequenz- und zugehörige Metadaten zu übermitteln. Technisch erfolgt diese Übermittlung über den <a href='https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/DESH.html'>Deutschen Elektronischen Sequenzdaten-Hub</a> (DESH).</p>",
+	"notes": "<p><strong>Der Datensatz ist keiner weitere Qualitätskontrolle durch das RKI durchlaufen.</strong></p><p>Zu beachten ist, dass Daten in diesem Datensatz zum Beispiel:</p><ul><li>Sequenzdaten von niedriger Qualität enthalten</li><li>unverifizierte Frameshifts vorhersagen</li><li>mehrmals im Datensatz vorhanden sind</li><li>bereits vom sequenzierendem Labor veröffentlicht worden sind</li></ul><p>Die hier veröffentlichten Daten können daher nicht ohne weiteres mit dem wöchentlichen <a href='https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Berichte-VOC-tab.html'>Bericht zu Virusvarianten von SARS-CoV-2 in Deutschland des RKIs</a> vergleichen werden.</p>",
+	"upload_type": "dataset",
+	"access_right": "open",
+	"license": "cc-by",  
+	"language": "deu",
+	"communities": [
+	{
+		"identifier":"robertkochinstitut"
+	}],
+	"creators": [
+    {    
+		"name": "Robert Koch-Institut",
+		"affiliation": "Robert Koch-Institut"
+    }],
+	"keywords": [
+		"COVID-19",
+		"SARS-CoV-2",
+		"Virusstrukturen",
+		"Genom",
+		"Basensequenz", 
+		"Deutschland",
+		"Viral Structures",
+		"Genome",
+		"Base Sequence",
+		"Germany",
+		"RKI"
+	],
+		"subjects": [
+	{
+		"term": "Gesundheitsberichterstattung", 
+		"identifier": "info:ddc/22/de//614.42"
+	},
+	{
+		"term": "Biochemische Genetik", 
+		"identifier": "info:ddc/22/de//572.8"
+	},
+	{
+		"term": "Epidemiologie", 
+		"identifier": "info:ddc/22/de//614.4"
+	},	
+	{
+		"term": "Biochemical genetics", 
+		"identifier": "info:ddc/22/eng//572.8"
+	},
+	{
+		"term": "Public health surveillance", 
+		"identifier": "info:ddc/22/eng//614.42"
+	},
+	{
+		"term": "Epidemiology", 
+		"identifier": "info:ddc/22/eng//614.4"
+	}]
+}
