@@ -1,5 +1,5 @@
 Datensatzdokumentation  
-# SARS-CoV-2-Sequenzdaten_aus_Deutschland </br><small>SARS-CoV-2 sequences from Germany </small>
+# SARS-CoV-2-Sequenzdaten aus Deutschland </br><small>SARS-CoV-2 sequences from Germany </small>
 
 [Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI  
 Nordufer 20  
