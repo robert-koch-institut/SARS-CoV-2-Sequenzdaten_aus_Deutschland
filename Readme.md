@@ -168,6 +168,6 @@ Der Datensatz "SARS-CoV-2-Virusvarianten in Deutschaland" ist lizenziert unter d
 
 Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede_r hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/LIZENZ) Datei des Datensatzes.  
 
-Die empfohlene Zitierweise ist:  
+Die empfohlene Zitierweise ist:
 
 Robert Koch Institut (2021): SARS-CoV-2-Sequenzdaten_aus_Deutschland, Berlin: Zenodo. DOI:[DOI](https://doi.org/10.5281/zenodo.DOI).
