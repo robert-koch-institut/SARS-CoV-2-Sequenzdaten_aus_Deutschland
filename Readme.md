@@ -7,7 +7,7 @@ Nordufer 20
   
 ---
 
-Robert Koch-Insitut (2021): SARS-CoV-2-Sequenzdaten_aus_Deutschland, Berlin: Zenodo. [DOI:muss.hier_eingetragen/werden](http://dx.doi.org/10.0000/0000)  
+Robert Koch-Insitut (2021): SARS-CoV-2-Sequenzdaten_aus_Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.5139364](https://doi.org/10.5281/zenodo.5139364)  
 
 Der Datensatz "SARS-CoV-2-Sequenzdaten_aus_Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
  
@@ -19,7 +19,7 @@ Hierfür stellt das Robert Koch-Institut die Systeme zur bundesweiten molekulare
 
 Im Projekt "OSEDA - Offene Sequenzdaten" verpflichtet sich das RKI, die aufgearbeiteten und qualitätskontrollierten Sequenzdaten zusammen mit einer Auswahl von klinisch-epidemiologischen Daten über die öffentlich zugängliche Repositorien des [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/home) (ENA) und [GISAID](https://www.gisaid.org/) für weitere Forschungsvorhaben bereitzustellen.  
 
-![**Abbildung:** Systemaufbau des Deutschen Elektronischen Sequenzdaten-Hub (DESH)](Kontextmaterialien/2021-07-13_DESH_Systemaufbau.jpg "Abbildung: Systemaufbau des Deutschen Elektronischen Sequenzdaten-Hub (DESH)")  
+![**Abbildung:** Systemaufbau des Deutschen Elektronischen Sequenzdaten-Hub (DESH)](/Kontextmaterialien/2021-07-13_DESH_Systemaufbau.jpg "Abbildung: Systemaufbau des Deutschen Elektronischen Sequenzdaten-Hub (DESH)")  
 
 >[Kontextmaterialien/2021-01-29_DESH_CorSurV_BAnz_AT_V2.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontextmaterialien/2021-01-29_DESH_CorSurV_BAnz_AT_V2.pdf)  
  
@@ -170,4 +170,4 @@ Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung 
 
 Die empfohlene Zitierweise ist:
 
-Robert Koch Institut (2021): SARS-CoV-2-Sequenzdaten_aus_Deutschland, Berlin: Zenodo. DOI:[DOI](https://doi.org/10.5281/zenodo.DOI).
+Robert Koch Institut (2021): SARS-CoV-2-Sequenzdaten_aus_Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.5139364](https://doi.org/10.5281/zenodo.5139364).
