@@ -10,7 +10,7 @@ on:
       - master
     paths:
       - 'Readme.md'
-     #- 'img/**'                #Uncomment if u use imgges in your Readme.md
+      - '/Kontextmaterialien/**'                #Uncomment if u use imgges in your Readme.md
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -28,6 +28,8 @@ jobs:
         with:
           input_dir: .
           output_dir: .
+          image_import: /Kontextmaterialien  #Uncomment if u use imgges in your Readme.md
+          images_dir: /Kontextmaterialien     #Uncomment if u use imgges in your Readme.md
           #image_import: /img   #Uncomment if u use imgges in your Readme.md
           #images_dir: /img     #Uncomment if u use imgges in your Readme.md
           build_html: false
