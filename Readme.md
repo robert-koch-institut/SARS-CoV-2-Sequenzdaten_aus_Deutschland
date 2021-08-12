@@ -7,7 +7,7 @@ Nordufer 20
   
 ---
 
-Robert Koch-Insitut (2021): SARS-CoV-2-Sequenzdaten_aus_Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.5139364](https://doi.org/10.5281/zenodo.5139364)  
+Robert Koch-Insitut (2021): SARS-CoV-2-Sequenzdaten aus Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.5139363](https://doi.org/10.5281/zenodo.5139363)  
 
 Der Datensatz "SARS-CoV-2-Sequenzdaten_aus_Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
  
@@ -170,4 +170,4 @@ Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung 
 
 Die empfohlene Zitierweise ist:
 
-Robert Koch Institut (2021): SARS-CoV-2-Sequenzdaten_aus_Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.5139364](https://doi.org/10.5281/zenodo.5139364).
+Robert Koch Institut (2021): SARS-CoV-2-Sequenzdaten aus Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.5139363](https://doi.org/10.5281/zenodo.5139363) .
