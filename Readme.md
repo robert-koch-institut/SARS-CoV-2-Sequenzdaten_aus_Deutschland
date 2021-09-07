@@ -29,7 +29,7 @@ Der Datensatz "SARS-CoV-2-Virusvarianten in Deutschaland" wird vom [Robert Koch-
 
 Die Datenübermittlung an das RKI erfolgt über das System des [Deutschen Elektronischen Sequenzdaten-Hub](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/DESH.html) (DESH). Teil dieses Systems ist die von der Bundesdruckerei bereitgestellte DESH-Plattform über die Sequenzdaten durch sequenzierenden Labore übermittelt werden können (nur mit einem individuellen Zertifikat anfrufbar). Fragen bezüglich der DESH-Platform können direkt an das DESH Team unter [desh@rki.de](mailto:desh@rki.de) gerichtet werden. 
 
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html) des RKI. Fragen zum Datenmanagement können an das Fachgebiet MF4 gerichtet werden ([MF4@rki.de](mailto:MF4@rki.de)).  
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html) des RKI. Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden ([OpenData@rki.de](mailto:opendata@rki.de)).  
 
 ### Übermittlung der Sequenzdaten
 
