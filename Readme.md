@@ -7,7 +7,7 @@ Nordufer 20
   
 ---
 
-Robert Koch-Insitut (2021): SARS-CoV-2-Sequenzdaten aus Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.5139363](https://doi.org/10.5281/zenodo.5139363)  
+Robert Koch-Institut (2021): SARS-CoV-2-Sequenzdaten aus Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.5139363](https://doi.org/10.5281/zenodo.5139363)  
 
 Der Datensatz "SARS-CoV-2-Sequenzdaten_aus_Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
  
@@ -25,7 +25,7 @@ Im Projekt "OSEDA - Offene Sequenzdaten" verpflichtet sich das RKI, die aufgearb
  
 ### Administrative und organisatorische Angaben
 
-Der Datensatz "SARS-CoV-2-Virusvarianten in Deutschaland" wird vom [Robert Koch-Institut](https://rki.de) für Forschungsarbeiten im Zusammenhang mit der SARS-CoV-2-Pandemie bereitgestellt.  
+Der Datensatz "SARS-CoV-2-Virusvarianten in Deutschland" wird vom [Robert Koch-Institut](https://rki.de) für Forschungsarbeiten im Zusammenhang mit der SARS-CoV-2-Pandemie bereitgestellt.  
 
 Die Datenübermittlung an das RKI erfolgt über das System des [Deutschen Elektronischen Sequenzdaten-Hub](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/DESH.html) (DESH). Teil dieses Systems ist die von der Bundesdruckerei bereitgestellte DESH-Plattform über die Sequenzdaten durch sequenzierenden Labore übermittelt werden können (nur mit einem individuellen Zertifikat anfrufbar). Fragen bezüglich der DESH-Platform können direkt an das DESH Team unter [desh@rki.de](mailto:desh@rki.de) gerichtet werden. 
 
@@ -33,7 +33,7 @@ Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagemen
 
 ### Übermittlung der Sequenzdaten
 
-Auf der [DESH Projektwebseite](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/DESH.html) des RKI befindet sich eine [Anleitung zur Bereitstellung der Sequenzdaten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?), die Sequenzierenden Laboren im  Prozess der Bereitstellung der Metadaten und Sequenzdaten über https://desh.bdr.de (nur mit einem individuellen Zertifikat aufrufbar) behilflich ist. Für die sequenzierenden Labore werden  bestimmte [Qualitätskriterien](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Qualitaetskriterien.html?) für die Sequenzdaten gefordert. Die Einhaltung der Qualitätskritierien wird durch die sequenzierenden Labore sichergestellt. Das RKI hat keine Kentniss über die zugrundeliegenden Rohdaten (sog. "Reads").  
+Auf der [DESH Projektwebseite](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/DESH.html) des RKI befindet sich eine [Anleitung zur Bereitstellung der Sequenzdaten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?), die Sequenzierenden Laboren im  Prozess der Bereitstellung der Metadaten und Sequenzdaten über https://desh.bdr.de (nur mit einem individuellen Zertifikat aufrufbar) behilflich ist. Für die sequenzierenden Labore werden  bestimmte [Qualitätskriterien](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Qualitaetskriterien.html?) für die Sequenzdaten gefordert. Die Einhaltung der Qualitätskriterien wird durch die sequenzierenden Labore sichergestellt. Das RKI hat keine Kentnis über die zugrundeliegenden Rohdaten (sog. "Reads").  
 
 >[Kontextmaterialien/2021-02-18_DESH_Anleitung_zur_Bereitstellung_Sequenzdaten.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontextmaterialien/2021-02-18_DESH_Anleitung_zur_Bereitstellung_Sequenzdaten.pdf)  
 >[Kontextmaterialien/2021-02-08_DESH_Qualitätsvorgaben_für_die_Sequenzdaten.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontextmaterialien/2021-02-08_DESH_Qualitätsvorgaben_für_die_Sequenzdaten.pdf)  
@@ -69,9 +69,9 @@ Die SARS-CoV-2-Sequenzdaten werden als [xz-komprimierte](https://en.wikipedia.or
 
 * Zeichensatz: UTF-8  
 * Komprimierung: [.xz](https://en.wikipedia.org/wiki/XZ_Utils)  
-* Enhaltenes Dateiformat: [.fasta](https://de.wikipedia.org/wiki/FASTA-Format)  
+* Enthaltenes Dateiformat: [.fasta](https://de.wikipedia.org/wiki/FASTA-Format)  
 * Zeilenlänge: maximal 80 Zeichen  
-* Zeilenumbüche: Linux Zeilenumbrüche  
+* Zeilenumbrüche: Linux Zeilenumbrüche  
 
 ### Formatierung der Metadaten 
 Die Metadaten der Sequenzierung werden als [xz-komprimierte](https://en.wikipedia.org/wiki/XZ_Utils), kommaseparierte .csv-Datei bereitgestellt. Daraus ergibt sich die Dateiendung .csv.xz. Der verwendete Zeichensatz der .csv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO-8601-Standard formatiert.
@@ -79,14 +79,14 @@ Die Metadaten der Sequenzierung werden als [xz-komprimierte](https://en.wikipedi
 * Zeichensatz: UTF-8  
 * Datumsformat: ISO 8601  
 * Komprimierung: [.xz](https://en.wikipedia.org/wiki/XZ_Utils)  
-* Enhaltenes Dateiformat: .csv
+* Enthaltenes Dateiformat: .csv
 * .csv-Trennzeichen: Komma ","  
 
-Die Dateien können auf gängigen Betriebsystemen, beispielsweise mit den Programmen [7zip](https://www.7-zip.org/) oder [XZ Utils](https://tukaani.org/xz/), entpackt werden. Die komprimirung wird vorgenommen, da insbesondere die .fasta-Datein mehrere Gigabeit (GB) groß sind.  
+Die Dateien können auf gängigen Betriebssystemen, beispielsweise mit den Programmen [7zip](https://www.7-zip.org/) oder [XZ Utils](https://tukaani.org/xz/), entpackt werden. Die Komprimirung wird vorgenommen, da insbesondere die .fasta-Dateien mehrere Gigabyte (GB) groß sind.  
 
 ## SARS-CoV-2-Sequenzdaten und Metadaten der Sequenzierung
 
-Die SARS-CoV-2-Sequenzdaten werden tagesaktuell im Hauptverzeichnis unter "SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz" bereitgestellt. Gleiches gilt für zugehörigen Metadaten, die unter "SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz" im Datensatz enhalten sind. Im Archivordner sind die täglichen Datenstände unter den Dateinamen "JJJJ-MM-TT_SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz" und "JJJJ-MM-TT_SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz" abgelegt.  
+Die SARS-CoV-2-Sequenzdaten werden tagesaktuell im Hauptverzeichnis unter "SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz" bereitgestellt. Gleiches gilt für zugehörigen Metadaten, die unter "SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz" im Datensatz enthalten sind. Im Archivordner sind die täglichen Datenstände unter den Dateinamen "JJJJ-MM-TT_SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz" und "JJJJ-MM-TT_SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz" abgelegt.  
 
 >Aktuell_SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz
 >Aktuell_SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz
@@ -95,13 +95,13 @@ Die SARS-CoV-2-Sequenzdaten werden tagesaktuell im Hauptverzeichnis unter "SARS-
 
 Im Dateinamen repräsentiert die Sequenz "JJJJ-MM-TT" das Erstellungsdatum der Datei und gleichzeitig das Datum des enthaltenen Datenstands. "JJJJ" steht dabei für das Jahr, "MM" für den Monat und "TT" für den Tag der Erstellung bzw. des enthaltenen Datenstands.
 
-Die Daten werden jeden Tag um die verarbeiteten Sequenzdaten des aktuellen Tages erweitert (kummulation). Dabei werden nach 20:00 eingesendete Sequenzdaten erst am Folgetag verarbeitet. Der Datenstand bildet also immer den Stand des aktuellen Tages um 19:59 ab.  
+Die Daten werden jeden Tag um die verarbeiteten Sequenzdaten des aktuellen Tages erweitert (Kummulation). Dabei werden nach 20:00 eingesendete Sequenzdaten erst am Folgetag verarbeitet. Der Datenstand bildet also immer den Stand des aktuellen Tages um 19:59 ab.  
  
-### Stuktur der Sequenzdaten  
+### Struktur der Sequenzdaten  
 
 Die Sequenzeinträge der bereitgestellten .fasta-Date in beginnen mit einer einzeiligen Beschreibung, der Kopfzeile, auch "Description line" genannt. Auf die Kopfzeile folgt die [Nukleinsäuresequenz](https://de.wikipedia.org/wiki/Nukleotidsequenz) des Sequenzierten SARS-CoV-2-Virus.  
-Die Kopfzeile wird durch ein "&gt;" markiert, eine Sequenz endet mit dem Ende der Datei oder einem weiteren Sequnezeintag, beginnen mit einer neuen Kopfzeile.  
-In den bereitgestelten Sequenzdaten enhält die Kopfzeile die FASTA-ID, die in den Daten der IMS_ID der Probe entspricht. Die IMS_ID erlaubt die Verküfung mit den Metadaten. Die Kodierung der Nucleotide der Sequenzdaten folgen dem IUB/IUPAC Standard.  
+Die Kopfzeile wird durch ein "&gt;" markiert, eine Sequenz endet mit dem Ende der Datei oder einem weiteren Sequenzeintag, beginnen mit einer neuen Kopfzeile.  
+In den bereitgestellten Sequenzdaten enthält die Kopfzeile die FASTA-ID, die in den Daten der IMS_ID der Probe entspricht. Die IMS_ID erlaubt die Verknüfung mit den Metadaten. Die Kodierung der Nucleotide der Sequenzdaten folgen dem IUB/IUPAC Standard.  
 
 * Kopfzeile: &gt;IMS_ID
 * Nukleinsäuresequenz: IUB/IUPAC Standard
@@ -121,7 +121,7 @@ GTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCTTGAAAGAGCCACCACATTTTCA
 
 ### Variablen und Variablenausprägungen Metadaten 
 
-In den als .csv bereitgestellten Metadaten enthalten in folgender Tabelle aufgeführte Variablen als Spalten. Zentral für die Verknüfung der Metadaten mit den Genomsequenzen ist die IMS_ID, die in beiden Daten enhalten ist. 
+In den als .csv bereitgestellten Metadaten enthalten in folgender Tabelle aufgeführte Variablen als Spalten. Zentral für die Verknüpfung der Metadaten mit den Genomsequenzen ist die IMS_ID, die in beiden Daten enthalten ist. 
 
 
 | Variable | Beschreibung | Value Set |
@@ -136,7 +136,7 @@ In den als .csv bereitgestellten Metadaten enthalten in folgender Tabelle aufgef
 | SENDING_LAB_PC | Die Postleitzahl des sequenzierenden Labors|
 | PRIMEDIAGNOSTIC_LAB_PC | Die Postleitzahl des primärdiagnostischen Labors|
 
-Weitere Informationen zu den aufgeführten Variablen finden sich in der [Anleitung zur Bereitstellung der Sequenzdaten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?) die auch in [Kontextmaterialien](https://github.com/robert-koch-institut/SARS-CoV-2-Virusvarianten_in_Deutschaland/blob/master/Kontextmaterialien/) hinterlegt ist.  
+Weitere Informationen zu den aufgeführten Variablen finden sich in der [Anleitung zur Bereitstellung der Sequenzdaten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?) die auch in [Kontextmaterialien](https://github.com/robert-koch-institut/SARS-CoV-2-Virusvarianten_in_Deutschland/blob/master/Kontextmaterialien/) hinterlegt ist.  
 
 ## Hinweise zur Nachnutzung der Daten 
 
@@ -160,11 +160,11 @@ Die bereitgestellten Daten sind mit Metadaten beschrieben und wissenschaftlich z
 
 > .zenodo.json 
 
-Die Dokumentation der einzelen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar. 
+Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar. 
 
 ### Lizenz  
 
-Der Datensatz "SARS-CoV-2-Virusvarianten in Deutschaland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
+Der Datensatz "SARS-CoV-2-Virusvarianten in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
 Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede_r hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/LIZENZ) Datei des Datensatzes.  
 
