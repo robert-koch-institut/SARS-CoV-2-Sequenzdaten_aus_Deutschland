@@ -1,5 +1,5 @@
 Datensatzdokumentation  
-# SARS-CoV-2-Sequenzdaten aus Deutschland </br><small>SARS-CoV-2 sequences from Germany </small>
+# SARS-CoV-2-Sequenzdaten aus Deutschland <br/><small>SARS-CoV-2 sequences from Germany </small>
 
 [Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI  
 Nordufer 20  
@@ -25,7 +25,7 @@ Im Projekt "OSEDA - Offene Sequenzdaten" verpflichtet sich das RKI, die aufgearb
  
 ### Administrative und organisatorische Angaben
 
-Der Datensatz "SARS-CoV-2-Virusvarianten in Deutschland" wird vom [Robert Koch-Institut](https://rki.de) für Forschungsarbeiten im Zusammenhang mit der SARS-CoV-2-Pandemie bereitgestellt.  
+Der Datensatz "SARS-CoV-2-Sequenzdaten aus Deutschland" wird vom [Robert Koch-Institut](https://rki.de) für Forschungsarbeiten im Zusammenhang mit der SARS-CoV-2-Pandemie bereitgestellt.  
 
 Die Datenübermittlung an das RKI erfolgt über das System des [Deutschen Elektronischen Sequenzdaten-Hub](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/DESH.html) (DESH). Teil dieses Systems ist die von der Bundesdruckerei bereitgestellte DESH-Plattform über die Sequenzdaten durch sequenzierenden Labore übermittelt werden können (nur mit einem individuellen Zertifikat anfrufbar). Fragen bezüglich der DESH-Platform können direkt an das DESH Team unter [desh@rki.de](mailto:desh@rki.de) gerichtet werden. 
 
@@ -136,7 +136,7 @@ In den als .csv bereitgestellten Metadaten enthalten in folgender Tabelle aufgef
 | SENDING_LAB_PC | Die Postleitzahl des sequenzierenden Labors|
 | PRIMEDIAGNOSTIC_LAB_PC | Die Postleitzahl des primärdiagnostischen Labors|
 
-Weitere Informationen zu den aufgeführten Variablen finden sich in der [Anleitung zur Bereitstellung der Sequenzdaten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?) die auch in [Kontextmaterialien](https://github.com/robert-koch-institut/SARS-CoV-2-Virusvarianten_in_Deutschland/blob/master/Kontextmaterialien/) hinterlegt ist.  
+Weitere Informationen zu den aufgeführten Variablen finden sich in der [Anleitung zur Bereitstellung der Sequenzdaten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?) die auch in [Kontextmaterialien](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/master/Kontextmaterialien) hinterlegt ist.  
 
 ## Hinweise zur Nachnutzung der Daten 
 
@@ -164,7 +164,7 @@ Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.
 
 ### Lizenz  
 
-Der Datensatz "SARS-CoV-2-Virusvarianten in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
+Der Datensatz "SARS-CoV-2-Sequenzdaten_aus_Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de) 
 
 Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede_r hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/LIZENZ) Datei des Datensatzes.  
 
