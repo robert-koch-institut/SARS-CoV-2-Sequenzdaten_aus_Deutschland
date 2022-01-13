@@ -1,5 +1,5 @@
 Dataset documentation  
-#SARS-CoV-2 Sequence Data from Germany
+# SARS-CoV-2 Sequence Data from Germany
 
 [Robert Koch Institute](https://grid.ac/institutes/grid.13652.33) | RKI  
 Nordufer 20  
@@ -19,9 +19,9 @@ For this purpose, the Robert Koch Institute provides the systems for nationwide 
 
 In the project "OSEDA - Open Sequence Data", the RKI aims at providing the processed and quality-controlled sequence data together with a selection of clinical epidemiological data via the publicly accessible repositories of the [European Nucleotide Archive](https://www.ebi.ac.uk/ena/browser/home) (ENA) and [GISAID](https://www.gisaid.org/) for further research projects.  
 
-![**Figure:** System Structure of the German Electronic Sequence Data Hub (DESH)](/Context Materials/2021-07-13_DESH_System_Sructure.jpg "Figure: System Structure of the German Electronic Sequence Data Hub (DESH)")  
+![**Figure:** System Structure of the German Electronic Sequence Data Hub (DESH)](/Kontextmaterialien/2021-07-13_DESH_Systemaufbau.jpg "Figure: System Structure of the German Electronic Sequence Data Hub (DESH)")  
 
->[Context materials/2021-01-29_DESH_CorSurV_BAnz_AT_V2.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontextmaterialien/2021-01-29_DESH_CorSurV_BAnz_AT_V2.pdf)  
+>[Kontextmaterialien/2021-01-29_DESH_CorSurV_BAnz_AT_V2.pdf]](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontextmaterialien/2021-01-29_DESH_CorSurV_BAnz_AT_V2.pdf)  
  
 ### Administrative and organizational data.
 
@@ -35,8 +35,8 @@ Data publication, data curation, and quality management of the (meta-)data are p
 
 The RKI's [DESH project website](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/DESH.html) contains [instructions for providing sequence data](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?) to assist sequencing laboratories in the process of providing metadata and sequence data via https://desh.bdr.de (only accessible with an individual certificate). Sequencing laboratories are required to meet certain [quality criteria](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Qualitaetskriterien.html?) for sequence data. Compliance with the quality criteria is ensured by the sequencing laboratories. The RKI has no knowledge of the underlying raw data (so-called "reads").  
 
->[Context materials/2021-02-18_DESH_instruction_on_providing_sequence_data.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontextmaterialien/2021-02-18_DESH_Anleitung_zur_Bereitstellung_Sequenzdaten.pdf)  
->[Contextual_materials/2021-02-08_DESH_Quality_requirements_for_the_sequence_data.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontextmaterialien/2021-02-08_DESH_Qualitätsvorgaben_für_die_Sequenzdaten.pdf)  
+>[Kontextmaterialien/2021-02-18_DESH_Anleitung_zur_Bereitstellung_Sequenzdaten.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontextmaterialien/2021-02-18_DESH_Anleitung_zur_Bereitstellung_Sequenzdaten.pdf)  
+>[Kontextmaterialien/2021-02-08_DESH_Qualitätsvorgaben_für_die_Sequenzdaten.pdf](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/Kontextmaterialien/2021-02-08_DESH_Qualitätsvorgaben_für_die_Sequenzdaten.pdf)  
 >
 ### Publication of sequence data
 In the publication of sequence data in [ENA](https://www.ebi.ac.uk/ena/browser/home) and [GISAID](https://www.gisaid.org/), there is a delay in publication due to necessary intermediate steps. Therefore, the RKI additionally provides all sequence data received via DESH on a daily basis. 
@@ -146,7 +146,7 @@ The metadata file provided as a .csv contains variables listed in the following 
 | SEQUENCING_LAB_PC | The zip code of the sequencing laboratory|
 | SENDING_LAB_PC | The zip code of the prime diagnostic laboratory|
 
-For more information on the listed variables, see [Instructions for Providing Sequence Data](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?) which is also deposited in [Context Materials](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/master/Kontextmaterialien).  
+For more information on the listed variables, see [Instructions for Providing Sequence Data](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?) which is also deposited in [Kontextmaterialien](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/master/Kontextmaterialien).  
 
 ### Variables and variable expressions development lines. 
 
