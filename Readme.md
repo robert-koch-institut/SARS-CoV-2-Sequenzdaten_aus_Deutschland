@@ -56,9 +56,9 @@ Die hier veröffentlichten Daten können daher nicht ohne weiteres mit dem wöch
 
 Der Datensatz enthält Daten über SARS-CoV-2-Sequencen in Deutschland und die in der Datenverarbeitung unterstützenden Kontextmaterialien. Im Datensatz enthalten sind:  
 
-* Sequenzdaten der übermittelten SARS-CoV-2-Genomsequenzen  
-* Metadaten zu den SARS-CoV-2-Genomsequenzen
-* Archiv mit der Sammlung aller bisherig übermittelten SARS-CoV-2-Genomsequenzen und der entsprechenden Metadaten  
+* Sequenzdaten der übermittelten SARS-CoV-2-Genomsequenzen  (SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz)
+* Metadaten zu den SARS-CoV-2-Genomsequenzen (SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz)
+* Informationen zu den Entwicklungslinien (PANGOLIN Lineages) der SARS-CoV-2-Genomsequenzen (SARS-CoV-2-Entwicklungslinien_Deutschland.csv.xz)
 * Lizenz mit der Nutzungslizenz des Datensatzes  
 * Datensatzdokumentation und Kontextmaterialien in deutscher Sprache  
 * Metadaten Datei zum Import in Zenodo  
@@ -82,18 +82,27 @@ Die Metadaten der Sequenzierung werden als [xz-komprimierte](https://en.wikipedi
 * Enthaltenes Dateiformat: .csv
 * .csv-Trennzeichen: Komma ","  
 
-Die Dateien können auf gängigen Betriebssystemen, beispielsweise mit den Programmen [7zip](https://www.7-zip.org/) oder [XZ Utils](https://tukaani.org/xz/), entpackt werden. Die Komprimirung wird vorgenommen, da insbesondere die .fasta-Dateien mehrere Gigabyte (GB) groß sind.  
+ 
+
+### Formatierung der Entwicklungslinien
+Die Entwicklungslinien der Sequenzierung werden als [xz-komprimierte](https://en.wikipedia.org/wiki/XZ_Utils), kommaseparierte .csv-Datei bereitgestellt. Daraus ergibt sich die Dateiendung .csv.xz. Der verwendete Zeichensatz der .csv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO-8601-Standard formatiert.
+
+* Zeichensatz: UTF-8  
+* Datumsformat: ISO 8601  
+* Komprimierung: [.xz](https://en.wikipedia.org/wiki/XZ_Utils)  
+* Enthaltenes Dateiformat: .csv
+* .csv-Trennzeichen: Komma ","  
+
+Die Dateien können auf gängigen Betriebssystemen, beispielsweise mit den Programmen [7zip](https://www.7-zip.org/) oder [XZ Utils](https://tukaani.org/xz/), entpackt werden. Die Komprimirung wird vorgenommen, da insbesondere die .fasta-Dateien mehrere Gigabyte (GB) groß sind. 
+
 
 ## SARS-CoV-2-Sequenzdaten und Metadaten der Sequenzierung
 
-Die SARS-CoV-2-Sequenzdaten werden tagesaktuell im Hauptverzeichnis unter "SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz" bereitgestellt. Gleiches gilt für zugehörigen Metadaten, die unter "SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz" im Datensatz enthalten sind. Im Archivordner sind die täglichen Datenstände unter den Dateinamen "JJJJ-MM-TT_SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz" und "JJJJ-MM-TT_SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz" abgelegt.  
+Die SARS-CoV-2-Sequenzdaten werden tagesaktuell im Hauptverzeichnis unter "SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz" bereitgestellt. Gleiches gilt für zugehörigen Metadaten, die unter "SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz" und die Entwicklungslinien die unter "SARS-CoV-2-Entwicklungslinien_Deutschland.csv.xz" im Datensatz enthalten sind. **Nicht für alle SARS-CoV-2-Sequenzdaten liegen Entwicklungslinien vor.**
 
->Aktuell_SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz
->Aktuell_SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz
->Archiv/JJJJ-MM-TT_SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz
->Archiv/JJJJ-MM-TT_SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz
-
-Im Dateinamen repräsentiert die Sequenz "JJJJ-MM-TT" das Erstellungsdatum der Datei und gleichzeitig das Datum des enthaltenen Datenstands. "JJJJ" steht dabei für das Jahr, "MM" für den Monat und "TT" für den Tag der Erstellung bzw. des enthaltenen Datenstands.
+>SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz
+>SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz
+>SARS-CoV-2-Entwicklungslinien_Deutschland.csv.xz
 
 Die Daten werden jeden Tag um die verarbeiteten Sequenzdaten des aktuellen Tages erweitert (Kummulation). Dabei werden nach 20:00 eingesendete Sequenzdaten erst am Folgetag verarbeitet. Der Datenstand bildet also immer den Stand des aktuellen Tages um 19:59 ab.  
  
@@ -121,7 +130,7 @@ GTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCTTGAAAGAGCCACCACATTTTCA
 
 ### Variablen und Variablenausprägungen Metadaten 
 
-In den als .csv bereitgestellten Metadaten enthalten in folgender Tabelle aufgeführte Variablen als Spalten. Zentral für die Verknüpfung der Metadaten mit den Genomsequenzen ist die IMS_ID, die in beiden Daten enthalten ist. 
+In den als .csv bereitgestellten Metadaten enthalten in folgender Tabelle aufgeführte Variablen als Spalten. Zentral für die Verknüpfung der Metadaten mit den Genomsequenzen ist die IMS_ID, die in allen drei Daten enthalten ist. 
 
 
 | Variable | Beschreibung | Value Set |
@@ -132,11 +141,16 @@ In den als .csv bereitgestellten Metadaten enthalten in folgender Tabelle aufgef
 | SEQ_REASON| Der Grund für die Durchführung der Sequenzierung| [rki](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.pdf?__blob=publicationFile#page=4)
 | SAMPLE_TYPE|  Art der Probe|[snomed](https://simplifier.net/covid-19labormeldung/materialsarscov2)
 | OWN_FASTA_ID | Die vom Labor genutzte  FASTA ID in verschlüsselter Form|
-| RECEIVE_DATE | Verarbeitungsdatum im RKI (JJJJ-MM-TT). Üblicherweise <24 Stunden nach Einsendung durch die Labore|
-| SENDING_LAB_PC | Die Postleitzahl des sequenzierenden Labors|
-| PRIMEDIAGNOSTIC_LAB_PC | Die Postleitzahl des primärdiagnostischen Labors|
+|PROCESSING_DATE | Einsendedatum an das RKI (JJJJ-MM-TT).|
+| RECEIVE_DATE | Empfangsdatum im RKI (JJJJ-MM-TT). Üblicherweise <24 Stunden nach Einsendung durch die Labore|
+| SEQUENCING_LAB_PC  | Die Postleitzahl des sequenzierenden Labors|
+| SENDING_LAB_PC  | Die Postleitzahl des primärdiagnostischen Labors|
 
 Weitere Informationen zu den aufgeführten Variablen finden sich in der [Anleitung zur Bereitstellung der Sequenzdaten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?) die auch in [Kontextmaterialien](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/master/Kontextmaterialien) hinterlegt ist.  
+
+### Variablen und Variablenausprägungen Entwicklungslinien 
+
+Die bereitgestelten Informationen zu den Entwicklungslinien entsorechen dem aktuellen [PANGOLIN Lineage Format](https://cov-lineages.org/resources/pangolin/output.html). Nur die Spalte "Taxon" wurde zur einfacherer Nachnutzung in IMS_ID umbenannt. Zentral für die Verknüpfung der Entwicklungslinien mit den restlichen Daten ist die IMS_ID, die in allen drei Daten enthalten ist. 
 
 ## Hinweise zur Nachnutzung der Daten 
 
