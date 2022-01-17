@@ -57,9 +57,9 @@ Die hier veröffentlichten Daten können daher nicht ohne weiteres mit dem wöch
 
 Der Datensatz enthält Daten über SARS-CoV-2-Sequencen in Deutschland und die in der Datenverarbeitung unterstützenden Kontextmaterialien. Im Datensatz enthalten sind:  
 
-* Sequenzdaten der übermittelten SARS-CoV-2-Genomsequenzen  (SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz)
-* Metadaten zu den SARS-CoV-2-Genomsequenzen (SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz)
-* Informationen zu den Entwicklungslinien (PANGOLIN Lineages) der SARS-CoV-2-Genomsequenzen (SARS-CoV-2-Entwicklungslinien_Deutschland.csv.xz)
+* [Sequenzdaten der übermittelten SARS-CoV-2-Genomsequenzen](#struktur-der-sequenzdaten)
+* [Metadaten zu den SARS-CoV-2-Genomsequenzen](#variablen-und-variablenausprägungen-metadaten)
+* [Informationen zu den Entwicklungslinien (PANGOLIN Lineages) der SARS-CoV-2-Genomsequenzen](#variablen-und-variablenausprägungen-entwicklungslinien)
 * Lizenz mit der Nutzungslizenz des Datensatzes  
 * Datensatzdokumentation und Kontextmaterialien in deutscher Sprache  
 * Metadaten Datei zum Import in Zenodo  
@@ -99,13 +99,14 @@ Die Dateien können auf gängigen Betriebssystemen, beispielsweise mit den Progr
 
 ## SARS-CoV-2-Sequenzdaten und Metadaten der Sequenzierung
 
-Die SARS-CoV-2-Sequenzdaten werden tagesaktuell im Hauptverzeichnis unter "SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz" bereitgestellt. Gleiches gilt für zugehörigen Metadaten, die unter "SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz" und die Entwicklungslinien die unter "SARS-CoV-2-Entwicklungslinien_Deutschland.csv.xz" im Datensatz enthalten sind. **Nicht für alle SARS-CoV-2-Sequenzdaten liegen Entwicklungslinien vor.**
+Die SARS-CoV-2-Sequenzdaten werden tagesaktuell im Hauptverzeichnis unter "SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz" bereitgestellt. Gleiches gilt für zugehörigen Metadaten, die unter "SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz" und die Entwicklungslinien die unter "SARS-CoV-2-Entwicklungslinien_Deutschland.csv.xz" im Datensatz enthalten sind. **Nicht für alle SARS-CoV-2-Sequenzdaten liegen Entwicklungslinien vor.**  
 
->SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz
->SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz
->SARS-CoV-2-Entwicklungslinien_Deutschland.csv.xz
+>[SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz)  
+>[SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/SARS-CoV-2-Sequenzdaten_Deutschland.csv.xz)    
+>[SARS-CoV-2-Entwicklungslinien_Deutschland.csv.xz](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/SARS-CoV-2-Entwicklungslinien_Deutschland.csv.xz)    
 
-Die Daten werden jeden Tag um die verarbeiteten Sequenzdaten des aktuellen Tages erweitert (Kummulation). Dabei werden nach 20:00 eingesendete Sequenzdaten erst am Folgetag verarbeitet. Der Datenstand bildet also immer den Stand des aktuellen Tages um 19:59 ab.  
+
+Die Daten werden jeden Tag um die verarbeiteten Sequenzdaten des aktuellen Tages erweitert (Kummulation). Dabei werden nach 20:00 eingesendete Sequenzdaten erst am Folgetag verarbeitet. Der Datenstand bildet also immer den Stand des aktuellen Tages um 19:59 ab.   
  
 ### Struktur der Sequenzdaten  
 
