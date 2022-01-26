@@ -152,7 +152,21 @@ Weitere Informationen zu den aufgeführten Variablen finden sich in der [Anleitu
 
 ### Variablen und Variablenausprägungen Entwicklungslinien 
 
-Die bereitgestelten Informationen zu den Entwicklungslinien entsorechen dem aktuellen [PANGOLIN Lineage Format](https://cov-lineages.org/resources/pangolin/output.html). Nur die Spalte "Taxon" wurde zur einfacherer Nachnutzung in IMS_ID umbenannt. Zentral für die Verknüpfung der Entwicklungslinien mit den restlichen Daten ist die IMS_ID, die in allen drei Daten enthalten ist. 
+| Variable | Beschreibung | Value Set |
+| -------- | -------- | --- |
+| IMS_ID | Ein eindeutiger Identifikator der Sequenzdaten und Metadaten zusammenführt. Dieser Identifikator wird als FASTA ID in den Sequenzdaten genutzt |
+| lineage | Die wahrscheinlichste Abstammung, die einer bestimmten Sequenz zugewiesen wird. | 
+| conflict | Wenn eine Sequenz in mehr als eine Kategorie passt, ist der Konfliktwert größer als 0 und spiegelt die Anzahl der Kategorien wider, in die die Sequenz passen könnte. | 
+| ambiguity_score | Diese Punktzahl ist eine Funktion der Menge der fehlenden Daten in einer Sequenz.  | 
+| version | Version der "pango-designation" und  "inference engine" | 
+| pangolin_version | Version der PANGOLIN Software  | 
+| pangoLEARN_version | Version des pangoLEARN moduls  |
+| pango_version |  Version der  "pango-designation" auf dem zu Zuordnungen basieren |
+| status | Zeigt an, ob die Sequenz die QC-Schwellenwerte für die Mindestlänge und den maximalen N-Gehalt überschritten hat. | 
+| note | Bei Konflikten a werden in diesem Feld die alternativen Entwicklungslinien Zuordnungen ausgegeben.  |
+
+
+Die bereitgestelten Informationen zu den Entwicklungslinien entsprechen dem aktuellen [PANGOLIN Lineage Format](https://cov-lineages.org/resources/pangolin/output.html). Nur die Spalte "Taxon" wurde zur einfacherer Nachnutzung in IMS_ID umbenannt. Zentral für die Verknüpfung der Entwicklungslinien mit den restlichen Daten ist die IMS_ID, die in allen drei Daten enthalten ist. [PANGOLIN Lineage Format](https://cov-lineages.org/resources/pangolin/output.html) ist bei Wiedersprüchen authoritativ.
 
 ## Hinweise zur Nachnutzung der Daten 
 

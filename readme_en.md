@@ -151,7 +151,19 @@ For more information on the listed variables, see [Instructions for Providing Se
 
 ### Variables and variable expressions in the developmental lineages 
 
-The information provided on developmental lineages corresponds to the current [PANGOLIN Lineage Format](https://cov-lineages.org/resources/pangolin/output.html). Only the "Taxon" column has been renamed to IMS_ID for easier re-use. Central to linking the developmental lineages to the rest of the data is the IMS_ID, which is included in all three data. 
+| Variable | Description | Value Set |
+| -------- | -------- | --- |
+| IMS_ID | A unique identifier that combines sequence data and metadata. This identifier is used as the FASTA ID in the sequence data |
+| lineage | The most likely lineage assigned to a given sequence based on the inference engine used and the SARS-CoV-2 diversity designated. | 
+| conflict | In the pangoLEARN decision tree model, a given sequence gets assigned to the most likely category based on known diversity. | 
+| ambiguity_score | This score is a function of the quantity of missing data in a sequence.   | 
+| version | A version number that represents both the pango-designation number and the inference engine used to assign the lineage.  | 
+| pangolin_version | The version of pangolin software running. | 
+| pangoLEARN_version | The dated version of the pangoLEARN model installed. | 
+| status | Indicates whether the sequence passed the QC thresholds for minimum length and maximum N content. | 
+| note | If any conflicts from the decision tree, this field will output the alternative assignments.  |
+
+The information provided on developmental lineages corresponds to the current [PANGOLIN Lineage Format](https://cov-lineages.org/resources/pangolin/output.html). Only the "Taxon" column has been renamed to IMS_ID for easier re-use. Central to linking the developmental lineages to the rest of the data is the IMS_ID, which is included in all three data. [PANGOLIN Lineage Format](https://cov-lineages.org/resources/pangolin/output.html) is authoritative in case of contradictions.
 
 ## Notes on the subsequent use of the data 
 
