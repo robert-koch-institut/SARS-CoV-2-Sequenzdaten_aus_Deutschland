@@ -134,19 +134,19 @@ GTTCTCTAAACGAACTTTAAAATCTGTGTGGCTGTCTTGAAAGAGCCACCACATTTTCA
 
 In den als .csv bereitgestellten Metadaten enthalten in folgender Tabelle aufgeführte Variablen als Spalten. Zentral für die Verknüpfung der Metadaten mit den Genomsequenzen ist die IMS_ID, die in allen drei Daten enthalten ist. 
 
-
 | Variable | Beschreibung | Value Set |
 | -------- | -------- | --- |
-| IMS_ID     | Ein eindeutiger Identifikator der Sequenzdaten und Metadaten zusammenführt. Dieser Identifikator wird als FASTA ID in den Sequenzdaten genutzt      | 
-| DATE_DRAW | Das Datum der Probeentnahme im Format JJJJ-MM-TT |  |
-| SEQ_TYPE | Die verwendete Sequenzierungs-Plattform | [ena](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#permitted-values-for-platform)
-| SEQ_REASON| Der Grund für die Durchführung der Sequenzierung| [rki](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.pdf?__blob=publicationFile#page=4)
-| SAMPLE_TYPE|  Art der Probe|[snomed](https://simplifier.net/covid-19labormeldung/materialsarscov2)
-| OWN_FASTA_ID | Die vom Labor genutzte  FASTA ID in verschlüsselter Form|
-|PROCESSING_DATE | Einsendedatum an das RKI (JJJJ-MM-TT).|
-| RECEIVE_DATE | Empfangsdatum im RKI (JJJJ-MM-TT). Üblicherweise <24 Stunden nach Einsendung durch die Labore|
-| SEQUENCING_LAB_PC  | Die Postleitzahl des sequenzierenden Labors|
-| SENDING_LAB_PC  | Die Postleitzahl des primärdiagnostischen Labors|
+| IMS_ID     | Ein eindeutiger Identifikator der Sequenzdaten und Metadaten zusammenführt. Dieser Identifikator wird als FASTA ID in den Sequenzdaten genutzt| Text |  
+| DATE_DRAW | Datum der Probeentnahme | JJJJ&#8209;MM&#8209;TT |  
+| SEQ_TYPE | Die verwendete Sequenzierungs-Plattform | [ena](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#permitted-values-for-platform)|  
+| SEQ_REASON| Grund für die Durchführung der Sequenzierung| [rki](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.pdf?__blob=publicationFile#page=4)|  
+| SAMPLE_TYPE|  Art der Probe|[snomed](https://simplifier.net/covid-19labormeldung/materialsarscov2)|  
+| OWN_FASTA_ID | Vom Labor genutzte  FASTA ID in verschlüsselter Form| Text|  
+| RECEIVE_DATE | Datum der Datenübermittlung an das RKI | JJJJ-MM-TT |  
+| PROCESSING_DATE | Verarbeitungsdatum im RKI (Üblicherweise <24 Stunden nach Einsendung durch die Labore)| JJJJ-MM-TT | 
+| SENDING_LAB_PC | Postleitzahl des primärdiagnostischen Labors| Text |   
+| SEQUENCING_LAB_PC | Postleitzahl des sequenzierenden Labors| Text |
+| GISAID_ACCESSION | Falls bekannt, die GISAID Accession ID der Sequenz| Text |
 
 Weitere Informationen zu den aufgeführten Variablen finden sich in der [Anleitung zur Bereitstellung der Sequenzdaten](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Anleitung-Bereitstellung-Sequenzdaten.html?) die auch in [Kontextmaterialien](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/master/Kontextmaterialien) hinterlegt ist.  
 
