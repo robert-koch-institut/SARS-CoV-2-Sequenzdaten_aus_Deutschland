@@ -9,7 +9,7 @@ on:
     branches: 
       - master
     paths:
-      - 'Readme.md'
+      - 'Readme*.md'
       - '/Kontextmaterialien/**'                #Uncomment if u use imgges in your Readme.md
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -34,8 +34,9 @@ jobs:
           #images_dir: /img     #Uncomment if u use imgges in your Readme.md
           build_html: false
       # Renames Readme.pdf to 'Dokumentation <reponame>.pdf'
-      - run: mv Readme.pdf "[Dokumentation] $(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' | tr "_" " ").pdf"
+      - run: mv Readme.pdf "[Dokumentation]_$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' ).pdf"
+      - run: mv Readme_en.pdf "[Documentation]_$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' ).pdf"
       # Commit and push
       - uses: EndBug/add-and-commit@v7.1.1
         with:
-          message: 'Documentation generated from Readme.md'
+          message: 'Dokumentation erstellt aus der Readme.md'
