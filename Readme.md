@@ -1,16 +1,14 @@
 Datensatzdokumentation  
 # SARS-CoV-2-Sequenzdaten aus Deutschland
 
-[Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI  
+[Robert Koch-Institut](https://ror.org/01k5qnb77) | RKI  
 Nordufer 20  
 13353 Berlin  
   
 ---
 **You can find an english version of the readme [here](readme_en.md)**  
 
-Robert Koch-Institut (2021): SARS-CoV-2-Sequenzdaten aus Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.5139363](https://doi.org/10.5281/zenodo.5139363)  
-
-Der Datensatz "SARS-CoV-2-Sequenzdaten aus Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
+Robert Koch-Institut (2022): SARS-CoV-2-Sequenzdaten aus Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.7045188](https://doi.org/10.5281/zenodo.7045188)  
  
 ## Informationen zum Datensatz und Entstehungskontext
 
@@ -82,8 +80,6 @@ Die Metadaten der Sequenzierung werden als [xz-komprimierte](https://en.wikipedi
 * Komprimierung: [.xz](https://en.wikipedia.org/wiki/XZ_Utils)  
 * Enthaltenes Dateiformat: .csv
 * .csv-Trennzeichen: Komma ","  
-
- 
 
 ### Formatierung der Entwicklungslinien
 Die Entwicklungslinien der Sequenzierung werden als [xz-komprimierte](https://en.wikipedia.org/wiki/XZ_Utils), kommaseparierte .csv-Datei bereitgestellt. Daraus ergibt sich die Dateiendung .csv.xz. Der verwendete Zeichensatz der .csv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO-8601-Standard formatiert.
@@ -179,25 +175,24 @@ Die bereitgestelten Informationen zu den Entwicklungslinien entsprechen dem aktu
 
 Die hier veröffentlichten Daten können daher nicht ohne weiteres mit dem wöchentlichen [Bericht zu Virusvarianten von SARS-CoV-2 in Deutschland des RKIs](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Berichte-VOC-tab.html) vergleichen werden. Außerdem können diese Daten ausdrücklich nicht als Grundlage für die Abrechnung der Labore mit der KBV verwendet werden.  
 
-Weitere, offene Forschungsdaten des RKI werden auf GitHub.com sowie Zenodo.org bereitgestellt:  
+Offene Forschungsdaten des RKI werden auf [GitHub.com](http://GitHub.com/), [Zenodo.org](http://Zenodo.org/) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:
 
-* https://github.com/robert-koch-institut
-* https://zenodo.org/communities/robertkochinstitut  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)
+- [https://edoc.rki.de](https://edoc.rki.de/)
 
 ### Metadaten der Publikation  
 
-Die bereitgestellten Daten sind mit Metadaten beschrieben und wissenschaftlich zitierbar, u.a. durch die Vergabe einer DOI durch Zenodo.org. Die für den Import in Zenodo bereitgestellten Metadaten sind in folgender Datei hinterlegt:  
+Zur Erhöhung der Auffindbarkeit, sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadaten-Ordner hinterlegt:
 
-> .zenodo.json 
+> [Metadaten/](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/master/Metadaten/)  
 
-Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar. 
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
+
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/master/Metadaten/zenodo.json)  
 
 ### Lizenz  
 
 Der Datensatz "SARS-CoV-2-Sequenzdaten_aus_Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de) 
 
 Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede_r hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/LIZENZ) Datei des Datensatzes.  
-
-Die empfohlene Zitierweise ist:
-
-Robert Koch Institut (2021): SARS-CoV-2-Sequenzdaten aus Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.5139363](https://doi.org/10.5281/zenodo.5139363) .

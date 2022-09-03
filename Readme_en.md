@@ -1,16 +1,15 @@
 Dataset documentation  
 # SARS-CoV-2 Sequence Data from Germany
 
-[Robert Koch Institute](https://grid.ac/institutes/grid.13652.33) | RKI  
+[Robert Koch Institute](https://ror.org/01k5qnb77) | RKI  
 Nordufer 20  
 13353 Berlin  
   
 ---
 
-Robert Koch Institute (2021): SARS-CoV-2-Sequenzdaten aus Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.5139363](https://doi.org/10.5281/zenodo.5139363)  
+Robert Koch Institute (2022): SARS-CoV-2 Sequence Data from Germany, Berlin: Zenodo. [DOI: 10.5281/zenodo.7045188](https://doi.org/10.5281/zenodo.7045188)  
 
-The dataset "SARS-CoV-2-Sequenzdaten aus Deutschland" is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
- 
+
 ## Information about the dataset and context of origin.
 
 Accurate knowledge of the properties of SARS-CoV-2 is of central importance for planning measures to contain COVID-19. Mutations of the virus play a special role in this context. For successful containment of the pandemic, it is therefore crucial to obtain a detailed overview of the spread patterns of specific SARS-CoV-2 mutations and also to detect new mutations at an early stage.  
@@ -177,25 +176,24 @@ The information provided on developmental lineages corresponds to the current [P
 
 Therefore, the data published here cannot be readily compared with the weekly [Report on viral variants of SARS-CoV-2 in Germany by the RKI](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Berichte-VOC-tab.html). Furthermore, these data explicitly cannot be used as a basis for billing laboratories with KBV.  
 
-Additional, open research data from the RKI are provided on GitHub.com as well as Zenodo.org:  
+Open research data of the RKI are made available on [GitHub.com](http://GitHub.com/), [Zenodo.org](http://Zenodo.org/) und [Edoc.rki.de](http://Edoc.rki.de/):
 
-* https://github.com/robert-koch-institut
-* https://zenodo.org/communities/robertkochinstitut  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)
+- [https://edoc.rki.de](https://edoc.rki.de/)  
 
 ### Publication metadata.  
 
-The data provided are described with metadata and are scientifically citable, including through the assignment of a DOI by Zenodo.org. The metadata provided for import into Zenodo is stored in the following file:  
+To increase findability, the provided data is described with metadata. Metadata is distributed to the corresponding platforms via GitHub Actions. A specific metadata file exists for each platform and is stored in the metadata folder: 
 
-> .zenodo.json 
+> [Metadaten/](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/master/Metadaten/)  
 
-Documentation of the individual metadata variables can be found at https://developers.zenodo.org/#representation. 
+Versioning and DOI assignment is done via [Zenodo.org](https://zenodo.org). The metadata provided for import into Zenodo is stored in [zenodo.json](/metadata/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/#representation.
+
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/master/Metadaten/zenodo.json)  
 
 ### License  
 
-The dataset "SARS-CoV-2-Sequenzdaten aus Deutschland" is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
+The dataset "SARS-CoV-2 Sequence Data from Germany" is licensed under the [Creative Commons Attribution 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
 
 The data provided in the dataset are freely available, on condition that the Robert Koch Institute is credited as the source. This means that everyone has the right to process and modify the data, to create derivatives of the dataset and to use it for commercial and non-commercial purposes. For more information about the license, see the [LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/LICENSE) or [LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/master/LIZENZ) file of the dataset.  
-
-The recommended citation is:
-
-Robert Koch Institute (2021): SARS-CoV-2-Sequenzdaten aus Deutschland,, Berlin: Zenodo. [DOI: 10.5281/zenodo.5139363](https://doi.org/10.5281/zenodo.5139363) .
