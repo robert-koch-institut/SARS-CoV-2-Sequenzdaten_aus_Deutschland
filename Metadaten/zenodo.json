@@ -56,11 +56,13 @@
       "identifier": "info:ddc/22/eng//614.4"
     }
   ],
-  "publication_date": "2022-09-03T21:37:54+02:00",
-	"version": "2022-09-03",
-	"dates": [{
-		"start": "2021-01-25",
-		"end": "2022-09-03",
-		"type": "Collected"
-	}]
+  "publication_date": "2022-09-04T21:35:15+02:00",
+  "version": "2022-09-04",
+  "dates": [
+    {
+      "start": "2021-01-25",
+      "end": "2022-09-04",
+      "type": "Collected"
+    }
+  ]
 }
