@@ -19,12 +19,12 @@
   ],
   "contributors": [
     {
-      "name": "MF 4, Informations- und Forschungsdatenmanagement",
+      "name": "MF 1 | Bioinformatik und Systembiologie",
       "affiliation": "Robert Koch-Institut",
       "type": "DataManager"
     },
     {
-      "name": "MF 1, Bioinformatik und Systembiologie",
+      "name": "MF 4 | Informations- und Forschungsdatenmanagement",
       "affiliation": "Robert Koch-Institut",
       "type": "DataManager"
     }
@@ -68,7 +68,7 @@
       "identifier": "info:ddc/22/eng//614.4"
     }
   ],
-  "publication_date": "2022-09-05T09:53:00+02:00",
+  "publication_date": "2022-09-05T21:37:21+02:00",
   "version": "2022-09-05",
   "dates": [
     {
