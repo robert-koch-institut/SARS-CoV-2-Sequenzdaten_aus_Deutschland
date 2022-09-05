@@ -17,6 +17,36 @@
       "affiliation": "Robert Koch-Institut"
     }
   ],
+  "contributors": [
+    {
+      "name": "Yahosseini, Kyanoush",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0003-0094-5971",
+      "type": "DataManager"
+    },
+    {
+      "name": "Huska, Matthew",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-0912-745X",
+      "type": "DataManager"
+    },
+    {
+      "name": "Drechsel, Oliver",
+      "affiliation": "Robert Koch-Institut",
+      "type": "DataManager"
+    },
+    {
+      "name": "Hölzer, Martin",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0001-7090-8717",
+      "type": "DataManager"
+    },
+    {
+      "name": "Wolk, Paul",
+      "affiliation": "Robert Koch-Institut",
+      "type": "DataManager"
+    }
+  ],
   "keywords": [
     "COVID-19",
     "SARS-CoV-2",
