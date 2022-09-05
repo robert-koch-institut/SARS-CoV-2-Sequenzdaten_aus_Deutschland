@@ -19,30 +19,12 @@
   ],
   "contributors": [
     {
-      "name": "Yahosseini, Kyanoush",
-      "affiliation": "Robert Koch-Institut",
-      "orcid": "0000-0003-0094-5971",
-      "type": "DataManager"
-    },
-    {
-      "name": "Huska, Matthew",
-      "affiliation": "Robert Koch-Institut",
-      "orcid": "0000-0002-0912-745X",
-      "type": "DataManager"
-    },
-    {
-      "name": "Drechsel, Oliver",
+      "name": "MF 4, Informations- und Forschungsdatenmanagement",
       "affiliation": "Robert Koch-Institut",
       "type": "DataManager"
     },
     {
-      "name": "Hölzer, Martin",
-      "affiliation": "Robert Koch-Institut",
-      "orcid": "0000-0001-7090-8717",
-      "type": "DataManager"
-    },
-    {
-      "name": "Wolk, Paul",
+      "name": "MF 1, Bioinformatik und Systembiologie",
       "affiliation": "Robert Koch-Institut",
       "type": "DataManager"
     }
