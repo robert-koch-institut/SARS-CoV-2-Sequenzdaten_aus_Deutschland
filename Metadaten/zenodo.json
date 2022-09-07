@@ -17,18 +17,6 @@
       "affiliation": "Robert Koch-Institut"
     }
   ],
-  "contributors": [
-    {
-      "name": "MF 1 | Bioinformatik und Systembiologie",
-      "affiliation": "Robert Koch-Institut",
-      "type": "DataManager"
-    },
-    {
-      "name": "MF 4 | Informations- und Forschungsdatenmanagement",
-      "affiliation": "Robert Koch-Institut",
-      "type": "DataManager"
-    }
-  ],
   "keywords": [
     "COVID-19",
     "SARS-CoV-2",
@@ -68,12 +56,12 @@
       "identifier": "info:ddc/22/eng//614.4"
     }
   ],
-  "publication_date": "2022-09-06T04:12:59+02:00",
-  "version": "2022-09-06",
+  "publication_date": "2022-09-07T03:36:10+02:00",
+  "version": "2022-09-07",
   "dates": [
     {
       "start": "2021-01-25",
-      "end": "2022-09-06",
+      "end": "2022-09-07",
       "type": "Collected"
     }
   ]
