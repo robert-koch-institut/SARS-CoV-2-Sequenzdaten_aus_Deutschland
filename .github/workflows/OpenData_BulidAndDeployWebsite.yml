@@ -18,6 +18,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:  
     - name: Bulid and deploy OpenData Website
-      uses: hanneswuensche/OpenData-Website@main
+      uses: robert-koch-institut/OpenData-Website@main
       with:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
