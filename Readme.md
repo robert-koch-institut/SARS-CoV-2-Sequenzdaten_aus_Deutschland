@@ -8,7 +8,7 @@ Nordufer 20
 ---
 **You can find an english version of the readme [here](readme_en.md)**  
 
-Robert Koch-Institut (2022): SARS-CoV-2-Sequenzdaten aus Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.7201834](https://doi.org/10.5281/zenodo.7201834)  
+Robert Koch-Institut (2022): SARS-CoV-2-Sequenzdaten aus Deutschland, Berlin: Zenodo. [DOI: 10.5281/zenodo.7212725](https://doi.org/10.5281/zenodo.7212725)  
  
 ## Informationen zum Datensatz und Entstehungskontext
 
