@@ -56,18 +56,18 @@
       "identifier": "info:ddc/22/eng//614.4"
     }
   ],
-  "publication_date": "2022-10-17T18:55:30+02:00",
-  "version": "2022-10-17",
+  "publication_date": "2022-10-18T05:08:04+02:00",
+  "version": "2022-10-18",
   "dates": [
     {
       "start": "2021-01-25",
-      "end": "2022-10-17",
+      "end": "2022-10-18",
       "type": "Collected"
     }
   ],
   "related_identifiers": [
     {
-      "relation": "isSupplementedBy",
+      "relation": "isSupplementTo",
       "identifier": "https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland",
       "resource_type": "dataset"
     }
