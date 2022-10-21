@@ -7,7 +7,7 @@ Nordufer 20
   
 ---
 
-Robert Koch Institute (2022): SARS-CoV-2 Sequence Data from Germany, Berlin: Zenodo. [DOI: 10.5281/zenodo.7226928](https://doi.org/10.5281/zenodo.7226928)  
+Robert Koch Institute (2022): SARS-CoV-2 Sequence Data from Germany, Berlin: Zenodo. [DOI: 10.5281/zenodo.7232848](https://doi.org/10.5281/zenodo.7232848)  
 
 
 ## Information about the dataset and context of origin.
