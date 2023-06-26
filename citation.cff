@@ -28,7 +28,7 @@ abstract: >-
   repräsentativer Einblick in die Viruspopluation gesichert (Djin Ye Oh  et al.
   2022) (https://doi.org/10.1093/cid/ciac399). Zusätzlich werden Sequenzen vom
   NRZ Coronaviren an der Charité beigetragen um das IMSSC2 Netzwerk zu ergänzen.
-date-released: '2023-06-22'
+date-released: '2023-06-26'
 keywords:
   - COVID-19
   - SARS-CoV-2
@@ -54,6 +54,6 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.8046538
+doi: 10.5281/zenodo.8081943
 authors:
   - name: Robert Koch-Institut
