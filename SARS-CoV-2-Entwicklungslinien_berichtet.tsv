@@ -550,10 +550,6 @@ XBB.1.9.2	Rekombinant	EG.2
 XBB.1.9.2	Rekombinant	EG.2.1
 XBB.1.9.2	Rekombinant	EG.3
 XBB.1.9.2	Rekombinant	EG.4
-XBB.1.9.2	Rekombinant	EG.5
-XBB.1.9.2	Rekombinant	EG.5.1
-XBB.1.9.2	Rekombinant	EG.5.1.1
-XBB.1.9.2	Rekombinant	EG.5.2
 XBB.1.9.2	Rekombinant	EG.6
 XBB.1.9.2	Rekombinant	EG.6.1
 XBB.1.9.2	Rekombinant	EG.7
@@ -581,3 +577,7 @@ XBB.2.3	Rekombinant	XBB.2.3.9
 XBB.2.3	Rekombinant	XBB.2.3.10
 XBB.2.3	Rekombinant	XBB.2.3.11
 XBB.2.3	Rekombinant	XBB.2.3.12
+EG.5	Rekombinant	EG.5
+EG.5	Rekombinant	EG.5.1
+EG.5	Rekombinant	EG.5.1.1
+EG.5	Rekombinant	EG.5.2
