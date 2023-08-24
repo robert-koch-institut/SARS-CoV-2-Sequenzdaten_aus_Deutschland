@@ -482,6 +482,7 @@ BA.2	Omikron	BA.2.81	#E15759	VOC
 BA.2	Omikron	BA.2.82	#E15759	VOC
 BA.2	Omikron	BA.2.83	#E15759	VOC
 BA.2	Omikron	BA.2.85	#E15759	VOC
+BA.2	Omikron	BA.2.86	#E15759	VOC
 BA.2	Omikron	BA.2.9	#E15759	VOC
 BA.2	Omikron	BA.2.9.1	#E15759	VOC
 BA.2	Omikron	BA.2.9.2	#E15759	VOC
@@ -587,6 +588,7 @@ BA.2	Omikron	BN.1.3.1	#E15759	VOC
 BA.2	Omikron	BN.1.3.10	#E15759	VOC
 BA.2	Omikron	BN.1.3.11	#E15759	VOC
 BA.2	Omikron	BN.1.3.12	#E15759	VOC
+BA.2	Omikron	BN.1.3.13	#E15759	VOC
 BA.2	Omikron	BN.1.3.2	#E15759	VOC
 BA.2	Omikron	BN.1.3.2	#E15759	VOC
 BA.2	Omikron	BN.1.3.3	#E15759	VOC
@@ -767,7 +769,8 @@ BA.2	Omikron	CJ.1.1	#E15759	VOC
 BA.2	Omikron	CJ.1.2	#E15759	VOC
 BA.2	Omikron	CJ.1.2	#E15759	VOC
 BA.2	Omikron	CJ.1.3	#E15759	VOC
-BA.2	Omikron	CJ.1.3	#E15759	VOC
+BA.2	Omikron	CJ.1.3.1	#E15759	VOC
+BA.2	Omikron	CJ.1.3.2	#E15759	VOC
 BA.2	Omikron	CM.1	#E15759	VOC
 BA.2	Omikron	CM.10	#E15759	VOC
 BA.2	Omikron	CM.11	#E15759	VOC
@@ -784,12 +787,14 @@ BA.2	Omikron	CM.6	#E15759	VOC
 BA.2	Omikron	CM.6.1	#E15759	VOC
 BA.2	Omikron	CM.7	#E15759	VOC
 BA.2	Omikron	CM.7.1	#E15759	VOC
+BA.2	Omikron	CM.7.1.1	#E15759	VOC
 BA.2	Omikron	CM.8	#E15759	VOC
 BA.2	Omikron	CM.8.1	#E15759	VOC
 BA.2	Omikron	CM.8.1.1	#E15759	VOC
 BA.2	Omikron	CM.8.1.2	#E15759	VOC
 BA.2	Omikron	CM.8.1.3	#E15759	VOC
 BA.2	Omikron	CM.8.1.4	#E15759	VOC
+BA.2	Omikron	CM.8.1.5	#E15759	VOC
 BA.2	Omikron	CM.9	#E15759	VOC
 BA.2	Omikron	CV.1	#E15759	VOC
 BA.2	Omikron	CV.1	#E15759	VOC
@@ -822,6 +827,7 @@ BA.2	Omikron	DV.6.1	#E15759	VOC
 BA.2	Omikron	DV.6.2	#E15759	VOC
 BA.2	Omikron	DV.7	#E15759	VOC
 BA.2	Omikron	DV.7.1	#E15759	VOC
+BA.2	Omikron	DV.7.2	#E15759	VOC
 BA.2	Omikron	DV.8	#E15759	VOC
 BA.2	Omikron	EJ.1	#E15759	VOC
 BA.2	Omikron	EJ.1	#E15759	VOC
@@ -836,17 +842,23 @@ BA.2	Omikron	FJ.1	#E15759	VOC
 BA.2	Omikron	FK.1	#E15759	VOC
 BA.2	Omikron	FK.1	#E15759	VOC
 BA.2	Omikron	FK.1.1	#E15759	VOC
-BA.2	Omikron	FK.1.1	#E15759	VOC
+BA.2	Omikron	FK.1.1.1	#E15759	VOC
+BA.2	Omikron	FK.1.1.2	#E15759	VOC
 BA.2	Omikron	FK.1.2	#E15759	VOC
 BA.2	Omikron	FK.1.2	#E15759	VOC
 BA.2	Omikron	FK.1.2.1	#E15759	VOC
 BA.2	Omikron	FK.1.2.2	#E15759	VOC
 BA.2	Omikron	FK.1.3	#E15759	VOC
+BA.2	Omikron	FK.1.3.1	#E15759	VOC
+BA.2	Omikron	FK.1.3.2	#E15759	VOC
 BA.2	Omikron	FK.1.4	#E15759	VOC
+BA.2	Omikron	FK.1.4.1	#E15759	VOC
+BA.2	Omikron	FK.1.5	#E15759	VOC
 BA.2	Omikron	FR.1	#E15759	VOC
 BA.2	Omikron	FR.1.1	#E15759	VOC
 BA.2	Omikron	FR.1.2	#E15759	VOC
 BA.2	Omikron	FR.1.3	#E15759	VOC
+BA.2	Omikron	FR.1.4	#E15759	VOC
 BA.2	Omikron	FR.2	#E15759	VOC
 BA.2	Omikron	FS.1	#E15759	VOC
 BA.2	Omikron	FS.1	#E15759	VOC
@@ -854,6 +866,7 @@ BA.2	Omikron	GP.1	#E15759	VOC
 BA.2	Omikron	GP.2	#E15759	VOC
 BA.2	Omikron	GP.3	#E15759	VOC
 BA.2	Omikron	GQ.1	#E15759	VOC
+BA.2	Omikron	GQ.1.1	#E15759	VOC
 BA.3	Omikron	BA.3	#D7B5A6	VOC
 BA.3	Omikron	BA.3.1	#D7B5A6	VOC
 BA.4	Omikron	BA.4	#F1CE63	VOC
@@ -1288,7 +1301,11 @@ BA.5	Omikron	CF.1	#4E79A7	VOC
 BA.5	Omikron	CG.1	#4E79A7	VOC
 BA.5	Omikron	CK.1	#4E79A7	VOC
 BA.5	Omikron	CK.1.1	#4E79A7	VOC
+BA.5	Omikron	CK.1.1.1	#4E79A7	VOC
 BA.5	Omikron	CK.1.2	#4E79A7	VOC
+BA.5	Omikron	CK.1.3	#4E79A7	VOC
+BA.5	Omikron	CK.1.4	#4E79A7	VOC
+BA.5	Omikron	CK.1.5	#4E79A7	VOC
 BA.5	Omikron	CK.2	#4E79A7	VOC
 BA.5	Omikron	CK.2.1	#4E79A7	VOC
 BA.5	Omikron	CK.2.1.1	#4E79A7	VOC
@@ -1467,24 +1484,45 @@ X*	Rekombinant	XAY.3		VOC
 X*	Rekombinant	XAZ		VOC
 X*	Rekombinant	XBA		VOC
 X*	Rekombinant	EG.1		VOC
+X*	Rekombinant	EG.10		VOC
+X*	Rekombinant	EG.10.1		VOC
 X*	Rekombinant	EG.1.1		VOC
+X*	Rekombinant	EG.11		VOC
 X*	Rekombinant	EG.1.2		VOC
+X*	Rekombinant	EG.12		VOC
 X*	Rekombinant	EG.1.3		VOC
 X*	Rekombinant	EG.1.4		VOC
 X*	Rekombinant	EG.1.4.1		VOC
 X*	Rekombinant	EG.1.5		VOC
+X*	Rekombinant	EG.1.6		VOC
+X*	Rekombinant	EG.1.7		VOC
+X*	Rekombinant	EG.1.8		VOC
 X*	Rekombinant	EG.2		VOC
 X*	Rekombinant	EG.2.1		VOC
 X*	Rekombinant	EG.3		VOC
 X*	Rekombinant	EG.4		VOC
+X*	Rekombinant	EG.4.1		VOC
+X*	Rekombinant	EG.4.2		VOC
+X*	Rekombinant	EG.4.3		VOC
+X*	Rekombinant	EG.4.4		VOC
 X*	Rekombinant	EG.5		VOC
 X*	Rekombinant	EG.5.1		VOC
 X*	Rekombinant	EG.5.1.1		VOC
+X*	Rekombinant	EG.5.1.2		VOC
+X*	Rekombinant	EG.5.1.3		VOC
+X*	Rekombinant	EG.5.1.4		VOC
+X*	Rekombinant	EG.5.1.5		VOC
+X*	Rekombinant	EG.5.1.6		VOC
 X*	Rekombinant	EG.5.2		VOC
+X*	Rekombinant	EG.5.2.1		VOC
+X*	Rekombinant	EG.5.2.2		VOC
+X*	Rekombinant	EG.5.2.3		VOC
 X*	Rekombinant	EG.6		VOC
 X*	Rekombinant	EG.6.1		VOC
 X*	Rekombinant	EG.7		VOC
 X*	Rekombinant	EG.8		VOC
+X*	Rekombinant	EG.9		VOC
+X*	Rekombinant	EG.9.1		VOC
 X*	Rekombinant	EK.1		VOC
 X*	Rekombinant	EK.2		VOC
 X*	Rekombinant	EK.2.1		VOC
@@ -1496,16 +1534,20 @@ X*	Rekombinant	EU.1		VOC
 X*	Rekombinant	EU.1.1		VOC
 X*	Rekombinant	EU.1.1.1		VOC
 X*	Rekombinant	EU.1.1.2		VOC
+X*	Rekombinant	EU.1.1.3		VOC
 X*	Rekombinant	FD.1		VOC
 X*	Rekombinant	FD.1.1		VOC
 X*	Rekombinant	FD.2		VOC
 X*	Rekombinant	FD.2.1		VOC
 X*	Rekombinant	FD.3		VOC
 X*	Rekombinant	FD.4		VOC
+X*	Rekombinant	FD.4.1		VOC
 X*	Rekombinant	FE.1		VOC
 X*	Rekombinant	FE.1.1		VOC
 X*	Rekombinant	FE.1.1.1		VOC
 X*	Rekombinant	FE.1.1.2		VOC
+X*	Rekombinant	FE.1.1.3		VOC
+X*	Rekombinant	FE.1.1.4		VOC
 X*	Rekombinant	FE.1.2		VOC
 X*	Rekombinant	FG.1		VOC
 X*	Rekombinant	FG.2		VOC
@@ -1523,6 +1565,8 @@ X*	Rekombinant	FL.1.3		VOC
 X*	Rekombinant	FL.13		VOC
 X*	Rekombinant	FL.13.1		VOC
 X*	Rekombinant	FL.13.2		VOC
+X*	Rekombinant	FL.13.3		VOC
+X*	Rekombinant	FL.13.3.1		VOC
 X*	Rekombinant	FL.1.4		VOC
 X*	Rekombinant	FL.14		VOC
 X*	Rekombinant	FL.1.5		VOC
@@ -1530,6 +1574,7 @@ X*	Rekombinant	FL.15		VOC
 X*	Rekombinant	FL.1.5.1		VOC
 X*	Rekombinant	FL.1.6		VOC
 X*	Rekombinant	FL.16		VOC
+X*	Rekombinant	FL.1.7		VOC
 X*	Rekombinant	FL.17		VOC
 X*	Rekombinant	FL.17.1		VOC
 X*	Rekombinant	FL.17.2		VOC
@@ -1537,15 +1582,30 @@ X*	Rekombinant	FL.18		VOC
 X*	Rekombinant	FL.18.1		VOC
 X*	Rekombinant	FL.18.1.1		VOC
 X*	Rekombinant	FL.19		VOC
+X*	Rekombinant	FL.19.1		VOC
 X*	Rekombinant	FL.2		VOC
 X*	Rekombinant	FL.20		VOC
+X*	Rekombinant	FL.20.1		VOC
 X*	Rekombinant	FL.2.1		VOC
 X*	Rekombinant	FL.21		VOC
+X*	Rekombinant	FL.21.1		VOC
+X*	Rekombinant	FL.21.2		VOC
 X*	Rekombinant	FL.2.2		VOC
 X*	Rekombinant	FL.22		VOC
 X*	Rekombinant	FL.2.2.1		VOC
 X*	Rekombinant	FL.2.3		VOC
 X*	Rekombinant	FL.23		VOC
+X*	Rekombinant	FL.2.3.1		VOC
+X*	Rekombinant	FL.23.1		VOC
+X*	Rekombinant	FL.2.4		VOC
+X*	Rekombinant	FL.24		VOC
+X*	Rekombinant	FL.2.5		VOC
+X*	Rekombinant	FL.25		VOC
+X*	Rekombinant	FL.26		VOC
+X*	Rekombinant	FL.26.1		VOC
+X*	Rekombinant	FL.27		VOC
+X*	Rekombinant	FL.28		VOC
+X*	Rekombinant	FL.29		VOC
 X*	Rekombinant	FL.3		VOC
 X*	Rekombinant	FL.3.1		VOC
 X*	Rekombinant	FL.3.2		VOC
@@ -1569,32 +1629,51 @@ X*	Rekombinant	FL.9		VOC
 X*	Rekombinant	FP.1		VOC
 X*	Rekombinant	FP.2		VOC
 X*	Rekombinant	FP.2.1		VOC
+X*	Rekombinant	FP.2.1.1		VOC
+X*	Rekombinant	FP.2.1.2		VOC
 X*	Rekombinant	FP.3		VOC
 X*	Rekombinant	FP.4		VOC
 X*	Rekombinant	FT.1		VOC
+X*	Rekombinant	FT.2		VOC
+X*	Rekombinant	FT.3		VOC
+X*	Rekombinant	FT.3.1		VOC
+X*	Rekombinant	FT.3.1.1		VOC
+X*	Rekombinant	FT.4		VOC
 X*	Rekombinant	FU.1		VOC
 X*	Rekombinant	FU.2		VOC
 X*	Rekombinant	FU.2.1		VOC
 X*	Rekombinant	FU.3		VOC
+X*	Rekombinant	FU.3.1		VOC
+X*	Rekombinant	FU.4		VOC
+X*	Rekombinant	FU.5		VOC
 X*	Rekombinant	FW.1		VOC
 X*	Rekombinant	FW.2		VOC
+X*	Rekombinant	FW.3		VOC
 X*	Rekombinant	FY.1		VOC
 X*	Rekombinant	FY.1.1		VOC
 X*	Rekombinant	FY.1.2		VOC
 X*	Rekombinant	FY.1.3		VOC
 X*	Rekombinant	FY.2		VOC
+X*	Rekombinant	FY.2.1		VOC
 X*	Rekombinant	FY.3		VOC
 X*	Rekombinant	FY.3.1		VOC
 X*	Rekombinant	FY.4		VOC
 X*	Rekombinant	FY.4.1		VOC
+X*	Rekombinant	FY.4.1.1		VOC
+X*	Rekombinant	FY.4.2		VOC
 X*	Rekombinant	FY.5		VOC
 X*	Rekombinant	FY.6		VOC
+X*	Rekombinant	FY.7		VOC
 X*	Rekombinant	FZ.1		VOC
 X*	Rekombinant	FZ.1.1		VOC
 X*	Rekombinant	FZ.2		VOC
 X*	Rekombinant	GA.1		VOC
 X*	Rekombinant	GA.2		VOC
 X*	Rekombinant	GA.3		VOC
+X*	Rekombinant	GA.4		VOC
+X*	Rekombinant	GA.5		VOC
+X*	Rekombinant	GA.6		VOC
+X*	Rekombinant	GA.6.1		VOC
 X*	Rekombinant	GB.1		VOC
 X*	Rekombinant	GB.2		VOC
 X*	Rekombinant	GC.1		VOC
@@ -1609,26 +1688,86 @@ X*	Rekombinant	GH.1		VOC
 X*	Rekombinant	GJ.1		VOC
 X*	Rekombinant	GJ.1.1		VOC
 X*	Rekombinant	GJ.1.2		VOC
+X*	Rekombinant	GJ.1.2.1		VOC
 X*	Rekombinant	GJ.2		VOC
+X*	Rekombinant	GJ.3		VOC
+X*	Rekombinant	GJ.4		VOC
 X*	Rekombinant	GK.1		VOC
+X*	Rekombinant	GK.1.1		VOC
+X*	Rekombinant	GK.1.2		VOC
+X*	Rekombinant	GK.1.3		VOC
+X*	Rekombinant	GK.2		VOC
+X*	Rekombinant	GK.3		VOC
+X*	Rekombinant	GK.3.1		VOC
 X*	Rekombinant	GM.1		VOC
 X*	Rekombinant	GM.2		VOC
 X*	Rekombinant	GN.1		VOC
+X*	Rekombinant	GN.1.1		VOC
+X*	Rekombinant	GN.2		VOC
+X*	Rekombinant	GN.3		VOC
+X*	Rekombinant	GN.4		VOC
+X*	Rekombinant	GN.5		VOC
 X*	Rekombinant	GR.1		VOC
 X*	Rekombinant	GS.1		VOC
 X*	Rekombinant	GU.1		VOC
 X*	Rekombinant	GV.1		VOC
 X*	Rekombinant	GW.1		VOC
 X*	Rekombinant	GW.2		VOC
+X*	Rekombinant	GW.3		VOC
+X*	Rekombinant	GW.4		VOC
+X*	Rekombinant	GW.5		VOC
 X*	Rekombinant	GY.1		VOC
 X*	Rekombinant	GY.2		VOC
 X*	Rekombinant	GY.2.1		VOC
 X*	Rekombinant	GY.3		VOC
+X*	Rekombinant	GY.4		VOC
+X*	Rekombinant	GY.5		VOC
+X*	Rekombinant	GY.6		VOC
+X*	Rekombinant	GY.7		VOC
+X*	Rekombinant	GY.8		VOC
 X*	Rekombinant	GZ.1		VOC
 X*	Rekombinant	HA.1		VOC
 X*	Rekombinant	HA.2		VOC
 X*	Rekombinant	HB.1		VOC
 X*	Rekombinant	HC.1		VOC
+X*	Rekombinant	HE.1		VOC
+X*	Rekombinant	HF.1		VOC
+X*	Rekombinant	HG.1		VOC
+X*	Rekombinant	HH.1		VOC
+X*	Rekombinant	HH.1.1		VOC
+X*	Rekombinant	HH.2		VOC
+X*	Rekombinant	HJ.1		VOC
+X*	Rekombinant	HL.1		VOC
+X*	Rekombinant	HL.2		VOC
+X*	Rekombinant	HK.1		VOC
+X*	Rekombinant	HK.2		VOC
+X*	Rekombinant	HK.3		VOC
+X*	Rekombinant	HK.4		VOC
+X*	Rekombinant	HK.5		VOC
+X*	Rekombinant	HV.1		VOC
+X*	Rekombinant	HM.1		VOC
+X*	Rekombinant	HN.1		VOC
+X*	Rekombinant	HR.1		VOC
+X*	Rekombinant	HT.1		VOC
+X*	Rekombinant	HT.2		VOC
+X*	Rekombinant	HU.1		VOC
+X*	Rekombinant	HU.1.1		VOC
+X*	Rekombinant	HU.2		VOC
+X*	Rekombinant	JA.1		VOC
+X*	Rekombinant	JB.1		VOC
+X*	Rekombinant	JB.2		VOC
+X*	Rekombinant	HP.1		VOC
+X*	Rekombinant	HP.1.1		VOC
+X*	Rekombinant	HZ.1		VOC
+X*	Rekombinant	HZ.2		VOC
+X*	Rekombinant	HZ.3		VOC
+X*	Rekombinant	HQ.1		VOC
+X*	Rekombinant	HD.1		VOC
+X*	Rekombinant	HD.1.1		VOC
+X*	Rekombinant	HS.1		VOC
+X*	Rekombinant	HY.1		VOC
+X*	Rekombinant	HW.1		VOC
+X*	Rekombinant	HW.1.1		VOC
 X*	Rekombinant	XBB		VOC
 X*	Rekombinant	XBB.1		VOC
 X*	Rekombinant	XBB.1.1		VOC
@@ -1636,6 +1775,7 @@ X*	Rekombinant	XBB.1.10		VOC
 X*	Rekombinant	XBB.1.11		VOC
 X*	Rekombinant	XBB.1.11.1		VOC
 X*	Rekombinant	XBB.1.12		VOC
+X*	Rekombinant	XBB.1.12.1		VOC
 X*	Rekombinant	XBB.1.13		VOC
 X*	Rekombinant	XBB.1.13.1		VOC
 X*	Rekombinant	XBB.1.14		VOC
@@ -1647,6 +1787,15 @@ X*	Rekombinant	XBB.1.16.10		VOC
 X*	Rekombinant	XBB.1.16.11		VOC
 X*	Rekombinant	XBB.1.16.12		VOC
 X*	Rekombinant	XBB.1.16.13		VOC
+X*	Rekombinant	XBB.1.16.14		VOC
+X*	Rekombinant	XBB.1.16.15		VOC
+X*	Rekombinant	XBB.1.16.16		VOC
+X*	Rekombinant	XBB.1.16.17		VOC
+X*	Rekombinant	XBB.1.16.18		VOC
+X*	Rekombinant	XBB.1.16.19		VOC
+X*	Rekombinant	XBB.1.16.20		VOC
+X*	Rekombinant	XBB.1.16.21		VOC
+X*	Rekombinant	XBB.1.16.22		VOC
 X*	Rekombinant	XBB.1.16.2		VOC
 X*	Rekombinant	XBB.1.16.3		VOC
 X*	Rekombinant	XBB.1.16.4		VOC
@@ -1662,12 +1811,14 @@ X*	Rekombinant	XBB.1.18		VOC
 X*	Rekombinant	XBB.1.18.1		VOC
 X*	Rekombinant	XBB.1.19		VOC
 X*	Rekombinant	XBB.1.19.1		VOC
+X*	Rekombinant	XBB.1.19.2		VOC
 X*	Rekombinant	XBB.1.2		VOC
 X*	Rekombinant	XBB.1.20		VOC
 X*	Rekombinant	XBB.1.21		VOC
 X*	Rekombinant	XBB.1.22		VOC
 X*	Rekombinant	XBB.1.22.1		VOC
 X*	Rekombinant	XBB.1.22.2		VOC
+X*	Rekombinant	XBB.1.22.3		VOC
 X*	Rekombinant	XBB.1.23		VOC
 X*	Rekombinant	XBB.1.24		VOC
 X*	Rekombinant	XBB.1.24.1		VOC
@@ -1703,6 +1854,8 @@ X*	Rekombinant	XBB.1.41		VOC
 X*	Rekombinant	XBB.1.41.1		VOC
 X*	Rekombinant	XBB.1.4.2		VOC
 X*	Rekombinant	XBB.1.42		VOC
+X*	Rekombinant	XBB.1.42.1		VOC
+X*	Rekombinant	XBB.1.42.2		VOC
 X*	Rekombinant	XBB.1.43		VOC
 X*	Rekombinant	XBB.1.43.1		VOC
 X*	Rekombinant	XBB.1.44		VOC
@@ -1713,6 +1866,7 @@ X*	Rekombinant	XBB.1.46		VOC
 X*	Rekombinant	XBB.1.47		VOC
 X*	Rekombinant	XBB.1.47.1		VOC
 X*	Rekombinant	XBB.1.48		VOC
+X*	Rekombinant	XBB.1.49		VOC
 X*	Rekombinant	XBB.1.5		VOC
 X*	Rekombinant	XBB.1.5.1		VOC
 X*	Rekombinant	XBB.1.5.10		VOC
@@ -1802,6 +1956,18 @@ X*	Rekombinant	XBB.1.5.86		VOC
 X*	Rekombinant	XBB.1.5.87		VOC
 X*	Rekombinant	XBB.1.5.88		VOC
 X*	Rekombinant	XBB.1.5.89		VOC
+X*	Rekombinant	XBB.1.5.90		VOC
+X*	Rekombinant	XBB.1.5.91		VOC
+X*	Rekombinant	XBB.1.5.92		VOC
+X*	Rekombinant	XBB.1.5.93		VOC
+X*	Rekombinant	XBB.1.5.94		VOC
+X*	Rekombinant	XBB.1.5.95		VOC
+X*	Rekombinant	XBB.1.5.96		VOC
+X*	Rekombinant	XBB.1.5.97		VOC
+X*	Rekombinant	XBB.1.5.98		VOC
+X*	Rekombinant	XBB.1.5.99		VOC
+X*	Rekombinant	XBB.1.5.100		VOC
+X*	Rekombinant	XBB.1.5.101		VOC
 X*	Rekombinant	XBB.1.5.9		VOC
 X*	Rekombinant	XBB.1.6		VOC
 X*	Rekombinant	XBB.1.7		VOC
@@ -1826,6 +1992,8 @@ X*	Rekombinant	XBB.2.3.1		VOC
 X*	Rekombinant	XBB.2.3.10		VOC
 X*	Rekombinant	XBB.2.3.11		VOC
 X*	Rekombinant	XBB.2.3.12		VOC
+X*	Rekombinant	XBB.2.3.13		VOC
+X*	Rekombinant	XBB.2.3.14		VOC
 X*	Rekombinant	XBB.2.3.2		VOC
 X*	Rekombinant	XBB.2.3.3		VOC
 X*	Rekombinant	XBB.2.3.4		VOC
@@ -1926,6 +2094,8 @@ X*	Rekombinant	XCC		VOC
 X*	Rekombinant	XCD		VOC
 X*	Rekombinant	XCE		VOC
 X*	Rekombinant	XCF		VOC
+X*	Rekombinant	XCF.1		VOC
+X*	Rekombinant	XCF.2		VOC
 X*	Rekombinant	XCG		VOC
 XBB.1.5	Rekombinant	XBB.1.5		VOI
 XBB.1.5	Rekombinant	XBB.1.5.1		VOI
@@ -2017,6 +2187,18 @@ XBB.1.5	Rekombinant	XBB.1.5.86		VOI
 XBB.1.5	Rekombinant	XBB.1.5.87		VOI
 XBB.1.5	Rekombinant	XBB.1.5.88		VOI
 XBB.1.5	Rekombinant	XBB.1.5.89		VOI
+XBB.1.5	Rekombinant	XBB.1.5.90		VOI
+XBB.1.5	Rekombinant	XBB.1.5.91		VOI
+XBB.1.5	Rekombinant	XBB.1.5.92		VOI
+XBB.1.5	Rekombinant	XBB.1.5.93		VOI
+XBB.1.5	Rekombinant	XBB.1.5.94		VOI
+XBB.1.5	Rekombinant	XBB.1.5.95		VOI
+XBB.1.5	Rekombinant	XBB.1.5.96		VOI
+XBB.1.5	Rekombinant	XBB.1.5.97		VOI
+XBB.1.5	Rekombinant	XBB.1.5.98		VOI
+XBB.1.5	Rekombinant	XBB.1.5.99		VOI
+XBB.1.5	Rekombinant	XBB.1.5.100		VOI
+XBB.1.5	Rekombinant	XBB.1.5.101		VOI
 XBB.1.5	Rekombinant	EK.1		VOI
 XBB.1.5	Rekombinant	EK.2		VOI
 XBB.1.5	Rekombinant	EK.2.1		VOI
@@ -2028,15 +2210,24 @@ XBB.1.5	Rekombinant	EU.1		VOI
 XBB.1.5	Rekombinant	EU.1.1		VOI
 XBB.1.5	Rekombinant	EU.1.1.1		VOI
 XBB.1.5	Rekombinant	EU.1.1.2		VOI
+XBB.1.5	Rekombinant	EU.1.1.3		VOI
 XBB.1.5	Rekombinant	FD.1		VOI
 XBB.1.5	Rekombinant	FD.1.1		VOI
 XBB.1.5	Rekombinant	FD.2		VOI
 XBB.1.5	Rekombinant	FD.2.1		VOI
+XBB.1.5	Rekombinant	FD.3		VOI
+XBB.1.5	Rekombinant	FD.4		VOI
+XBB.1.5	Rekombinant	FD.4.1		VOI
 XBB.1.5	Rekombinant	FG.1		VOI
 XBB.1.5	Rekombinant	FG.2		VOI
 XBB.1.5	Rekombinant	FG.3		VOI
 XBB.1.5	Rekombinant	FH.1		VOI
 XBB.1.5	Rekombinant	FT.1		VOI
+XBB.1.5	Rekombinant	FT.2		VOI
+XBB.1.5	Rekombinant	FT.3		VOI
+XBB.1.5	Rekombinant	FT.3.1		VOI
+XBB.1.5	Rekombinant	FT.3.1.1		VOI
+XBB.1.5	Rekombinant	FT.4		VOI
 XBB.1.5	Rekombinant	FZ.1		VOI
 XBB.1.5	Rekombinant	FZ.1.1		VOI
 XBB.1.5	Rekombinant	FZ.2		VOI
@@ -2047,13 +2238,41 @@ XBB.1.5	Rekombinant	GC.2		VOI
 XBB.1.5	Rekombinant	GF.1		VOI
 XBB.1.5	Rekombinant	GG.1		VOI
 XBB.1.5	Rekombinant	GK.1		VOI
+XBB.1.5	Rekombinant	GK.1.1		VOI
+XBB.1.5	Rekombinant	GK.1.2		VOI
+XBB.1.5	Rekombinant	GK.1.3		VOI
+XBB.1.5	Rekombinant	GK.2		VOI
+XBB.1.5	Rekombinant	GK.3		VOI
+XBB.1.5	Rekombinant	GK.3.1		VOI
 XBB.1.5	Rekombinant	GN.1		VOI
+XBB.1.5	Rekombinant	GN.1.1		VOI
+XBB.1.5	Rekombinant	GN.2		VOI
+XBB.1.5	Rekombinant	GN.3		VOI
+XBB.1.5	Rekombinant	GN.4		VOI
+XBB.1.5	Rekombinant	GN.5		VOI
 XBB.1.5	Rekombinant	GR.1		VOI
 XBB.1.5	Rekombinant	GU.1		VOI
 XBB.1.5	Rekombinant	GV.1		VOI
 XBB.1.5	Rekombinant	HA.1		VOI
 XBB.1.5	Rekombinant	HA.2		VOI
 XBB.1.5	Rekombinant	HC.1		VOI
+XBB.1.5	Rekombinant	HJ.1		VOI
+XBB.1.5	Rekombinant	HM.1		VOI
+XBB.1.5	Rekombinant	HR.1		VOI
+XBB.1.5	Rekombinant	HT.1		VOI
+XBB.1.5	Rekombinant	HT.2		VOI
+XBB.1.5	Rekombinant	JB.1		VOI
+XBB.1.5	Rekombinant	JB.2		VOI
+XBB.1.5	Rekombinant	HP.1		VOI
+XBB.1.5	Rekombinant	HP.1.1		VOI
+XBB.1.5	Rekombinant	HZ.1		VOI
+XBB.1.5	Rekombinant	HZ.2		VOI
+XBB.1.5	Rekombinant	HZ.3		VOI
+XBB.1.5	Rekombinant	HQ.1		VOI
+XBB.1.5	Rekombinant	HD.1		VOI
+XBB.1.5	Rekombinant	HD.1.1		VOI
+XBB.1.5	Rekombinant	HS.1		VOI
+XBB.1.5	Rekombinant	HY.1		VOI
 XBB.1.16	Rekombinant	XBB.1.16		VOI
 XBB.1.16	Rekombinant	XBB.1.16.1		VOI
 XBB.1.16	Rekombinant	XBB.1.16.2		VOI
@@ -2068,15 +2287,41 @@ XBB.1.16	Rekombinant	XBB.1.16.10		VOI
 XBB.1.16	Rekombinant	XBB.1.16.11		VOI
 XBB.1.16	Rekombinant	XBB.1.16.12		VOI
 XBB.1.16	Rekombinant	XBB.1.16.13		VOI
+XBB.1.16	Rekombinant	XBB.1.16.14		VOI
+XBB.1.16	Rekombinant	XBB.1.16.15		VOI
+XBB.1.16	Rekombinant	XBB.1.16.16		VOI
+XBB.1.16	Rekombinant	XBB.1.16.17		VOI
+XBB.1.16	Rekombinant	XBB.1.16.18		VOI
+XBB.1.16	Rekombinant	XBB.1.16.19		VOI
+XBB.1.16	Rekombinant	XBB.1.16.20		VOI
+XBB.1.16	Rekombinant	XBB.1.16.21		VOI
+XBB.1.16	Rekombinant	XBB.1.16.22		VOI
 XBB.1.16	Rekombinant	FU.1		VOI
 XBB.1.16	Rekombinant	FU.2		VOI
 XBB.1.16	Rekombinant	FU.2.1		VOI
 XBB.1.16	Rekombinant	FU.3		VOI
+XBB.1.16	Rekombinant	FU.3.1		VOI
+XBB.1.16	Rekombinant	FU.4		VOI
+XBB.1.16	Rekombinant	FU.5		VOI
 XBB.1.16	Rekombinant	GY.1		VOI
 XBB.1.16	Rekombinant	GY.2		VOI
 XBB.1.16	Rekombinant	GY.2.1		VOI
 XBB.1.16	Rekombinant	GY.3		VOI
+XBB.1.16	Rekombinant	GY.4		VOI
+XBB.1.16	Rekombinant	GY.5		VOI
+XBB.1.16	Rekombinant	GY.6		VOI
+XBB.1.16	Rekombinant	GY.7		VOI
+XBB.1.16	Rekombinant	GY.8		VOI
+XBB.1.16	Rekombinant	HF.1		VOI
 EG.5	Rekombinant	EG.5		VOI
 EG.5	Rekombinant	EG.5.1		VOI
 EG.5	Rekombinant	EG.5.1.1		VOI
+EG.5	Rekombinant	EG.5.1.2		VOI
+EG.5	Rekombinant	EG.5.1.3		VOI
+EG.5	Rekombinant	EG.5.1.4		VOI
+EG.5	Rekombinant	EG.5.1.5		VOI
+EG.5	Rekombinant	EG.5.1.6		VOI
 EG.5	Rekombinant	EG.5.2		VOI
+EG.5	Rekombinant	EG.5.2.1		VOI
+EG.5	Rekombinant	EG.5.2.2		VOI
+EG.5	Rekombinant	EG.5.2.3		VOI
