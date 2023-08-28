@@ -1,168 +1,141 @@
 {
-  "data": {
-    "type": "studyhub_resources",
-    "attributes": {
-      "commit_button": "Submit",
-      "content_blobs": [
-        {
-          "content_type": "text/html",
-          "url": "https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland",
-          "original_filename": "Github Link"
-        }
-      ],
-      "resource": {
-        "resource_type": "Dataset",
+  "resource": {
+    "collection": [
+      "Robert Koch-Institut"
+    ],
+    "ids": [
+      {
+        "identifier": "10.5281/zenodo.8290158",
+        "type": "DOI",
         "resource_type_general": "Dataset",
-        "resource_titles": [
-          {
-            "title": "SARS-CoV-2 Sequenzdaten aus Deutschland",
-            "title_language": "DE (German)"
-          }
-        ],
-        "resource_acronyms": [],
-        "resource_descriptions": [
-          {
-            "description": "Ein zentraler Bestandteil einer erfolgreichen Erregersurveillance ist das Verständnis der Verbreitung eines Erregers sowie seiner pathogenen Eigenschaften. Hierbei stellt das Wissen über das Erregergenom eine wichtige Informationsquelle dar. So erlaubt der Nachweis von Mutationen im Genom eines Erregers, Verwandtschaftsbeziehungen zu rekonstruieren, Übertragungswege aufzudecken und Resistenzen vorherzusagen. Die Integrierte Genomische Surveillance (IGS) von SARS-CoV-2 zielt darauf ab, die Verbreitung des Virus und insbesondere von besorgniserregenden Virusvarianten in der Bevölkerung zu überwachen sowie auftretende Veränderungen des Virus genau zu beobachten. Besondere Bedeutung kommt dabei der öffentlichen Bereitstellung der genomischen Daten zu, um Wissenschaftlern in Deutschland und weltweit die Möglichkeit zu eigenständigen Analysen zu eröffnen.\n\n\nIm Rahmen der Coronavirus-Surveillanceverordnung (https://www.gesetze-im-internet.de/corsurv/BJNR601910021.html) wurden bis zum 31.05.2023 SARS-CoV-2 Sequenzdaten aus ganz Deutschland über den Deutschen Elektronischen Sequenzdaten-Hub (DESH) an das RKI übermittelt (https://doi.org/10.5281/zenodo.8046538). Mit Ablauf der Verordnung werden künftig Proben durch das IMSSC2 Labornetzwerk bereitgestellt und am RKI sequenziert, analysiert und hier bereitgestellt. Trotz reduzierter  Probenanzahl, wird durch die sorgfältige Auswahl der beteiligten Labore ein repräsentativer Einblick in die Viruspopluation gesichert (Djin Ye Oh  et al. 2022) (https://doi.org/10.1093/cid/ciac399). Zusätzlich werden Sequenzen vom NRZ Coronaviren an der Charité beigetragen um das IMSSC2 Netzwerk zu ergänzen.",
-            "description_language": "DE (German)"
-          }
-        ],
-        "resource_format": "",
-        "resource_keywords": [
-          {
-            "resource_keywords_label": "COVID-19",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "SARS-CoV-2",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Virussequenzen",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Genom",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Basensequenz",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Deutschland",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Viral Sequences",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Genome",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Base Sequence",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Gesundheitsberichterstattung",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Biochemische Genetik",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Epidemiologie",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Biochemical genetics",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Public health surveillance",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Epidemiology",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Open Data",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Offene Daten",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Deutschland",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "Germany",
-            "resource_keywords_label_code": ""
-          },
-          {
-            "resource_keywords_label": "RKI",
-            "resource_keywords_label_code": ""
-          }
-        ],
-        "resource_language": [
-          "DE (German)"
-        ],
-        "resource_version": "2023-08-24",
-        "resource_web_page": "https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland/",
-        "resource_use_rights_label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)",
-        "resource_use_rights_description": "",
-        "resource_use_rights_authors_confirmation_1": true,
-        "resource_use_rights_authors_confirmation_2": true,
-        "resource_use_rights_authors_confirmation_3": true,
-        "resource_use_rights_support_by_licencing": true,
-        "provenance": {
-          "data_source": ""
-        },
-        "roles": [
-          {
-            "role_type": "Creator/Author",
-            "role_email": "",
-            "role_phone": "",
-            "role_affiliation_name": "Robert Koch-Institut",
-            "role_affiliation_address": "",
-            "role_affiliation_web_page": "",
-            "role_affiliation_identifiers": [],
-            "role_name_type": "Organisational",
-            "role_name_organisational": "Robert Koch-Institut"
-          }
-        ],
-        "ids": [
-          {
-            "id_identifier": "https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland",
-            "id_date": "",
-            "id_type": "URL",
-            "id_relation_type": "describes",
-            "id_resource_type_general": "Dataset"
-          },
-          {
-            "id_identifier": "10.5281/zenodo.8279435",
-            "id_date": "",
-            "id_type": "DOI",
-            "id_relation_type": "has part",
-            "id_resource_type_general": "Dataset"
-          }
-        ]
+        "relation_type": "A references B"
+      },
+      {
+        "identifier": "https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland",
+        "relation_type": "A references B",
+        "type": "URL",
+        "resource_type_general": "Dataset"
       }
+    ],
+    "provenance": {
+      "data_source": "Automatically uploaded: Other"
     },
-    "relationships": {
-      "projects": {
-        "data": [
-          {
-            "id": "1",
-            "type": "projects"
-          }
-        ]
+    "resource_classification": {
+      "resource_type": "Dataset",
+      "resource_type_general": "Dataset"
+    },
+    "resource_description_english": {
+      "language": "EN (English)",
+      "text": "no english description available"
+    },
+    "resource_descriptions_non_english": [
+      {
+        "language": "DE (German)",
+        "text": "Ein zentraler Bestandteil einer erfolgreichen Erregersurveillance ist das Verständnis der Verbreitung eines Erregers sowie seiner pathogenen Eigenschaften. Hierbei stellt das Wissen über das Erregergenom eine wichtige Informationsquelle dar. So erlaubt der Nachweis von Mutationen im Genom eines Erregers, Verwandtschaftsbeziehungen zu rekonstruieren, Übertragungswege aufzudecken und Resistenzen vorherzusagen. Die Integrierte Genomische Surveillance (IGS) von SARS-CoV-2 zielt darauf ab, die Verbreitung des Virus und insbesondere von besorgniserregenden Virusvarianten in der Bevölkerung zu überwachen sowie auftretende Veränderungen des Virus genau zu beobachten. Besondere Bedeutung kommt dabei der öffentlichen Bereitstellung der genomischen Daten zu, um Wissenschaftlern in Deutschland und weltweit die Möglichkeit zu eigenständigen Analysen zu eröffnen.\n\n\nIm Rahmen der Coronavirus-Surveillanceverordnung (https://www.gesetze-im-internet.de/corsurv/BJNR601910021.html) wurden bis zum 31.05.2023 SARS-CoV-2 Sequenzdaten aus ganz Deutschland über den Deutschen Elektronischen Sequenzdaten-Hub (DESH) an das RKI übermittelt (https://doi.org/10.5281/zenodo.8046538). Mit Ablauf der Verordnung werden künftig Proben durch das IMSSC2 Labornetzwerk bereitgestellt und am RKI sequenziert, analysiert und hier bereitgestellt. Trotz reduzierter  Probenanzahl, wird durch die sorgfältige Auswahl der beteiligten Labore ein repräsentativer Einblick in die Viruspopluation gesichert (Djin Ye Oh  et al. 2022) (https://doi.org/10.1093/cid/ciac399). Zusätzlich werden Sequenzen vom NRZ Coronaviren an der Charité beigetragen um das IMSSC2 Netzwerk zu ergänzen."
       }
-    }
+    ],
+    "resource_keywords": [
+      {
+        "resource_keywords_label": "COVID-19"
+      },
+      {
+        "resource_keywords_label": "SARS-CoV-2"
+      },
+      {
+        "resource_keywords_label": "Virussequenzen"
+      },
+      {
+        "resource_keywords_label": "Genom"
+      },
+      {
+        "resource_keywords_label": "Basensequenz"
+      },
+      {
+        "resource_keywords_label": "Deutschland"
+      },
+      {
+        "resource_keywords_label": "Viral Sequences"
+      },
+      {
+        "resource_keywords_label": "Genome"
+      },
+      {
+        "resource_keywords_label": "Base Sequence"
+      },
+      {
+        "resource_keywords_label": "Gesundheitsberichterstattung",
+        "resource_keywords_label_code": "info:ddc/22/de//614.42"
+      },
+      {
+        "resource_keywords_label": "Biochemische Genetik",
+        "resource_keywords_label_code": "info:ddc/22/de//572.8"
+      },
+      {
+        "resource_keywords_label": "Epidemiologie",
+        "resource_keywords_label_code": "info:ddc/22/de//614.4"
+      },
+      {
+        "resource_keywords_label": "Biochemical genetics",
+        "resource_keywords_label_code": "info:ddc/22/eng//572.8"
+      },
+      {
+        "resource_keywords_label": "Public health surveillance",
+        "resource_keywords_label_code": "info:ddc/22/eng//614.42"
+      },
+      {
+        "resource_keywords_label": "Epidemiology",
+        "resource_keywords_label_code": "info:ddc/22/eng//614.4"
+      },
+      {
+        "resource_keywords_label": "Open Data"
+      },
+      {
+        "resource_keywords_label": "Offene Daten"
+      },
+      {
+        "resource_keywords_label": "Deutschland"
+      },
+      {
+        "resource_keywords_label": "Germany"
+      },
+      {
+        "resource_keywords_label": "RKI"
+      }
+    ],
+    "resource_languages": [
+      "DE (German)"
+    ],
+    "resource_non_study_details": {
+      "resource_use_rights": {
+        "resource_use_rights_confirmations": {
+          "resource_use_rights_confirmation_authority": true,
+          "resource_use_rights_confirmation_irrevocability": true,
+          "resource_use_rights_confirmation_terms": true,
+          "resource_use_rights_support_by_licensing": true
+        },
+        "resource_use_rights_label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
+      },
+      "resource_version": "2023-08-28"
+    },
+    "resource_titles": [
+      {
+        "text": "SARS-CoV-2 Sequenzdaten aus Deutschland",
+        "language": "DE (German)"
+      }
+    ],
+    "resource_web_page": "https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland/",
+    "roles": [
+      {
+        "role_affiliations": [
+          {
+            "role_affiliation_name": "Robert Koch-Institut"
+          }
+        ],
+        "role_name_organisational_group_type": "Creator/Author",
+        "role_name_type": "Organisational",
+        "role_name_organisational_group_name": "Robert Koch-Institut",
+        "role_phone": ""
+      }
+    ]
   }
 }
