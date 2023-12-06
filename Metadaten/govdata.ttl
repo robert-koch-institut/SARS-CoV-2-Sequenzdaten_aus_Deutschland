@@ -11,8 +11,8 @@
                   dcatde:maintainer [ a foaf:Agent ; foaf:mbox "opendata@rki.de" ; foaf:name "Robert Koch-Institut | Open Data Team"] ;
                   dcatde:contributor [ a foaf:Organization; foaf:name "Robert Koch-Institut" ];
                   dct:description "<p>Ein zentraler Bestandteil einer erfolgreichen Erregersurveillance ist das Verständnis der Verbreitung eines Erregers sowie seiner pathogenen Eigenschaften. Hierbei stellt das Wissen über das Erregergenom eine wichtige Informationsquelle dar. So erlaubt der Nachweis von Mutationen im Genom eines Erregers, Verwandtschaftsbeziehungen zu rekonstruieren, Übertragungswege aufzudecken und Resistenzen vorherzusagen. Die Integrierte Genomische Surveillance (IGS) von SARS-CoV-2 zielt darauf ab, die Verbreitung des Virus und insbesondere von besorgniserregenden Virusvarianten in der Bevölkerung zu überwachen sowie auftretende Veränderungen des Virus genau zu beobachten. Besondere Bedeutung kommt dabei der öffentlichen Bereitstellung der genomischen Daten zu, um Wissenschaftlern in Deutschland und weltweit die Möglichkeit zu eigenständigen Analysen zu eröffnen.</p><p>Im Rahmen der <a href=\"https://www.gesetze-im-internet.de/corsurv/BJNR601910021.html\">Coronavirus-Surveillanceverordnung</a> wurden bis zum 31.05.2023 <a href=\"https://doi.org/10.5281/zenodo.8046538\">SARS-CoV-2 Sequenzdaten aus ganz Deutschland über den Deutschen Elektronischen Sequenzdaten-Hub (DESH) an das RKI übermittelt</a>. Mit Ablauf der Verordnung werden künftig Proben durch das IMSSC2 Labornetzwerk bereitgestellt und am RKI sequenziert, analysiert und hier bereitgestellt. Trotz reduzierter  Probenanzahl, wird durch die sorgfältige Auswahl der beteiligten Labore ein repräsentativer Einblick in die Viruspopluation gesichert (<a href=\"https://doi.org/10.1093/cid/ciac399\">Djin Ye Oh  <em>et al.</em> <strong>2022</strong>)</a>. Zusätzlich werden Sequenzen vom NRZ Coronaviren an der Charité beigetragen um das IMSSC2 Netzwerk zu ergänzen.</p>" ;
-                  dct:issued "2023-11-29T15:00:02+01:00"^^xsd:dateTime ;
-                  dct:modified "2023-11-29T15:00:21+01:00"^^xsd:dateTime ;
+                  dct:issued "2023-12-06T15:00:02+01:00"^^xsd:dateTime ;
+                  dct:modified "2023-12-06T15:00:12+01:00"^^xsd:dateTime ;
                   dct:publisher [ a foaf:Organization ;
                       foaf:mbox "opendata@rki.de" ;
                       foaf:name "Robert Koch Institut"
@@ -34,35 +34,35 @@
                   dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0>;
                   dcat:distribution [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Robert Koch-Institut (2023): SARS-CoV-2 Sequenzdaten aus Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.10221432" ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut (2023): SARS-CoV-2 Sequenzdaten aus Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.10277194" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "GitHub ist eine soziales Netzwerk und Plattform, die es ermöglicht, Code-Repositories und Datensätze zu hosten, zu verwalten und zu teilen. Es bietet eine Vielzahl von Funktionen wie Versionskontrolle, Fehlerverfolgung, Zusammenarbeit und Teammanagement. GitHub ist eine der bekanntesten und am häufigsten verwendeten Plattformen für die gemeinsame Entwicklung von Software und Code, insbesondere für Open-Source-Projekte.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Github - SARS-CoV-2 Sequenzdaten aus Deutschland" ;
                     dcat:accessURL <https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland>;
-                    dct:modified "2023-11-29T15:00:02+01:00"^^xsd:dateTime;
+                    dct:modified "2023-12-06T15:00:02+01:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
-                    dcatde:licenseAttributionByText "Robert Koch-Institut (2023): SARS-CoV-2 Sequenzdaten aus Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.10221432" ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut (2023): SARS-CoV-2 Sequenzdaten aus Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.10277194" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Zenodo ist eine europäische Plattform, die es Forschern, Wissenschaftlern und anderen Personen ermöglicht, Forschungsdaten, Publikationen, Präsentationen und andere wissenschaftliche Inhalte kostenlos zu teilen und zu veröffentlichen. Eine der Hauptstärken von Zenodo ist die Bereitstellung der Daten nach den FAIR Prinzipien, Daten sind langzeitarchiviert und wissenschaftlich zitierbar, um den Datenaustausch und die Zusammenarbeit zwischen Forschern zu erleichtern.";
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dct:title "Zenodo - SARS-CoV-2 Sequenzdaten aus Deutschland" ;
                     dcat:accessURL <https://zenodo.org/record/8046538>;
-                    dct:modified "2023-11-29T15:00:02+01:00"^^xsd:dateTime;
+                    dct:modified "2023-12-06T15:00:02+01:00"^^xsd:dateTime;
                   ],
                   [
                     a dcat:Distribution ;
                     dct:title "[Dokumentation] SARS-CoV-2_Sequenzdaten_aus_Deutschland.pdf" ;
-                    dcatde:licenseAttributionByText "Robert Koch-Institut (2023): SARS-CoV-2 Sequenzdaten aus Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.10221432" ;
+                    dcatde:licenseAttributionByText "Robert Koch-Institut (2023): SARS-CoV-2 Sequenzdaten aus Deutschland, Berlin: Zenodo. DOI:10.5281/zenodo.10277194" ;
                     dcatde:plannedAvailability <http://dcat-ap.de/def/plannedAvailability/stable> ;
                     dct:description "Die Datensatzdokumentation enthält Informationen und Hinweise zum Entstehungskontext, dem Aufbau und der Nachnutzung der im Datensatz 'SARS-CoV-2 Sequenzdaten aus Deutschland' bereitgestellten Daten" ;
                     dct:format <http://publications.europa.eu/resource/authority/file-type/PDF> ;
                     dct:language <http://publications.europa.eu/resource/authority/language/DEU> ;
                     dct:license <http://dcat-ap.de/def/licenses/cc-by/4.0> ;
                     dcat:accessURL <https://zenodo.org/record/8046538/files/%5BDokumentation%5D_SARS-CoV-2-Sequenzdaten_aus_Deutschland.pdf>;
-                    dct:modified "2023-11-29T15:00:02+01:00"^^xsd:dateTime;
+                    dct:modified "2023-12-06T15:00:02+01:00"^^xsd:dateTime;
                   ].
