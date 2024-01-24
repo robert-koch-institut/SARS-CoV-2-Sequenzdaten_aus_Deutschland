@@ -43,6 +43,8 @@ XBB.1.5	Rekombinant	GK.1
 XBB.1.5	Rekombinant	GK.1.1
 XBB.1.5	Rekombinant	GK.1.1.1
 XBB.1.5	Rekombinant	GK.1.10
+XBB.1.5	Rekombinant	GK.1.11
+XBB.1.5	Rekombinant	GK.1.11.1
 XBB.1.5	Rekombinant	GK.1.2
 XBB.1.5	Rekombinant	GK.1.2.1
 XBB.1.5	Rekombinant	GK.1.3
@@ -52,6 +54,7 @@ XBB.1.5	Rekombinant	GK.1.6
 XBB.1.5	Rekombinant	GK.1.6.1
 XBB.1.5	Rekombinant	GK.1.7
 XBB.1.5	Rekombinant	GK.1.8
+XBB.1.5	Rekombinant	GK.1.8.1
 XBB.1.5	Rekombinant	GK.1.9
 XBB.1.5	Rekombinant	GK.10
 XBB.1.5	Rekombinant	GK.11
@@ -77,6 +80,7 @@ XBB.1.5	Rekombinant	GN.1
 XBB.1.5	Rekombinant	GN.1.1
 XBB.1.5	Rekombinant	GN.1.2
 XBB.1.5	Rekombinant	GN.1.3
+XBB.1.5	Rekombinant	GN.1.4
 XBB.1.5	Rekombinant	GN.2
 XBB.1.5	Rekombinant	GN.3
 XBB.1.5	Rekombinant	GN.4
@@ -129,6 +133,8 @@ XBB.1.5	Rekombinant	JD.2.1
 XBB.1.5	Rekombinant	JK.1
 XBB.1.5	Rekombinant	JZ.1
 XBB.1.5	Rekombinant	KA.1
+XBB.1.5	Rekombinant	KK.1
+XBB.1.5	Rekombinant	KK.2
 XBB.1.5	Rekombinant	XBB.1.5
 XBB.1.5	Rekombinant	XBB.1.5.1
 XBB.1.5	Rekombinant	XBB.1.5.10
@@ -265,10 +271,15 @@ XBB.1.16	Rekombinant	HF.1
 XBB.1.16	Rekombinant	HF.1.1
 XBB.1.16	Rekombinant	HF.1.2
 XBB.1.16	Rekombinant	JF.1
+XBB.1.16	Rekombinant	JF.1.1
+XBB.1.16	Rekombinant	JF.1.1.1
+XBB.1.16	Rekombinant	JF.1.1.2
 XBB.1.16	Rekombinant	JF.2
 XBB.1.16	Rekombinant	JF.3
+XBB.1.16	Rekombinant	JF.4
 XBB.1.16	Rekombinant	JM.1
 XBB.1.16	Rekombinant	JM.2
+XBB.1.16	Rekombinant	KJ.1
 XBB.1.16	Rekombinant	XBB.1.16
 XBB.1.16	Rekombinant	XBB.1.16.1
 XBB.1.16	Rekombinant	XBB.1.16.10
@@ -295,6 +306,7 @@ XBB.1.16	Rekombinant	XBB.1.16.29
 XBB.1.16	Rekombinant	XBB.1.16.3
 XBB.1.16	Rekombinant	XBB.1.16.30
 XBB.1.16	Rekombinant	XBB.1.16.31
+XBB.1.16	Rekombinant	XBB.1.16.32
 XBB.1.16	Rekombinant	XBB.1.16.4
 XBB.1.16	Rekombinant	XBB.1.16.5
 XBB.1.16	Rekombinant	XBB.1.16.6
@@ -366,6 +378,7 @@ EG.5	Rekombinant	HK.3.10
 EG.5	Rekombinant	HK.3.11
 EG.5	Rekombinant	HK.3.12
 EG.5	Rekombinant	HK.3.13
+EG.5	Rekombinant	HK.3.14
 EG.5	Rekombinant	HK.3.2
 EG.5	Rekombinant	HK.3.2.1
 EG.5	Rekombinant	HK.3.2.2
@@ -391,6 +404,8 @@ EG.5	Rekombinant	HK.8.1
 EG.5	Rekombinant	HK.9
 EG.5	Rekombinant	HV.1
 EG.5	Rekombinant	HV.1.1
+EG.5	Rekombinant	HV.1.10
+EG.5	Rekombinant	HV.1.11
 EG.5	Rekombinant	HV.1.2
 EG.5	Rekombinant	HV.1.3
 EG.5	Rekombinant	HV.1.4
@@ -398,6 +413,8 @@ EG.5	Rekombinant	HV.1.5
 EG.5	Rekombinant	HV.1.6
 EG.5	Rekombinant	HV.1.6.1
 EG.5	Rekombinant	HV.1.7
+EG.5	Rekombinant	HV.1.8
+EG.5	Rekombinant	HV.1.9
 EG.5	Rekombinant	HV.2
 EG.5	Rekombinant	JG.1
 EG.5	Rekombinant	JG.2
@@ -415,6 +432,8 @@ EG.5	Rekombinant	KB.1
 EG.5	Rekombinant	KB.2
 EG.5	Rekombinant	KB.3
 EG.5	Rekombinant	KB.4
+EG.5	Rekombinant	KL.1
+EG.5	Rekombinant	KL.1.1
 DV.7	Omikron	DV.7
 DV.7	Omikron	DV.7.1
 DV.7	Omikron	DV.7.1.1
@@ -448,6 +467,7 @@ XBB	Rekombinant	FP.3
 XBB	Rekombinant	FP.4
 XBB	Rekombinant	FW.1
 XBB	Rekombinant	FW.1.1
+XBB	Rekombinant	FW.1.1.1
 XBB	Rekombinant	FW.2
 XBB	Rekombinant	FW.3
 XBB	Rekombinant	FY.1
@@ -537,8 +557,10 @@ XBB	Rekombinant	JC.2
 XBB	Rekombinant	JC.3
 XBB	Rekombinant	JC.4
 XBB	Rekombinant	JC.5
+XBB	Rekombinant	JC.5.1
 XBB	Rekombinant	JC.6
 XBB	Rekombinant	JW.1
+XBB	Rekombinant	JW.1.1
 XBB	Rekombinant	KE.1
 XBB	Rekombinant	KE.2
 XBB	Rekombinant	KE.3
@@ -716,6 +738,8 @@ XBB.1.9.1	Rekombinant	FL.2.3.1
 XBB.1.9.1	Rekombinant	FL.2.4
 XBB.1.9.1	Rekombinant	FL.2.5
 XBB.1.9.1	Rekombinant	FL.2.6
+XBB.1.9.1	Rekombinant	FL.2.7
+XBB.1.9.1	Rekombinant	FL.2.7.1
 XBB.1.9.1	Rekombinant	FL.20
 XBB.1.9.1	Rekombinant	FL.20.1
 XBB.1.9.1	Rekombinant	FL.20.2
@@ -788,6 +812,7 @@ XBB.1.9.1	Rekombinant	HN.4.2
 XBB.1.9.1	Rekombinant	HN.5
 XBB.1.9.1	Rekombinant	HN.6
 XBB.1.9.1	Rekombinant	HN.7
+XBB.1.9.1	Rekombinant	HN.8
 XBB.1.9.1	Rekombinant	KC.1
 XBB.1.9.1	Rekombinant	KC.1.1
 XBB.1.9.1	Rekombinant	KF.1
@@ -929,10 +954,18 @@ BA.2.86	Omikron	BA.2.86.3
 BA.2.86	Omikron	BA.2.86.4
 BA.2.86	Omikron	BA.2.86.5
 BA.2.86	Omikron	JN.10
+BA.2.86	Omikron	JN.11
+BA.2.86	Omikron	JN.12
 BA.2.86	Omikron	JN.2
 BA.2.86	Omikron	JN.2.1
+BA.2.86	Omikron	JN.2.2
+BA.2.86	Omikron	JN.2.3
+BA.2.86	Omikron	JN.2.4
+BA.2.86	Omikron	JN.2.5
 BA.2.86	Omikron	JN.3
 BA.2.86	Omikron	JN.3.1
+BA.2.86	Omikron	JN.3.2
+BA.2.86	Omikron	JN.3.2.1
 BA.2.86	Omikron	JN.4
 BA.2.86	Omikron	JN.5
 BA.2.86	Omikron	JN.5.1
@@ -944,4 +977,19 @@ BA.2.86	Omikron	JQ.1
 JN.1	Omikron	JN.1
 JN.1	Omikron	JN.1.1
 JN.1	Omikron	JN.1.1.1
+JN.1	Omikron	JN.1.1.2
+JN.1	Omikron	JN.1.1.3
+JN.1	Omikron	JN.1.10
+JN.1	Omikron	JN.1.11
+JN.1	Omikron	JN.1.11.1
+JN.1	Omikron	JN.1.12
 JN.1	Omikron	JN.1.2
+JN.1	Omikron	JN.1.3
+JN.1	Omikron	JN.1.4
+JN.1	Omikron	JN.1.5
+JN.1	Omikron	JN.1.6
+JN.1	Omikron	JN.1.6.1
+JN.1	Omikron	JN.1.7
+JN.1	Omikron	JN.1.8
+JN.1	Omikron	JN.1.8.1
+JN.1	Omikron	JN.1.9
