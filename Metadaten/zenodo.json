@@ -24,8 +24,8 @@
     "Germany",
     "RKI"
   ],
-  "publication_date": "2024-06-19",
-  "version": "2024-06-19",
+  "publication_date": "2024-06-26",
+  "version": "2024-06-26",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -63,8 +63,8 @@
   ],
   "dates": [
     {
-      "start": "2024-06-19T15:00:15+02:00",
-      "end": "2024-06-19T15:00:15+02:00",
+      "start": "2024-06-26T15:00:20+02:00",
+      "end": "2024-06-26T15:00:20+02:00",
       "type": "Collected",
       "description": "Date when the Dataset was created"
     }
