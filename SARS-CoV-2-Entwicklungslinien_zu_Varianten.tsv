@@ -768,8 +768,6 @@ BA.2	Omikron	JN.1.18.2		VOC
 BA.2	Omikron	JN.1.18.3		VOC
 BA.2	Omikron	JN.1.18.4		VOC
 BA.2	Omikron	JN.1.18.5		VOC
-BA.2	Omikron	JN.1.18.6		VOC
-BA.2	Omikron	JN.1.18.7		VOC
 BA.2	Omikron	JN.1.19		VOC
 BA.2	Omikron	JN.1.2		VOC
 BA.2	Omikron	JN.1.2.1		VOC
@@ -941,7 +939,6 @@ BA.2	Omikron	KP.2.3		VOC
 BA.2	Omikron	KP.2.3.1		VOC
 BA.2	Omikron	KP.2.3.2		VOC
 BA.2	Omikron	KP.2.3.3		VOC
-BA.2	Omikron	KP.2.3.4		VOC
 BA.2	Omikron	KP.2.4		VOC
 BA.2	Omikron	KP.2.5		VOC
 BA.2	Omikron	KP.2.6		VOC
@@ -962,7 +959,6 @@ BA.2	Omikron	KP.3.2.3		VOC
 BA.2	Omikron	KP.3.2.4		VOC
 BA.2	Omikron	KP.3.2.5		VOC
 BA.2	Omikron	KP.3.3		VOC
-BA.2	Omikron	KP.3.3.1		VOC
 BA.2	Omikron	KP.4		VOC
 BA.2	Omikron	KP.4.1		VOC
 BA.2	Omikron	KP.4.1.1		VOC
@@ -1001,7 +997,6 @@ BA.2	Omikron	LB.1.1		VOC
 BA.2	Omikron	LB.1.2		VOC
 BA.2	Omikron	LB.1.2.1		VOC
 BA.2	Omikron	LB.1.3		VOC
-BA.2	Omikron	LB.1.3.1		VOC
 BA.2	Omikron	LB.1.4		VOC
 BA.2	Omikron	LB.1.5		VOC
 BA.2	Omikron	LB.1.6		VOC
@@ -1020,9 +1015,6 @@ BA.2	Omikron	LF.1.1.1		VOC
 BA.2	Omikron	LF.2		VOC
 BA.2	Omikron	LF.3		VOC
 BA.2	Omikron	LF.3.1		VOC
-BA.2	Omikron	LF.3.1.1		VOC
-BA.2	Omikron	LF.4		VOC
-BA.2	Omikron	LF.4.1		VOC
 BA.2	Omikron	LG.1		VOC
 BA.2	Omikron	LH.1		VOC
 BA.2	Omikron	LH.2		VOC
@@ -1033,7 +1025,6 @@ BA.2	Omikron	LM.1		VOC
 BA.2	Omikron	LN.1		VOC
 BA.2	Omikron	LN.1.1		VOC
 BA.2	Omikron	LP.1		VOC
-BA.2	Omikron	LP.1.1		VOC
 BA.2	Omikron	LP.2		VOC
 BA.2	Omikron	LP.3		VOC
 BA.2	Omikron	LQ.1		VOC
@@ -1043,19 +1034,11 @@ BA.2	Omikron	LQ.3		VOC
 BA.2	Omikron	LR.1		VOC
 BA.2	Omikron	LR.2		VOC
 BA.2	Omikron	LS.1		VOC
-BA.2	Omikron	KR.2		VOC
+BA.2	Omikron	LT.1		VOC
 BA.2	Omikron	LU.1		VOC
 BA.2	Omikron	LV.1		VOC
 BA.2	Omikron	LV.2		VOC
 BA.2	Omikron	LW.1		VOC
-BA.2	Omikron	LY.1		VOC
-BA.2	Omikron	LY.2		VOC
-BA.2	Omikron	LZ.1		VOC
-BA.2	Omikron	LZ.1.1		VOC
-BA.2	Omikron	MA.1		VOC
-BA.2	Omikron	MB.1		VOC
-BA.2	Omikron	MB.1.1		VOC
-BA.2	Omikron	MC.1		VOC
 BA.3	Omikron	BA.3		VOC
 BA.3	Omikron	BA.3.1		VOC
 BA.4	Omikron	BA.4		VOC
@@ -2718,7 +2701,6 @@ X	Rekombinant	XDD.1		VOC
 X	Rekombinant	XDD.1.1		VOC
 X	Rekombinant	XDD.1.1.1		VOC
 X	Rekombinant	XDD.2		VOC
-X	Rekombinant	XDD.3		VOC
 X	Rekombinant	XDE		VOC
 X	Rekombinant	XDF		VOC
 X	Rekombinant	XDG		VOC
@@ -2854,8 +2836,6 @@ JN.1	Omikron	JN.1.18.2		VOI
 JN.1	Omikron	JN.1.18.3		VOI
 JN.1	Omikron	JN.1.18.4		VOI
 JN.1	Omikron	JN.1.18.5		VOI
-JN.1	Omikron	JN.1.18.6		VOI
-JN.1	Omikron	JN.1.18.7		VOI
 JN.1	Omikron	JN.1.19		VOI
 JN.1	Omikron	JN.1.2		VOI
 JN.1	Omikron	JN.1.2.1		VOI
@@ -2986,7 +2966,6 @@ JN.1	Omikron	KP.2.3		VOI
 JN.1	Omikron	KP.2.3.1		VOI
 JN.1	Omikron	KP.2.3.2		VOI
 JN.1	Omikron	KP.2.3.3		VOI
-JN.1	Omikron	KP.2.3.4		VOI
 JN.1	Omikron	KP.2.4		VOI
 JN.1	Omikron	KP.2.5		VOI
 JN.1	Omikron	KP.2.6		VOI
@@ -3007,7 +2986,6 @@ JN.1	Omikron	KP.3.2.3		VOI
 JN.1	Omikron	KP.3.2.4		VOI
 JN.1	Omikron	KP.3.2.5		VOI
 JN.1	Omikron	KP.3.3		VOI
-JN.1	Omikron	KP.3.3.1		VOI
 JN.1	Omikron	KP.4		VOI
 JN.1	Omikron	KP.4.1		VOI
 JN.1	Omikron	KP.4.1.1		VOI
@@ -3046,7 +3024,6 @@ JN.1	Omikron	LB.1.1		VOI
 JN.1	Omikron	LB.1.2		VOI
 JN.1	Omikron	LB.1.2.1		VOI
 JN.1	Omikron	LB.1.3		VOI
-JN.1	Omikron	LB.1.3.1		VOI
 JN.1	Omikron	LB.1.4		VOI
 JN.1	Omikron	LB.1.5		VOI
 JN.1	Omikron	LB.1.6		VOI
@@ -3065,9 +3042,6 @@ JN.1	Omikron	LF.1.1.1		VOI
 JN.1	Omikron	LF.2		VOI
 JN.1	Omikron	LF.3		VOI
 JN.1	Omikron	LF.3.1		VOI
-JN.1	Omikron	LF.3.1.1		VOI
-JN.1	Omikron	LF.4		VOI
-JN.1	Omikron	LF.4.1		VOI
 JN.1	Omikron	LG.1		VOI
 JN.1	Omikron	LH.1		VOI
 JN.1	Omikron	LH.2		VOI
@@ -3078,7 +3052,6 @@ JN.1	Omikron	LM.1		VOI
 JN.1	Omikron	LN.1		VOI
 JN.1	Omikron	LN.1.1		VOI
 JN.1	Omikron	LP.1		VOI
-JN.1	Omikron	LP.1.1		VOI
 JN.1	Omikron	LP.2		VOI
 JN.1	Omikron	LP.3		VOI
 JN.1	Omikron	LQ.1		VOI
@@ -3088,14 +3061,6 @@ JN.1	Omikron	LQ.3		VOI
 JN.1	Omikron	LR.1		VOI
 JN.1	Omikron	LR.2		VOI
 JN.1	Omikron	LS.1		VOI
-JN.1	Omikron	KR.2		VOI
+JN.1	Omikron	LT.1		VOI
 JN.1	Omikron	LU.1		VOI
 JN.1	Omikron	LW.1		VOI
-JN.1	Omikron	LY.1		VOI
-JN.1	Omikron	LY.2		VOI
-JN.1	Omikron	LZ.1		VOI
-JN.1	Omikron	LZ.1.1		VOI
-JN.1	Omikron	MA.1		VOI
-JN.1	Omikron	MB.1		VOI
-JN.1	Omikron	MB.1.1		VOI
-JN.1	Omikron	MC.1		VOI
