@@ -1,0 +1,16 @@
+{
+  "fields": [
+    {
+      "name": "LINEAGE",
+      "type": "string"
+    },
+    {
+      "name": "WHO_LABEL",
+      "type": "string"
+    },
+    {
+      "name": "CONTRIBUTING_LINEAGES",
+      "type": "string"
+    }
+  ]
+}
