@@ -104,21 +104,21 @@ In den als .tsv bereitgestellten Metadaten sind die in folgender Tabelle aufgef�
 
 
 | Variable | Typ | Ausprägungen | Beschreibung |
-| -------- | --- | ------------- | ------------ | 
-| SEQUENCE.ID | String |   | Ein eindeutiger Identifikator der Sequenzdaten und Metadaten zusammenführt. Dieser Identifikator wird als FASTA ID in den Sequenzdaten genutzt| Text |  
-| SEQUENCE. DATE_OF_SAMPLING |  Date  |  JJJJ-MM-TT | Datum der Probeentnahme im ISO 8601 Format|  
-| SEQUENCE. SEQUENCING_METHOD |  String  | siehe [ena](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#permitted-values-for-platform) | Die verwendete Sequenzierungs-Plattform auf Basis der von ENA zugelassenen Ontologie |)|  
-| SEQUENCE. SEQUENCING_REASON|  String | `X`,`N`,`Y`,`A` | Grund für die Durchführung der Sequenzierung<br>`X`: Dem sequenzierenden Labor unbekannt<br>`N`: Zufällige Auswahl einer in der PCR positiven Probe zur Sequenzierung<br> `Y`: Die Art der Mutation bzw. Variante ist (dem sequenzierenden Labor) unbekannt<br> `A`: Es besteht aus der vorherigen Diagnostik Verdacht auf die Mutation/Variante <br>|  
-| SEQUENCE. SAMPLE_TYPE|  String | `s001`, `s002`, ..., `s025`, `X`  | `s001 - s025`: Art der Probe <br> `X`: Unbekannt (dem sequenzierenden Labor) |  
-| SEQUENCE. SEQUENCING_ LAB_SAMPLE_ID | String | |Vom Labor genutzte FASTA ID in verschlüsselter Form|  
-| SEQUENCE. PUSHED_TO_DWH |Timestamp|  `JJJJ-MM-TT hh:mm:ss +TZ`  |  Eingang am RKI  |
-| SEQUENCE.VERSION|String|    |  Version der Sequenz  |
-| DL.ID |String|    | Identifikationsnummer  des primärdiagnostischen Labors (DL)|
-| DL. POSTAL_CODE|String||Postleitzahl des primärdiagnostischen Labors (DL)|
-| SL.ID|String|    | Identifikationsnummer  des sequenzierenden Labors (SL)   |
-| SL. POSTAL_CODE|String||Postleitzahl des sequenzierenden Labors (SL)|
-| PANGOLIN. LINEAGE_LATEST	|String|       |  Pangolin Lineage  |
-| PANGOLIN. PANGOLIN_VERSION \_LATEST|String|    |  Für die Lineage-Zuordnung verwendete [Pangolin Version](#Zuordnung-von-Viruslinien-basierend-auf-Pangolin)  |
+| -------- | --- | ------------ | ------------ | 
+| SEQUENCE.ID | String |   | Ein eindeutiger Identifikator der Sequenzdaten und Metadaten zusammenführt. Dieser Identifikator wird als FASTA ID in den Sequenzdaten genutzt |
+| SEQUENCE.DATE_OF_SAMPLING |  Date  |  JJJJ-MM-TT | Datum der Probeentnahme im ISO 8601 Format |  
+| SEQUENCE.SEQUENCING_METHOD |  String  | siehe [ena](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#permitted-values-for-platform) | Die verwendete Sequenzierungs-Plattform auf Basis der von ENA zugelassenen Ontologie) |  
+| SEQUENCE.SEQUENCING_REASON | String | `X`,`N`,`Y`,`A` | Grund für die Durchführung der Sequenzierung<br>`X`: Dem sequenzierenden Labor unbekannt<br>`N`: Zufällige Auswahl einer in der PCR positiven Probe zur Sequenzierung<br> `Y`: Die Art der Mutation bzw. Variante ist (dem sequenzierenden Labor) unbekannt<br> `A`: Es besteht aus der vorherigen Diagnostik Verdacht auf die Mutation/Variante <br> |  
+| SEQUENCE.SAMPLE_TYPE |  String | `s001`, `s002`, ..., `s025`, `X`  | `s001 - s025`: Art der Probe <br> `X`: Unbekannt (dem sequenzierenden Labor) |  
+| SEQUENCE.SEQUENCING_ LAB_SAMPLE_ID | String | | Vom Labor genutzte FASTA ID in verschlüsselter Form |  
+| SEQUENCE.PUSHED_TO_DWH | Datetime |  `JJJJ-MM-TT hh:mm:ss +TZ`  |  Eingang am RKI |
+| SEQUENCE.VERSION | String | | Version der Sequenz |
+| DL.ID | String |    | Identifikationsnummer  des primärdiagnostischen Labors (DL) |
+| DL.POSTAL_CODE | Integer | | Postleitzahl des primärdiagnostischen Labors (DL) |
+| SL.ID | String |    | Identifikationsnummer  des sequenzierenden Labors (SL)   |
+| SL.POSTAL_CODE | Integer | | Postleitzahl des sequenzierenden Labors (SL) |
+| PANGOLIN.LINEAGE_LATEST	| String | | Pangolin Lineage |
+| PANGOLIN.PANGOLIN_VERSION_LATEST | String | | Für die Lineage-Zuordnung verwendete [Pangolin Version](#Zuordnung-von-Viruslinien-basierend-auf-Pangolin) |
 
 #### Formatierung der Sequenzmetadaten  
 
