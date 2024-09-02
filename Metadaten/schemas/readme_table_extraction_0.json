@@ -42,7 +42,8 @@
     {
       "name": "SEQUENCE.PUSHED_TO_DWH",
       "type": "date",
-      "description": "Eingang am RKI"
+      "description": "Eingang am RKI",
+      "format": "%Y-%m-%d %H:%M:%S %z"
     },
     {
       "name": "SEQUENCE.VERSION",
