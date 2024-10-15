@@ -1,0 +1,16 @@
+{
+  "name": "sars-cov-2-sequenzdaten_aus_deutschland",
+  "title": "SARS-CoV-2-Sequenzdaten_aus_Deutschland",
+  "description": "Frictionless data package. This package lists and describes all data files in this open data repository. For more information on frictionless data, see https://specs.frictionlessdata.io/ and https://framework.frictionlessdata.io/.",
+  "resources": [
+    {
+      "name": "sars-cov-2-sequenzdaten_deutschland",
+      "type": "table",
+      "path": "../../SARS-CoV-2-Sequenzdaten_Deutschland.tsv",
+      "scheme": "file",
+      "format": "tsv",
+      "mediatype": "text/csv",
+      "schema": "frictionless_data_schema_SARS-CoV-2-Sequenzdaten_Deutschland.json"
+    }
+  ]
+}
