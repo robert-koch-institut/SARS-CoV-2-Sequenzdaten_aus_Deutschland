@@ -1,85 +1,82 @@
 {
   "fields": [
     {
-      "name": "SEQUENCE.ID",
+      "name": "igs_id",
       "type": "string",
-      "description": "Ein eindeutiger Identifikator der Sequenzdaten und Metadaten zusammenführt. Dieser Identifikator wird als FASTA ID in den Sequenzdaten genutzt"
+      "description": "Ein eindeutiger Identifikator der Sequenzdaten und Metadaten zusammenführt. Dieser Identifikator wird als Teil der FASTA ID in den Sequenzdaten genutzt (Beispiel: `IGS-10099-CVDP-01A2C74B-54A8-47B1-B7E4-6562C6231234`)."
     },
     {
-      "name": "SEQUENCE.DATE_OF_SAMPLING",
+      "name": "date_of_sampling",
       "type": "date",
-      "description": "Datum der Probeentnahme im ISO 8601 Format",
-      "format": "%Y-%m-%d"
+      "description": "Datum der Probeentnahme im ISO 8601 Format ohne Zeitzone (d.h. `YYYY-MM-DDThh:mm:ss`)",
+      "format": "%Y-%m-%dT%H:%M:%S"
     },
     {
-      "name": "SEQUENCE.SEQUENCING_METHOD",
+      "name": "sequencing_platform",
       "type": "string",
-      "description": "Die verwendete Sequenzierungs-Plattform auf Basis der von ENA zugelassenen Ontologie)"
+      "description": "Die verwendete Sequenzierungs-Plattform auf Basis der von ENA zugelassenen Ontologie (siehe [ena](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#permitted-values-for-platform))."
     },
     {
-      "name": "SEQUENCE.SEQUENCING_REASON",
+      "name": "sequencing_reason",
       "type": "string",
-      "description": "Grund für die Durchführung der Sequenzierung<br>`X`: Dem sequenzierenden Labor unbekannt<br>`N`: Zufällige Auswahl einer in der PCR positiven Probe zur Sequenzierung<br> `Y`: Die Art der Mutation bzw. Variante ist (dem sequenzierenden Labor) unbekannt<br> `A`: Es besteht aus der vorherigen Diagnostik Verdacht auf die Mutation/Variante<br>`C`: TODO Add explanation <br>",
+      "description": "Grund für die Durchführung der Sequenzierung `random`: Die Probe  wurde randomisiert genommen. `requested`: Die Probe wurde aufgrund von Bedenken/Verdacht auf eine neue Variante oder Vergleichbares genommen. `clinical`: Die Probe kommt aus einem klinischem Umfeld. `other`: Der Grund it keiner der oben genannten.",
       "constraints": {
         "enum": [
-          "X",
-          "N",
-          "Y",
-          "A",
-          "C"
+          "random",
+          "requested",
+          "clinical",
+          "other"
         ]
       }
     },
     {
-      "name": "SEQUENCE.SAMPLE_TYPE",
+      "name": "isolation_source",
       "type": "string",
-      "description": "`s001 - s025`: Art der Probe <br> `X`: Unbekannt (dem sequenzierenden Labor)"
+      "description": "[DEMIS Vokabular](https://simplifier.net/rki.demis.laboratory/materialcvdp)"
     },
     {
-      "name": "SEQUENCE.SEQUENCING_LAB_SAMPLE_ID",
+      "name": "lab_sequence_id",
       "type": "string",
       "description": "Vom Labor genutzte FASTA ID in verschlüsselter Form"
     },
     {
-      "name": "SEQUENCE.PUSHED_TO_DWH",
+      "name": "date_of_submission",
       "type": "date",
-      "description": "Eingang am RKI",
-      "format": "%Y-%m-%d %H:%M:%S %z"
+      "description": "Datum des Eingangs des Genoms am RKI im ISO 8601 Format ohne Zeitzone  (d.h. `YYYY-MM-DDThh:mm:ss`)",
+      "format": "%Y-%m-%dT%H:%M:%S"
     },
     {
-      "name": "SEQUENCE.VERSION",
-      "type": "string",
-      "description": "Version der Sequenz"
-    },
-    {
-      "name": "DL.ID",
-      "type": "string",
-      "description": "Identifikationsnummer  des primärdiagnostischen Labors (DL)"
-    },
-    {
-      "name": "DL.POSTAL_CODE",
+      "name": "version",
       "type": "integer",
-      "description": "Postleitzahl des primärdiagnostischen Labors (DL)"
+      "description": "Version der Sequenz startend mit 0",
+      "constraints": {
+        "minimum": 0
+      }
     },
     {
-      "name": "SL.ID",
+      "name": "prime_diagnostic_lab.demis_lab_id",
       "type": "string",
-      "description": "Identifikationsnummer  des sequenzierenden Labors (SL)"
+      "description": "Identifikationsnummer  des primärdiagnostischen Labors (z.B. `DEMIS-10099`)"
     },
     {
-      "name": "SL.POSTAL_CODE",
-      "type": "integer",
-      "description": "Postleitzahl des sequenzierenden Labors (SL)"
-    },
-    {
-      "name": "PANGOLIN.LINEAGE_LATEST",
+      "name": "prime_diagnostic_lab.postal_code",
       "type": "string",
-      "description": "Pangolin Lineage"
+      "description": "Postleitzahl des primärdiagnostischen Labors (z.B. `50858`)"
     },
     {
-      "name": "PANGOLIN.PANGOLIN_VERSION_LATEST",
+      "name": "sequencing_lab.demis_lab_id",
       "type": "string",
-      "description": "Für die Lineage-Zuordnung verwendete [Pangolin Version](#Zuordnung-von-Viruslinien-basierend-auf-Pangolin)"
+      "description": "Identifikationsnummer  des sequenzierenden Labors (z.B. `DEMIS-10099`)"
+    },
+    {
+      "name": "sequencing_lab.postal_code",
+      "type": "string",
+      "description": "Postleitzahl des sequenzierenden Labors (z.B. `50858`)"
+    },
+    {
+      "name": "lineages",
+      "type": "string",
+      "description": "Pangolin Zuordnung im JSON-Format (z.B. `[{'method': 'PANGOLIN_LATEST', 'classification_version': 'PUSHER-v1.28.1', 'tool_version': '4.3', 'lineage': 'BA.2', '@qc_notes': 'Ambiguous_content:0.02', '@is_designated': False, '@qc_status': 'pass', '@conflict': 0.0, '@note': 'Usher placements: BA.2(1/1)'}]`)"
     }
   ]
 }
