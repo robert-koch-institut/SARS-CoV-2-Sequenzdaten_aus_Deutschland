@@ -1,0 +1,17 @@
+{
+  "name": "10.5281/zenodo.5139363",
+  "title": "SARS-CoV-2 Sequenzdaten aus Deutschland",
+  "description": "Diese Datei gibt eine Übersicht über die Datensätze in diesem Open Data Repository. Informationen zum Data Package Standard finden Sie unter https://datapackage.org/. Mehr Information über diesen Datensatz finden sie auf Zenodo (https://doi.org/10.5281/zenodo.5139363) oder Github (https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland)",
+  "homepage": "https://doi.org/10.5281/zenodo.5139363",
+  "resources": [
+    {
+      "name": "sars-cov-2-sequenzdaten_deutschland",
+      "type": "table",
+      "path": "SARS-CoV-2-Sequenzdaten_Deutschland.tsv",
+      "scheme": "file",
+      "format": "tsv",
+      "mediatype": "text/csv",
+      "schema": "Metadaten/schemas/tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.json"
+    }
+  ]
+}
