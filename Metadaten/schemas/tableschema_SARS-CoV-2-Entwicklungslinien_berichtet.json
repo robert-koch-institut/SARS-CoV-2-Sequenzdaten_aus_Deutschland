@@ -1,0 +1,31 @@
+{
+  "fields": [
+    {
+      "name": "LINEAGE",
+      "type": "string",
+      "description": "Zugewiesene Pangolin Lineage",
+      "constraints": {
+        "unique": false,
+        "required": true
+      }
+    },
+    {
+      "name": "WHO_LABEL",
+      "type": "string",
+      "description": "Name der Virusvariante, der  von der World Health Organisation vergeben wurde",
+      "constraints": {
+        "unique": false,
+        "required": true
+      }
+    },
+    {
+      "name": "CONTRIBUTING_LINEAGES",
+      "type": "string",
+      "description": "Pangolin Lineages, die von der Lineage abstammen",
+      "constraints": {
+        "unique": false,
+        "required": true
+      }
+    }
+  ]
+}

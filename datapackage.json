@@ -12,6 +12,24 @@
       "format": "tsv",
       "mediatype": "text/csv",
       "schema": "Metadaten/schemas/tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.json"
+    },
+    {
+      "name": "sars-cov-2-entwicklungslinien_berichtet",
+      "type": "table",
+      "path": "SARS-CoV-2-Entwicklungslinien_berichtet.tsv",
+      "scheme": "file",
+      "format": "tsv",
+      "mediatype": "text/csv",
+      "schema": "Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json"
+    },
+    {
+      "name": "sars-cov-2-entwicklungslinien_zu_varianten",
+      "type": "table",
+      "path": "SARS-CoV-2-Entwicklungslinien_zu_Varianten.tsv",
+      "scheme": "file",
+      "format": "tsv",
+      "mediatype": "text/csv",
+      "schema": "Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json"
     }
   ]
 }

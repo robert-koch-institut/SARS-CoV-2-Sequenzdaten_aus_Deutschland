@@ -3,24 +3,38 @@
     {
       "name": "igs_id",
       "type": "string",
-      "description": "Ein eindeutiger Identifikator der Sequenzdaten und Metadaten zusammenführt. Dieser Identifikator wird als Teil der FASTA ID in den Sequenzdaten genutzt (Beispiel: `IGS-10099-CVDP-01A2C74B-54A8-47B1-B7E4-6562C6231234`)."
+      "description": "Ein eindeutiger Identifikator der Sequenzdaten und Metadaten zusammenführt. Dieser Identifikator wird als Teil der FASTA ID in den Sequenzdaten genutzt (Beispiel: `IGS-10099-CVDP-01A2C74B-54A8-47B1-B7E4-6562C6231234`).",
+      "constraints": {
+        "unique": true,
+        "required": true
+      }
     },
     {
       "name": "date_of_sampling",
       "type": "date",
       "description": "Datum der Probeentnahme im ISO 8601 Format ohne Zeitzone (d.h. `YYYY-MM-DDThh:mm:ss`)",
-      "format": "%Y-%m-%dT%H:%M:%S"
+      "format": "%Y-%m-%dT%H:%M:%S",
+      "constraints": {
+        "unique": false,
+        "required": false
+      }
     },
     {
       "name": "sequencing_platform",
       "type": "string",
-      "description": "Die verwendete Sequenzierungs-Plattform auf Basis der von ENA zugelassenen Ontologie (siehe [ena](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#permitted-values-for-platform))."
+      "description": "Die verwendete Sequenzierungs-Plattform auf Basis der von ENA zugelassenen Ontologie (siehe [ena](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#permitted-values-for-platform)).",
+      "constraints": {
+        "unique": false,
+        "required": true
+      }
     },
     {
       "name": "sequencing_reason",
       "type": "string",
       "description": "Grund für die Durchführung der Sequenzierung `random`: Die Probe  wurde randomisiert genommen. `requested`: Die Probe wurde aufgrund von Bedenken/Verdacht auf eine neue Variante oder Vergleichbares genommen. `clinical`: Die Probe kommt aus einem klinischem Umfeld. `other`: Der Grund it keiner der oben genannten.",
       "constraints": {
+        "unique": false,
+        "required": true,
         "enum": [
           "random",
           "requested",
@@ -32,51 +46,85 @@
     {
       "name": "isolation_source",
       "type": "string",
-      "description": "[DEMIS Vokabular](https://simplifier.net/rki.demis.laboratory/materialcvdp)"
+      "description": "[DEMIS Vokabular](https://simplifier.net/rki.demis.laboratory/materialcvdp)",
+      "constraints": {
+        "unique": false,
+        "required": false
+      }
     },
     {
       "name": "lab_sequence_id",
       "type": "string",
-      "description": "Vom Labor genutzte FASTA ID in verschlüsselter Form"
+      "description": "Vom Labor genutzte FASTA ID in verschlüsselter Form",
+      "constraints": {
+        "unique": true,
+        "required": true
+      }
     },
     {
       "name": "date_of_submission",
       "type": "date",
       "description": "Datum des Eingangs des Genoms am RKI im ISO 8601 Format ohne Zeitzone  (d.h. `YYYY-MM-DDThh:mm:ss`)",
-      "format": "%Y-%m-%dT%H:%M:%S"
+      "format": "%Y-%m-%dT%H:%M:%S",
+      "constraints": {
+        "unique": false,
+        "required": true
+      }
     },
     {
       "name": "version",
       "type": "integer",
       "description": "Version der Sequenz startend mit 0",
       "constraints": {
+        "unique": false,
+        "required": true,
         "minimum": 0
       }
     },
     {
       "name": "prime_diagnostic_lab.demis_lab_id",
       "type": "string",
-      "description": "Identifikationsnummer  des primärdiagnostischen Labors (z.B. `DEMIS-10099`)"
+      "description": "Identifikationsnummer  des primärdiagnostischen Labors (z.B. `DEMIS-10099`)",
+      "constraints": {
+        "unique": false,
+        "required": false
+      }
     },
     {
       "name": "prime_diagnostic_lab.postal_code",
       "type": "string",
-      "description": "Postleitzahl des primärdiagnostischen Labors (z.B. `50858`)"
+      "description": "Postleitzahl des primärdiagnostischen Labors (z.B. `50858`)",
+      "constraints": {
+        "unique": false,
+        "required": false
+      }
     },
     {
       "name": "sequencing_lab.demis_lab_id",
       "type": "string",
-      "description": "Identifikationsnummer  des sequenzierenden Labors (z.B. `DEMIS-10099`)"
+      "description": "Identifikationsnummer  des sequenzierenden Labors (z.B. `DEMIS-10099`)",
+      "constraints": {
+        "unique": false,
+        "required": true
+      }
     },
     {
       "name": "sequencing_lab.postal_code",
       "type": "string",
-      "description": "Postleitzahl des sequenzierenden Labors (z.B. `50858`)"
+      "description": "Postleitzahl des sequenzierenden Labors (z.B. `50858`)",
+      "constraints": {
+        "unique": false,
+        "required": true
+      }
     },
     {
       "name": "lineages",
       "type": "string",
-      "description": "Pangolin Zuordnung im JSON-Format (z.B. `[{'method': 'PANGOLIN_LATEST', 'classification_version': 'PUSHER-v1.28.1', 'tool_version': '4.3', 'lineage': 'BA.2', '@qc_notes': 'Ambiguous_content:0.02', '@is_designated': False, '@qc_status': 'pass', '@conflict': 0.0, '@note': 'Usher placements: BA.2(1/1)'}]`)"
+      "description": "Pangolin Zuordnung im JSON-Format (z.B. `[{'method': 'PANGOLIN_LATEST', 'classification_version': 'PUSHER-v1.28.1', 'tool_version': '4.3', 'lineage': 'BA.2', '@qc_notes': 'Ambiguous_content:0.02', '@is_designated': False, '@qc_status': 'pass', '@conflict': 0.0, '@note': 'Usher placements: BA.2(1/1)'}]`)",
+      "constraints": {
+        "unique": false,
+        "required": true
+      }
     }
   ]
 }

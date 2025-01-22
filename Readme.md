@@ -11,8 +11,9 @@ Nordufer 20
 ---
 
 **Zitieren**  
-
-Robert Koch-Institut (**2024**): *SARS-CoV-2-Sequenzdaten aus Deutschland*, Berlin: Zenodo. [DOI: 10.5281/zenodo.14192739](https://doi.org/10.5281/zenodo.14192739)  
+<!-- CITATION_START: {"citation_style": "apa"} -->
+Robert Koch-Institut. (2024). SARS-CoV-2 Sequenzdaten aus Deutschland [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14192739
+<!-- CITATION_END -->
 
  
 ## Informationen zum Datensatz und Entstehungskontext  
@@ -128,6 +129,40 @@ Die Datei [SARS-CoV-2-Sequenzdaten_Deutschland.tsv](https://github.com/robert-ko
 | sequencing_lab.demis_lab_id           | string  |                                                   | Identifikationsnummer  des sequenzierenden Labors (z.B. `DEMIS-10099`)                                                                                                                                                                                                                                                    |
 | sequencing_lab.postal_code            | string  |                                                   | Postleitzahl des sequenzierenden Labors (z.B. `50858`)                                                                                                                                                                                                                                                                    |
 | lineages                              | string  |                                                   | Pangolin Zuordnung im JSON-Format (z.B. `[{'method': 'PANGOLIN_LATEST', 'classification_version': 'PUSHER-v1.28.1', 'tool_version': '4.3', 'lineage': 'BA.2', '@qc_notes': 'Ambiguous_content:0.02', '@is_designated': False, '@qc_status': 'pass', '@conflict': 0.0, '@note': 'Usher placements: BA.2(1/1)'}]`)          |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "SARS-CoV-2-Entwicklungslinien_berichtet", "lang": "de"} -->
+
+Die Datei [SARS-CoV-2-Entwicklungslinien_berichtet.tsv](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/SARS-CoV-2-Entwicklungslinien_berichtet.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json) hinterlegt:
+> [tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable              | Typ    | Ausprägungen   | Beschreibung                                                                  |
+|:----------------------|:-------|:---------------|:------------------------------------------------------------------------------|
+| LINEAGE               | string |                | Zugewiesene Pangolin Lineage                                                  |
+| WHO_LABEL             | string |                | Name der Virusvariante, der  von der World Health Organisation vergeben wurde |
+| CONTRIBUTING_LINEAGES | string |                | Pangolin Lineages, die von der Lineage abstammen                              |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "SARS-CoV-2-Entwicklungslinien_zu_Varianten", "lang": "de"} -->
+
+Die Datei [SARS-CoV-2-Entwicklungslinien_zu_Varianten.tsv](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/SARS-CoV-2-Entwicklungslinien_zu_Varianten.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json) hinterlegt:
+> [tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable              | Typ    | Ausprägungen        | Beschreibung                                                                            |
+|:----------------------|:-------|:--------------------|:----------------------------------------------------------------------------------------|
+| LINEAGE               | string |                     | Zugewiesene Pangolin Lineage                                                            |
+| WHO_LABEL             | string |                     | Name der Virusvariante, der  von der World Health Organisation vergeben wurde           |
+| CONTRIBUTING_LINEAGES | string |                     | Pangolin Lineages, die von der Lineage abstammen                                        |
+| COLOR                 | any    |                     | deprecated property                                                                     |
+| variant_category      | string | Werte: `VOC`, `VOI` | WHO Einstufung der Variante als VOC (variant of concern) oder VOI (variant of interest) |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
