@@ -5,7 +5,7 @@
       "type": "string",
       "description": "Zugewiesene Pangolin Lineage",
       "constraints": {
-        "unique": true,
+        "unique": false,
         "required": true
       }
     },
@@ -14,7 +14,7 @@
       "type": "string",
       "description": "Name der Virusvariante, der  von der World Health Organisation vergeben wurde",
       "constraints": {
-        "unique": true,
+        "unique": false,
         "required": true
       }
     },
@@ -23,14 +23,14 @@
       "type": "string",
       "description": "Pangolin Lineages, die von der Lineage abstammen",
       "constraints": {
-        "unique": true,
+        "unique": false,
         "required": true
       }
     },
     {
       "name": "COLOR",
       "type": "any",
-      "description": "deprecated property",
+      "description": "Veraltete Variable. Ist nicht mehr relevant und wird persepektivisch entfernt.",
       "constraints": {
         "required": false
       }
@@ -40,7 +40,7 @@
       "type": "string",
       "description": "WHO Einstufung der Variante als VOC (variant of concern) oder VOI (variant of interest)",
       "constraints": {
-        "unique": true,
+        "unique": false,
         "required": true,
         "enum": [
           "VOC",

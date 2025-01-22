@@ -161,7 +161,7 @@ Die Datei [SARS-CoV-2-Entwicklungslinien_zu_Varianten.tsv](https://github.com/ro
 | LINEAGE               | string |                     | Zugewiesene Pangolin Lineage                                                            |
 | WHO_LABEL             | string |                     | Name der Virusvariante, der  von der World Health Organisation vergeben wurde           |
 | CONTRIBUTING_LINEAGES | string |                     | Pangolin Lineages, die von der Lineage abstammen                                        |
-| COLOR                 | any    |                     | deprecated property                                                                     |
+| COLOR                 | any    |                     | Veraltete Variable. Ist nicht mehr relevant und wird persepektivisch entfernt.          |
 | variant_category      | string | Werte: `VOC`, `VOI` | WHO Einstufung der Variante als VOC (variant of concern) oder VOI (variant of interest) |
 
 <!-- DATA_SCHEMA_TABLE_END -->

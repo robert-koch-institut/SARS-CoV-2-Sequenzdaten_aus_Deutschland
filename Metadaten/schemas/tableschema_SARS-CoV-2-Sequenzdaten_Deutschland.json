@@ -57,7 +57,7 @@
       "type": "string",
       "description": "Vom Labor genutzte FASTA ID in verschlüsselter Form",
       "constraints": {
-        "unique": true,
+        "unique": false,
         "required": true
       }
     },
@@ -114,7 +114,7 @@
       "description": "Postleitzahl des sequenzierenden Labors (z.B. `50858`)",
       "constraints": {
         "unique": false,
-        "required": true
+        "required": false
       }
     },
     {
