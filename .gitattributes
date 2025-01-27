@@ -1,0 +1,2 @@
+SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz filter=lfs diff=lfs merge=lfs -text
+SARS-CoV-2-Sequenzdaten_Deutschland.tsv.xz filter=lfs diff=lfs merge=lfs -text
