@@ -108,7 +108,7 @@ Die Sequenzmetadaten werden in der "SARS-CoV-2-Sequenzdaten_Deutschland.tsv.xz" 
 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "SARS-CoV-2-Sequenzdaten_Deutschland", "lang": "de"} -->
 
-Die Datei [SARS-CoV-2-Sequenzdaten_Deutschland.tsv](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/SARS-CoV-2-Sequenzdaten_Deutschland.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.json) hinterlegt:
+Die Datei [SARS-CoV-2-Sequenzdaten_Deutschland.tsv.xz](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/SARS-CoV-2-Sequenzdaten_Deutschland.tsv.xz) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.json) hinterlegt:
 > [tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
