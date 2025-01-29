@@ -264,7 +264,6 @@ JN.1	Omikron	LP.5
 JN.1	Omikron	LP.6
 JN.1	Omikron	LP.7
 JN.1	Omikron	LP.8
-JN.1	Omikron	LP.8.1
 JN.1	Omikron	LP.8.2
 JN.1	Omikron	LP.9
 JN.1	Omikron	LR.1
@@ -533,3 +532,4 @@ XEC	Rekombinant	XEC.4
 XEC	Rekombinant	XEC.5
 XEC	Rekombinant	XEC.6
 XEC	Rekombinant	XEC.7
+LP.8.1	Omikron	LP.8.1
