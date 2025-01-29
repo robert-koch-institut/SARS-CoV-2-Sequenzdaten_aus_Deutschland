@@ -76,15 +76,15 @@ Jede Sequenz endet mit dem Beginn eines neuen Sequenzeintrages, gekennzeichnet d
 
 In den bereitgestellten Sequenzdaten entspricht die Kopfzeile der SEQUENCE.ID, was eine einfache Verknüpfung mit den bereitgestellten Metadaten erlaubt.  
 
-* Kopfzeile: ">\<IGS_ID\> version=\<version\>"
+* Kopfzeile: ">\<IGS_ID\> version=\<version\> id=\<genome_id\> \<contig_index\>"
 * Nukleinsäuresequenz: IUB/IUPAC Standard  
 
 Daraus ergibt sich beispielhaft folgende Struktur einer .fasta-Datei:  
 
-```fasta
->IGS-101XX-CVDP-XX version=1
+```fasta=
+>IGS-101XX-CVDP-XX version=1 id=939421ee-feab-4b79-9f19-6dc248e0ee89 0
 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACCAACCAACTTTCGATCTCTT...  
->IGS-101YY-CVDP-YY version=0
+>IGS-101YY-CVDP-YY version=0 id=08f5d734-d135-4d2a-9680-bc5a795b2d34 0
 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACCAACTCTCGGCTGCATGCT...  
 ```
 #### Komprimierung der Sequenzdaten   
