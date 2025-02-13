@@ -14,6 +14,7 @@ Nordufer 20
 <!-- CITATION_START: {"citation_style": "apa"} -->
 Robert Koch-Institut. (2025). SARS-CoV-2 Sequenzdaten aus Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.14860017](https://doi.org/10.5281/zenodo.14860017)  
 <!-- CITATION_END -->
+
  
 ## Informationen zum Datensatz und Entstehungskontext  
 
@@ -63,7 +64,7 @@ Der Datensatz umfasst genomische Sequenzen von SARS-CoV-2-Isolaten aus ganz Deut
 
 ### SARS-CoV-2-Sequenzdaten 
 
-Die SARS-CoV-2-Sequenzdaten werden tagesaktuell im Hauptverzeichnis unter "SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz" bereitgestellt.   
+Die SARS-CoV-2-Sequenzdaten werden im Hauptverzeichnis unter "SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz" bereitgestellt.   
 
 >[SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/SARS-CoV-2-Sequenzdaten_Deutschland.fasta.xz)  
  
@@ -75,15 +76,15 @@ Jede Sequenz endet mit dem Beginn eines neuen Sequenzeintrages, gekennzeichnet d
 
 In den bereitgestellten Sequenzdaten entspricht die Kopfzeile der SEQUENCE.ID, was eine einfache Verknüpfung mit den bereitgestellten Metadaten erlaubt.  
 
-* Kopfzeile: ">\<IGS_ID\> version=\<version\>"
+* Kopfzeile: ">\<IGS_ID\> version=\<version\> id=\<genome_id\> \<contig_index\>"
 * Nukleinsäuresequenz: IUB/IUPAC Standard  
 
 Daraus ergibt sich beispielhaft folgende Struktur einer .fasta-Datei:  
 
-```fasta
->IGS-101XX-CVDP-XX version=1
+```fasta=
+>IGS-101XX-CVDP-XX version=1 id=939421ee-feab-4b79-9f19-6dc248e0ee89 0
 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACCAACCAACTTTCGATCTCTT...  
->IGS-101YY-CVDP-YY version=0
+>IGS-101YY-CVDP-YY version=0 id=08f5d734-d135-4d2a-9680-bc5a795b2d34 0
 NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNACCAACTCTCGGCTGCATGCT...  
 ```
 #### Komprimierung der Sequenzdaten   
@@ -105,24 +106,66 @@ Die Sequenzmetadaten werden in der "SARS-CoV-2-Sequenzdaten_Deutschland.tsv.xz" 
 
 #### Variablen und Werte  
 
-In den als .tsv bereitgestellten Metadaten sind die in folgender Tabelle aufgeführte Variablen als Spalten enthalten. Zentral für die Verknüpfung der Metadaten mit den Genomsequenzen ist die SEQUENCE.ID, die in allen drei Daten enthalten ist.  
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "SARS-CoV-2-Sequenzdaten_Deutschland", "lang": "de"} -->
 
+Die Datei [SARS-CoV-2-Sequenzdaten_Deutschland.tsv.xz](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/SARS-CoV-2-Sequenzdaten_Deutschland.tsv.xz) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.json) hinterlegt:
+> [tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.json)
 
-| Variable | Typ | Ausprägungen/Beispiel | Beschreibung |
-| -------- | --- | ------------- | ------------ | 
-| igs_id | String | `IGS-10099-CVDP-01A2C74B-54A8-47B1-B7E4-6562C6231234`| Ein eindeutiger Identifikator der Sequenzdaten und Metadaten zusammenführt. Dieser Identifikator wird als Teil der FASTA ID in den Sequenzdaten genutzt|  
-| date_of_sampling |  Datetime  |  `YYYY-MM-DDThh:mm:ss` | Datum der Probeentnahme im ISO 8601 Format ohne Zeitzone|  
-| sequencing_platform |  String  | siehe [ena](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#permitted-values-for-platform) | Die verwendete Sequenzierungs-Plattform auf Basis der von ENA zugelassenen Ontologie |  
-| sequencing_reason |  String | `random`,`requested`,`clinical`,`other` | Grund für die Durchführung der Sequenzierung `random`: Die Probe  wurde randomisiert genommen. `requested`: Die Probe wurde aufgrund von Bedenken/Verdacht auf eine neue Variante oder Vergleichbares genommen. `clinical`: Die Probe kommt aus einem klinischem Umfeld. `other`: Der Grund it keiner der oben genannten.|  
-| isolation_source|  String |   | [DEMIS Vokabular](https://simplifier.net/rki.demis.laboratory/materialcvdp) |  
-| lab_sequence_id | String | |Vom Labor genutzte FASTA ID in verschlüsselter Form|  
-| date_of_submission |Datetime| `YYYY-MM-DDThh:mm:ss` | Datum des Eingangs des Genoms am RKI im ISO 8601 Format ohne Zeitzone|  
-| version|Integer|  `1`  |  Version der Sequenz startend mit 0  |  
-| prime_diagnostic_lab.demis_lab_id |String|  `DEMIS-10099`  | Identifikationsnummer  des primärdiagnostischen Labors|  
-| prime_diagnostic_lab.postal_code|String|`50858`|Postleitzahl des primärdiagnostischen Labors|  
-| sequencing_lab.demis_lab_id |String|  `DEMIS-10099`  | Identifikationsnummer  des sequenzierenden Labors|  
-| sequencing_lab.postal_code |String|`50858`|Postleitzahl des sequenzierenden Labors|  
-| lineages	|JSON Blob|   `[{'method': 'PANGOLIN_LATEST', 'classification_version': 'PUSHER-v1.28.1', 'tool_version': '4.3', 'lineage': 'BA.2', '@qc_notes': 'Ambiguous_content:0.02', '@is_designated': False, '@qc_status': 'pass', '@conflict': 0.0, '@note': 'Usher placements: BA.2(1/1)'}]`  |  Pangolin Zuordnung |  
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable                              | Typ     | Ausprägungen                                                                                                                                                                                                                                                                      | Beschreibung                                                                                                                                                                                                                                                                                                              |
+|:--------------------------------------|:--------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| igs_id                                | string  | Beispiel: `IGS-10099-CVDP-01A2C74B-54A8-4`<br>`7B1-B7E4-6562C6231234`                                                                                                                                                                                                             | Ein eindeutiger Identifikator der Sequenzdaten und Metadaten zusammenführt. Dieser Identifikator wird als Teil der FASTA ID in den Sequenzdaten genutzt.                                                                                                                                                                  |
+| date_of_sampling                      | date    | Format: `YYYY-MM-DDTHH:MM:SS`                                                                                                                                                                                                                                                     | Datum der Probeentnahme im ISO 8601 Format ohne Zeitzone                                                                                                                                                                                                                                                                  |
+| sequencing_platform                   | string  | Beispiel: `ILLUMINA`                                                                                                                                                                                                                                                              | Die verwendete Sequenzierungs-Plattform auf Basis der von ENA zugelassenen Ontologie (siehe [ena](https://ena-docs.readthedocs.io/en/latest/submit/reads/webin-cli.html#permitted-values-for-platform)).                                                                                                                  |
+| sequencing_reason                     | string  | Werte: `random`, `requested`, `clinical`, `other`                                                                                                                                                                                                                                 | Grund für die Durchführung der Sequenzierung `random`: Die Probe  wurde randomisiert genommen. `requested`: Die Probe wurde aufgrund von Bedenken/Verdacht auf eine neue Variante oder Vergleichbares genommen. `clinical`: Die Probe kommt aus einem klinischem Umfeld. `other`: Der Grund it keiner der oben genannten. |
+| isolation_source                      | string  | Beispiel: `Nasopharyngeal swab (specimen)`                                                                                                                                                                                                                                        | [DEMIS Vokabular](https://simplifier.net/rki.demis.laboratory/materialcvdp)                                                                                                                                                                                                                                               |
+| lab_sequence_id                       | string  | Beispiel: `873a7cc28d29e3f17b0544ea6e9e84`<br>`36defe32f6d60649159ee8ac78d414`<br>`7ac9`                                                                                                                                                                                          | Vom Labor genutzte FASTA ID in verschlüsselter Form                                                                                                                                                                                                                                                                       |
+| date_of_submission                    | date    | Format: `YYYY-MM-DDTHH:MM:SS`                                                                                                                                                                                                                                                     | Datum des Eingangs des Genoms am RKI im ISO 8601 Format ohne Zeitzone                                                                                                                                                                                                                                                     |
+| version                               | integer | Werte: `≥0`                                                                                                                                                                                                                                                                       | Version der Sequenz startend mit 0                                                                                                                                                                                                                                                                                        |
+| prime_diagnostic_lab.demis_lab_<br>id | string  | Beispiel: `DEMIS-10099`                                                                                                                                                                                                                                                           | Identifikationsnummer  des primärdiagnostischen Labors                                                                                                                                                                                                                                                                    |
+| prime_diagnostic_lab.postal_<br>code  | string  | Beispiel: `50858`                                                                                                                                                                                                                                                                 | Postleitzahl des primärdiagnostischen Labors                                                                                                                                                                                                                                                                              |
+| sequencing_lab.demis_lab_id           | string  | Beispiel: `DEMIS-10099`                                                                                                                                                                                                                                                           | Identifikationsnummer  des sequenzierenden Labors                                                                                                                                                                                                                                                                         |
+| sequencing_lab.postal_code            | string  | Beispiel: `50858`                                                                                                                                                                                                                                                                 | Postleitzahl des sequenzierenden Labors                                                                                                                                                                                                                                                                                   |
+| lineages                              | string  | Beispiel: `[{'method': 'PANGOLIN_LATEST', 'classification_version': 'PUSHER-v1.28.1', 'tool_version': '4.3', 'lineage': 'BA.2', '@qc_notes': 'Ambiguous_content:0.02', '@is_designated': False, '@qc_status': 'pass', '@conflict': 0.0, '@note': 'Usher placements: BA.2(1/1)'}]` | Pangolin Zuordnung im JSON-Format                                                                                                                                                                                                                                                                                         |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "SARS-CoV-2-Entwicklungslinien_berichtet", "lang": "de"} -->
+
+Die Datei [SARS-CoV-2-Entwicklungslinien_berichtet.tsv](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/SARS-CoV-2-Entwicklungslinien_berichtet.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json) hinterlegt:
+> [tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable              | Typ    | Ausprägungen          | Beschreibung                                                                  |
+|:----------------------|:-------|:----------------------|:------------------------------------------------------------------------------|
+| LINEAGE               | string | Beispiel: `JN.1`      | Zugewiesene Pangolin Lineage                                                  |
+| WHO_LABEL             | string | Beispiel: `Omikron`   | Name der Virusvariante, der  von der World Health Organisation vergeben wurde |
+| CONTRIBUTING_LINEAGES | string | Beispiel: `JN.1.1.10` | Pangolin Lineages, die von der Lineage abstammen                              |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "SARS-CoV-2-Entwicklungslinien_zu_Varianten", "lang": "de"} -->
+
+Die Datei [SARS-CoV-2-Entwicklungslinien_zu_Varianten.tsv](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/SARS-CoV-2-Entwicklungslinien_zu_Varianten.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json) hinterlegt:
+> [tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable              | Typ    | Ausprägungen        | Beschreibung                                                                            |
+|:----------------------|:-------|:--------------------|:----------------------------------------------------------------------------------------|
+| LINEAGE               | string | Beispiel: `BA.2`    | Zugewiesene Pangolin Lineage                                                            |
+| WHO_LABEL             | string | Beispiel: `Omikron` | Name der Virusvariante, der  von der World Health Organisation vergeben wurde           |
+| CONTRIBUTING_LINEAGES | string | Beispiel: `JN.13.1` | Pangolin Lineages, die von der Lineage abstammen                                        |
+| COLOR                 | any    |                     | Veraltete Variable. Ist nicht mehr relevant und wird persepektivisch entfernt.          |
+| variant_category      | string | Werte: `VOC`, `VOI` | WHO Einstufung der Variante als VOC (variant of concern) oder VOI (variant of interest) |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
+
 
 #### Formatierung der Sequenzmetadaten  
 
@@ -141,11 +184,11 @@ Die Dateien können auf gängigen Betriebssystemen, beispielsweise mit den Progr
 
 Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
-> [Metadaten/](https://github.com/robert-koch-institut/Daten_der_Notaufnahmesurveillance/blob/main/Metadaten/)    
+> [Metadaten/](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/)    
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/Daten_der_Notaufnahmesurveillance/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
  
-> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/Daten_der_Notaufnahmesurveillance/blob/main/Metadaten/zenodo.json)  
+> [Metadaten/zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/zenodo.json)  
 
 In der zenodo.json ist neben der Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
 
@@ -173,4 +216,4 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
 
 Der Datensatz "SARS-CoV-2-Sequenzdaten aus Deutschland" ist lizenziert unter  der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/Daten_der_Notaufnahmesurveillance/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/Daten_der_Notaufnahmesurveillance/blob/main/LIZENZ) Datei des Datensatzes.  
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/LICENSE) bzw. [LIZENZ]https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/LIZENZ) Datei des Datensatzes.  

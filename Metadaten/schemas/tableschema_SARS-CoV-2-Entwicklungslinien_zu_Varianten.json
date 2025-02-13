@@ -1,0 +1,48 @@
+{
+  "fields": [
+    {
+      "name": "LINEAGE",
+      "type": "string",
+      "description": "Zugewiesene Pangolin Lineage",
+      "constraints": {
+        "required": true
+      },
+      "example": "BA.2"
+    },
+    {
+      "name": "WHO_LABEL",
+      "type": "string",
+      "description": "Name der Virusvariante, der  von der World Health Organisation vergeben wurde",
+      "constraints": {
+        "required": true
+      },
+      "example": "Omikron"
+    },
+    {
+      "name": "CONTRIBUTING_LINEAGES",
+      "type": "string",
+      "description": "Pangolin Lineages, die von der Lineage abstammen",
+      "constraints": {
+        "required": true
+      },
+      "example": "JN.13.1"
+    },
+    {
+      "name": "COLOR",
+      "type": "any",
+      "description": "Veraltete Variable. Ist nicht mehr relevant und wird persepektivisch entfernt."
+    },
+    {
+      "name": "variant_category",
+      "type": "string",
+      "description": "WHO Einstufung der Variante als VOC (variant of concern) oder VOI (variant of interest)",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "VOC",
+          "VOI"
+        ]
+      }
+    }
+  ]
+}
