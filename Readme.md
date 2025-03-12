@@ -26,13 +26,13 @@ Im Rahmen der [Coronavirus-Surveillanceverordnung](https://www.gesetze-im-intern
 
 Der Datensatz "SARS-CoV-2-Sequenzdaten aus Deutschland" wird vom [Robert Koch-Institut](https://rki.de) für Forschungsarbeiten im Zusammenhang mit der SARS-CoV-2-Surveillance im IGS Projekt bereitgestellt.  
 
-Die Datenerhebung am RKI erfolgt mit Ablauf der Coronavirus-Surveillanceverordnung über das IMSSC2 Labornetzwerk unter der Leitung von [FG 17 | Influenzaviren und weitere Viren des Respirationstraktes](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt1/FG17/fg17_node.html) und durch das [Nationale Referenzzentrum für Coronaviren](https://virologie-ccm.charite.de/diagnostik/konsiliarlaboratorium_fuer_coronaviren/).  
+Die Datenerhebung am RKI erfolgt mit Ablauf der Coronavirus-Surveillanceverordnung über das IMSSC2 Labornetzwerk unter der Leitung von [FG 17 | Influenzaviren und weitere Viren des Respirationstraktes](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-1/FG17/fg17-influenzaviren-und-weitere-viren-des-respirationstraktes-node.html) und durch das [Nationale Referenzzentrum für Coronaviren](https://virologie-ccm.charite.de/diagnostik/konsiliarlaboratorium_fuer_coronaviren/).  
 
-Im Rahmen des IGS Projektes werden die produzierten Daten von [MF1 | Genome Competence Centre](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/MF/MF1/mf1_node.html) bioinformatisch analysiert. Fragen bezüglich des Projektes können am besten an [IGS@rki.de](mailto:IGS@rki.de) gerichtet werden.  
+Im Rahmen des IGS Projektes werden die produzierten Daten von [MF1 | Genome Competence Centre](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF1/mf1-genom-kompetenzzentrum-node.html) bioinformatisch analysiert. Fragen bezüglich des Projektes können am besten an [IGS@rki.de](mailto:IGS@rki.de) gerichtet werden.  
 
-Die Koordinierung und Meldedatenerfassung wird von [FG 36 | Respiratorisch übertragbare Erkrankungen](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG36/FG36_node.html) durchgeführt.  
+Die Koordinierung und Meldedatenerfassung wird von [FG 36 | Respiratorisch übertragbare Erkrankungen](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG36/fg36-respiratorisch-uebertragbare-erkrankungen-node.html) durchgeführt.  
 
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html) des RKI. Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden ([OpenData@rki.de](mailto:opendata@rki.de)).   
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html) des RKI. Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden ([OpenData@rki.de](mailto:opendata@rki.de)).   
 
 
 ### Datenerhebung  
@@ -47,7 +47,7 @@ Die bereitgestellten Informationen zu den Viruslinien entsprechen dem aktuellen 
 
 ### Qualitätsmanagement  
 
-Die Daten, die durch DESH erhoben wurden, durchliefen die Qualitätskontrolle (QC) der IGS am RKI nach veröffentlichten Kriterien (siehe: [rki.de - DESH Qualitaetskriterien.pdf](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Qualitaetskriterien.pdf?__blob=publicationFile)). Zusätzlich wird für alle Sequenzen, inklusive IMSSC2 Proben, eine bioinformatische QC der Sequenz mit [PRESIDENT: PaiRwisE Sequence IDENtiTy](https://github.com/hoelzer-lab/president) durchgeführt mit einen Identitäts-Grenzwert von 70% und einen N-Grenzwert von 20%. Die Metadaten-QC überprüft die Metadaten auf fehlerhafte Daten und Eingaben, die die weitere Verarbeitung beeinflussen würden.
+Die Daten, die durch DESH erhoben wurden, durchliefen die Qualitätskontrolle (QC) der IGS am RKI nach veröffentlichten Kriterien (siehe: [rki.de - DESH Qualitaetskriterien.pdf](https://doi.org/10.25646/13054)). Zusätzlich wird für alle Sequenzen, inklusive IMSSC2 Proben, eine bioinformatische QC der Sequenz mit [PRESIDENT: PaiRwisE Sequence IDENtiTy](https://github.com/hoelzer-lab/president) durchgeführt mit einen Identitäts-Grenzwert von 70% und einen N-Grenzwert von 20%. Die Metadaten-QC überprüft die Metadaten auf fehlerhafte Daten und Eingaben, die die weitere Verarbeitung beeinflussen würden.
 Bei nicht bestehen der QC für Metadaten oder Sequenzdaten werden diese Daten nicht öffentlich  bereitgestellt, um die hohe Qualität des öffentlichen Datensatzes zu gewährleisten.  
 
 ## Aufbau und Inhalt des Datensatzes
