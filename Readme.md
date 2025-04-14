@@ -26,13 +26,13 @@ Im Rahmen der [Coronavirus-Surveillanceverordnung](https://www.gesetze-im-intern
 
 Der Datensatz "SARS-CoV-2-Sequenzdaten aus Deutschland" wird vom [Robert Koch-Institut](https://rki.de) für Forschungsarbeiten im Zusammenhang mit der SARS-CoV-2-Surveillance im IGS Projekt bereitgestellt.  
 
-Die Datenerhebung am RKI erfolgt mit Ablauf der Coronavirus-Surveillanceverordnung über das IMSSC2 Labornetzwerk unter der Leitung von [FG 17 | Influenzaviren und weitere Viren des Respirationstraktes](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt1/FG17/fg17_node.html) und durch das [Nationale Referenzzentrum für Coronaviren](https://virologie-ccm.charite.de/diagnostik/konsiliarlaboratorium_fuer_coronaviren/).  
+Die Datenerhebung am RKI erfolgt mit Ablauf der Coronavirus-Surveillanceverordnung über das IMSSC2 Labornetzwerk unter der Leitung von [FG 17 | Influenzaviren und weitere Viren des Respirationstraktes](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-1/FG17/fg17-influenzaviren-und-weitere-viren-des-respirationstraktes-node.html) und durch das [Nationale Referenzzentrum für Coronaviren](https://virologie-ccm.charite.de/diagnostik/konsiliarlaboratorium_fuer_coronaviren/).  
 
-Im Rahmen des IGS Projektes werden die produzierten Daten von [MF1 | Genome Competence Centre](https://www.rki.de/EN/Content/Institute/DepartmentsUnits/MF/MF1/mf1_node.html) bioinformatisch analysiert. Fragen bezüglich des Projektes können am besten an [IGS@rki.de](mailto:IGS@rki.de) gerichtet werden.  
+Im Rahmen des IGS Projektes werden die produzierten Daten von [MF1 | Genome Competence Centre](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF1/mf1-genom-kompetenzzentrum-node.html) bioinformatisch analysiert. Fragen bezüglich des Projektes können am besten an [IGS@rki.de](mailto:IGS@rki.de) gerichtet werden.  
 
-Die Koordinierung und Meldedatenerfassung wird von [FG 36 | Respiratorisch übertragbare Erkrankungen](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG36/FG36_node.html) durchgeführt.  
+Die Koordinierung und Meldedatenerfassung wird von [FG 36 | Respiratorisch übertragbare Erkrankungen](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG36/fg36-respiratorisch-uebertragbare-erkrankungen-node.html) durchgeführt.  
 
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html) des RKI. Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden ([OpenData@rki.de](mailto:opendata@rki.de)).   
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html) des RKI. Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden ([OpenData@rki.de](mailto:opendata@rki.de)).   
 
 
 ### Datenerhebung  
@@ -47,7 +47,7 @@ Die bereitgestellten Informationen zu den Viruslinien entsprechen dem aktuellen 
 
 ### Qualitätsmanagement  
 
-Die Daten, die durch DESH erhoben wurden, durchliefen die Qualitätskontrolle (QC) der IGS am RKI nach veröffentlichten Kriterien (siehe: [rki.de - DESH Qualitaetskriterien.pdf](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/DESH/Qualitaetskriterien.pdf?__blob=publicationFile)). Zusätzlich wird für alle Sequenzen, inklusive IMSSC2 Proben, eine bioinformatische QC der Sequenz mit [PRESIDENT: PaiRwisE Sequence IDENtiTy](https://github.com/hoelzer-lab/president) durchgeführt mit einen Identitäts-Grenzwert von 70% und einen N-Grenzwert von 20%. Die Metadaten-QC überprüft die Metadaten auf fehlerhafte Daten und Eingaben, die die weitere Verarbeitung beeinflussen würden.
+Die Daten, die durch DESH erhoben wurden, durchliefen die Qualitätskontrolle (QC) der IGS am RKI nach veröffentlichten Kriterien (siehe: [rki.de - DESH Qualitaetskriterien.pdf](https://doi.org/10.25646/13054)). Zusätzlich wird für alle Sequenzen, inklusive IMSSC2 Proben, eine bioinformatische QC der Sequenz mit [PRESIDENT: PaiRwisE Sequence IDENtiTy](https://github.com/hoelzer-lab/president) durchgeführt mit einen Identitäts-Grenzwert von 70% und einen N-Grenzwert von 20%. Die Metadaten-QC überprüft die Metadaten auf fehlerhafte Daten und Eingaben, die die weitere Verarbeitung beeinflussen würden.
 Bei nicht bestehen der QC für Metadaten oder Sequenzdaten werden diese Daten nicht öffentlich  bereitgestellt, um die hohe Qualität des öffentlichen Datensatzes zu gewährleisten.  
 
 ## Aufbau und Inhalt des Datensatzes
@@ -180,28 +180,48 @@ Die Sequenzmetadaten werden als [xz-komprimierte](https://en.wikipedia.org/wiki/
 Die Dateien können auf gängigen Betriebssystemen, beispielsweise mit den Programmen [7zip](https://www.7-zip.org/) oder [XZ Utils](https://tukaani.org/xz/), entpackt werden. Die Komprimierung wird vorgenommen, da insbesondere die .fasta-Dateien mehrere Gigabyte (GB) groß sind.   
 
 
+<!-- FOOTER_START: {"lang": "de"} -->
+
+
+
 ### Metadaten  
 
 Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
-> [Metadaten/](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/)    
+> [Metadaten/](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/main/Metadaten/) 
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.   
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
  
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/zenodo.json)  
 
-In der zenodo.json ist neben der Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
+In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
 
 ```
   "dates": [
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Created",
+      "type": "Collected",
       "description": "Date when the Dataset was created"
     }
   ],
 ```    
+
+
+Zusätzlich beschreiben wir tabellarische Daten mithilfe des [Data Package Standards](https://datapackage.org/).
+Ein Data Package ist eine strukturierte Sammlung von Daten und zugehörigen Metadaten, die den Austausch und die Wiederverwendung von Daten erleichtert. Es besteht aus einer datapackage.json-Datei, die zentrale Informationen wie die enthaltenen Ressourcen, ihre Formate und Schema-Definitionen beschreibt.
+
+Der Data Package Standard wird von der [Open Knowledge Foundation](https://okfn.org/) bereitgestellt und ist ein offenes Format, das eine einfache, maschinenlesbare Beschreibung von Datensätzen ermöglicht.
+
+Die Liste der in diesem Repository enthaltenen Daten ist in folgender Datei hinterlegt:
+
+> [datapackage.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/main/datapackage.json)
+
+Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://datapackage.org/standard/table-schema/), das die Struktur der Tabellen beschreibt, einschließlich Spaltennamen, Datentypen und Validierungsregeln. Diese Schema-Dateien finden sich unter:
+
+> [Metadaten/schemas/](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/main/Metadaten/schemas) 
+
+
 
 ## Hinweise zur Nachnutzung der Daten  
 
@@ -214,6 +234,7 @@ Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [Git
  
 ### Lizenz  
 
-Der Datensatz "SARS-CoV-2-Sequenzdaten aus Deutschland" ist lizenziert unter  der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
+Der Datensatz "SARS-CoV-2 Sequenzdaten aus Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/LICENSE) bzw. [LIZENZ]https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/LIZENZ) Datei des Datensatzes.  
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/LIZENZ) Datei des Datensatzes.  
+<!-- FOOTER_END -->
