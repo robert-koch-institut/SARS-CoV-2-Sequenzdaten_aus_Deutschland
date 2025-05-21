@@ -12,7 +12,7 @@ Nordufer 20
 
 **Zitieren**  
 <!-- CITATION_START: {"citation_style": "apa"} -->
-Robert Koch-Institut. (2025). SARS-CoV-2 Sequenzdaten aus Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15411054](https://doi.org/10.5281/zenodo.15411054)  
+Robert Koch-Institut. (2025). SARS-CoV-2 Sequenzdaten aus Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.15481611](https://doi.org/10.5281/zenodo.15481611)  
 <!-- CITATION_END -->
 
  
