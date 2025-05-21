@@ -54,8 +54,8 @@ Bei nicht bestehen der QC für Metadaten oder Sequenzdaten werden diese Daten ni
 
 Der Datensatz umfasst genomische Sequenzen von SARS-CoV-2-Isolaten aus ganz Deutschland und zugehörige Metadaten. Im Datensatz enthalten sind:  
 
-* [übermittelte SARS-CoV-2-Genomsequenzen](#struktur-der-sequenzdaten)  
-* [Metadaten zu den SARS-CoV-2-Genomsequenzen](#variablen-und-variablenausprägungen-metadaten)  
+* [Übermittelte SARS-CoV-2-Genomsequenzen](#struktur-der-sequenzdaten)  
+* [Metadaten zu den SARS-CoV-2-Genomsequenzen](#sequenzmetadaten)  
 * Lizenz mit der Nutzungslizenz des Datensatzes  
 * Metadaten Datei zum Import in Zenodo  
 * Informationen über VOCs und VOIs   
