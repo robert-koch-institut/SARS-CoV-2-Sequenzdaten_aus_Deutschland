@@ -73,13 +73,13 @@
       }
     },
     {
-      "name": "prime_diagnostic_lab.demis_lab_id",
+      "name": "diagnostic_lab.demis_lab_id",
       "type": "string",
       "description": "Identification number of the primary diagnostic laboratory",
       "example": "DEMIS-10099"
     },
     {
-      "name": "prime_diagnostic_lab.postal_code",
+      "name": "diagnostic_lab.postal_code",
       "type": "string",
       "description": "Postal code of the primary diagnostic laboratory",
       "example": "50858"
