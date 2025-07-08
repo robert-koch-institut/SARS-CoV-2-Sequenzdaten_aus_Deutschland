@@ -269,7 +269,7 @@ Documentation
 <br> 
 <br> 
 
-[**Robert Koch Institute**](https://www.rki.de/)
+[**Robert Koch Institute**](https://www.rki.de/en)
 
 <br> 
 
@@ -296,15 +296,15 @@ As part of the [Coronavirus Surveillance Ordinance](https://www.gesetze-im-inter
  
 ### Administrative and organizational information
 
-The dataset "SARS-CoV-2 sequence data from Germany" is provided by the [Robert Koch Institute](https://rki.de) for research work related to SARS-CoV-2 surveillance in the IGS project.  
+The dataset "SARS-CoV-2 sequence data from Germany" is provided by the [Robert Koch Institute](https://www.rki.de/en) for research work related to SARS-CoV-2 surveillance in the IGS project.  
 
-Data collection at the RKI is carried out with the expiry of the Coronavirus Surveillance Ordinance via the IMSSC2 laboratory network under the direction of [FG 17 | Influenza viruses and other viruses of the respiratory tract](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-1/FG17/fg17-influenzaviren-und-weitere-viren-des-respirationstraktes-node.html) and by the [National Reference Center for Coronaviruses](https://virologie-ccm.charite.de/diagnostik/konsiliarlaboratorium_fuer_coronaviren/).  
+Data collection at the RKI is carried out with the expiry of the Coronavirus Surveillance Ordinance via the IMSSC2 laboratory network under the direction of [FG 17 | Influenza viruses and other viruses of the respiratory tract](https://www.rki.de/EN/Institute/Organisation/Departments/Department-1/Unit-17/unit-17-influenza-viruses-and-other-respiratory-tract-viruses-node.html) and by the [National Reference Center for Coronaviruses](https://virologie-ccm.charite.de/diagnostik/konsiliarlaboratorium_fuer_coronaviren/).  
 
-As part of the IGS project, the data produced by [MF1 | Genome Competence Centre](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF1/mf1-genom-kompetenzzentrum-node.html) will be analyzed bioinformatically. Questions regarding the project can best be directed to [IGS@rki.de](mailto:IGS@rki.de).  
+As part of the IGS project, the data produced by [MF1 | Genome Competence Centre](https://www.rki.de/EN/Institute/Organisation/Departments/MFI/MF1/mf1-genome-competence-centre-node.html) will be analyzed bioinformatically. Questions regarding the project can best be directed to [IGS@rki.de](mailto:IGS@rki.de).  
 
-The coordination and collection of reporting data is carried out by [FG 36 | Respiratory communicable diseases](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG36/fg36-respiratorisch-uebertragbare-erkrankungen-node.html).  
+The coordination and collection of reporting data is carried out by [FG 36 | Respiratory communicable diseases](https://www.rki.de/EN/Institute/Organisation/Departments/Department-3/Unit-36/unit-36-respiratory-infections-node.html).  
 
-Publication of the data, data curation and quality management of the (meta-)data are carried out by the RKI's [MF 4 | Specialized and Research Data Management](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html) department. Questions about data management can be directed to the Open Data Team of the MF4 department ([OpenData@rki.de](mailto:opendata@rki.de)).   
+Publication of the data, data curation and quality management of the (meta-)data are carried out by the RKI's [MF 4 | Specialized and Research Data Management](https://www.rki.de/EN/Institute/Organisation/Departments/MFI/MF4/mf4-domain-specific-data-and-research-data-management-node.html) department. Questions about data management can be directed to the Open Data Team of the MF4 department ([OpenData@rki.de](mailto:opendata@rki.de)).   
 
 
 ### Data collection
