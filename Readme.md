@@ -40,7 +40,7 @@ Im Rahmen der [Coronavirus-Surveillanceverordnung](https://www.gesetze-im-intern
 
 Der Datensatz "SARS-CoV-2-Sequenzdaten aus Deutschland" wird vom [Robert Koch-Institut](https://rki.de) für Forschungsarbeiten im Zusammenhang mit der SARS-CoV-2-Surveillance im IGS Projekt bereitgestellt.  
 
-Die Datenerhebung am RKI erfolgt mit Ablauf der Coronavirus-Surveillanceverordnung über das IMSSC2 Labornetzwerk unter der Leitung von [FG 17 | Influenzaviren und weitere Viren des Respirationstraktes](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-1/FG17/fg17-influenzaviren-und-weitere-viren-des-respirationstraktes-node.html) und durch das [Nationale Referenzzentrum für Coronaviren](https://virologie-ccm.charite.de/diagnostik/konsiliarlaboratorium_fuer_coronaviren/).  
+Die Datenerhebung am RKI erfolgt mit Ablauf der Coronavirus-Surveillanceverordnung über das IMSSC2 Labornetzwerk unter der Leitung von [FG 17 | Influenzaviren und weitere Viren des Respirationstraktes](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-1/FG17/fg17-influenzaviren-und-weitere-viren-des-respirationstraktes-node.html) und durch das [Nationale Referenzzentrum für Coronaviren](https://virologie-ccm.charite.de/diagnostik/referenzzentrum_fuer_coronaviren).  
 
 Im Rahmen des IGS Projektes werden die produzierten Daten von [MF1 | Genome Competence Centre](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF1/mf1-genom-kompetenzzentrum-node.html) bioinformatisch analysiert. Fragen bezüglich des Projektes können am besten an [IGS@rki.de](mailto:IGS@rki.de) gerichtet werden.  
 
@@ -298,7 +298,7 @@ As part of the [Coronavirus Surveillance Ordinance](https://www.gesetze-im-inter
 
 The dataset "SARS-CoV-2 sequence data from Germany" is provided by the [Robert Koch Institute](https://www.rki.de/en) for research work related to SARS-CoV-2 surveillance in the IGS project.  
 
-Data collection at the RKI is carried out with the expiry of the Coronavirus Surveillance Ordinance via the IMSSC2 laboratory network under the direction of [FG 17 | Influenza viruses and other viruses of the respiratory tract](https://www.rki.de/EN/Institute/Organisation/Departments/Department-1/Unit-17/unit-17-influenza-viruses-and-other-respiratory-tract-viruses-node.html) and by the [National Reference Center for Coronaviruses](https://virologie-ccm.charite.de/diagnostik/konsiliarlaboratorium_fuer_coronaviren/).  
+Data collection at the RKI is carried out with the expiry of the Coronavirus Surveillance Ordinance via the IMSSC2 laboratory network under the direction of [FG 17 | Influenza viruses and other viruses of the respiratory tract](https://www.rki.de/EN/Institute/Organisation/Departments/Department-1/Unit-17/unit-17-influenza-viruses-and-other-respiratory-tract-viruses-node.html) and by the [National Reference Center for Coronaviruses](https://virologie-ccm.charite.de/en/diagnostics/reference_center_for_coronaviruses).  
 
 As part of the IGS project, the data produced by [MF1 | Genome Competence Centre](https://www.rki.de/EN/Institute/Organisation/Departments/MFI/MF1/mf1-genome-competence-centre-node.html) will be analyzed bioinformatically. Questions regarding the project can best be directed to [IGS@rki.de](mailto:IGS@rki.de).  
 
