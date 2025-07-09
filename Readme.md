@@ -311,7 +311,7 @@ Publication of the data, data curation and quality management of the (meta-)data
 
 The IMSSC2 laboratory network consists of ~20 laboratory medical facilities in 13 federal states, which send randomly selected SARS-CoV-2-positive sample material to the RKI on a weekly basis. Here, whole genome sequencing and further phylogenetic and genome biology analyses are carried out to identify the most common SARS-CoV-2 lineages circulating in Germany. The results are published promptly on the RKI website and in scientific journals and contribute to the assessment of the current epidemiological situation of COVID-19. The IMSSC2 data is supplemented by sequences collected by the National Consiliary Laboratory for Coronaviruses. The data from both sources is made available to the public via GitHub and other public databases. Also included in the dataset are SARS-CoV-2 sequence data from all over Germany that were submitted to the RKI via the [German Electronic Sequence Data Hub (DESH)](https://doi.org/10.5281/zenodo.7992536) by May 31, 2023.   
 
-### Assignment of virus lines based on partangolin
+### Assignment of virus lines based on pangolin
 
 The assignment of known virus lines to the collected sequences is carried out using [Pangolin](https://github.com/cov-lineages/pangolin). When a new version or updated lineage definitions of [Pangolin](https://github.com/cov-lineages/pangolin) are released, the lineage information for the entire sequence collection is reassigned to the entire sequence dataset. The information about the lineage and the Pangolin version used can be found for each sequence in the metadata.   
 
