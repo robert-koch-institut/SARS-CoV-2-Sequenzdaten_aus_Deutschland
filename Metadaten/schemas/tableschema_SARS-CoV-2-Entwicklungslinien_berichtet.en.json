@@ -1,0 +1,31 @@
+{
+  "fields": [
+    {
+      "name": "LINEAGE",
+      "type": "string",
+      "description": "Assigned Pangolin Lineage",
+      "constraints": {
+        "required": true
+      },
+      "example": "JN.1"
+    },
+    {
+      "name": "WHO_LABEL",
+      "type": "string",
+      "description": "Name of the virus variant assigned by the World Health Organization",
+      "constraints": {
+        "required": true
+      },
+      "example": "Omikron"
+    },
+    {
+      "name": "CONTRIBUTING_LINEAGES",
+      "type": "string",
+      "description": "Pangolin lineages derived from the lineage",
+      "constraints": {
+        "required": true
+      },
+      "example": "JN.1.1.10"
+    }
+  ]
+}
