@@ -9,7 +9,7 @@
     "descriptions": [
       {
         "language": "DE (German)",
-        "text": "Ein zentraler Bestandteil einer erfolgreichen Erregersurveillance ist das Verständnis der Verbreitung eines Erregers sowie seiner pathogenen Eigenschaften. Hierbei stellt das Wissen über das Erregergenom eine wichtige Informationsquelle dar. So erlaubt der Nachweis von Mutationen im Genom eines Erregers, Verwandtschaftsbeziehungen zu rekonstruieren, Übertragungswege aufzudecken und Resistenzen vorherzusagen. Die Integrierte Genomische Surveillance (IGS) von SARS-CoV-2 zielt darauf ab, die Verbreitung des Virus und insbesondere von besorgniserregenden Virusvarianten in der Bevölkerung zu überwachen sowie auftretende Veränderungen des Virus genau zu beobachten. Besondere Bedeutung kommt dabei der öffentlichen Bereitstellung der genomischen Daten zu, um Wissenschaftlern in Deutschland und weltweit die Möglichkeit zu eigenständigen Analysen zu eröffnen.  Im Rahmen der Coronavirus-Surveillanceverordnung (https://www.gesetze-im-internet.de/corsurv/BJNR601910021.html) wurden bis zum 31.05.2023 SARS-CoV-2 Sequenzdaten aus ganz Deutschland über den Deutschen Elektronischen Sequenzdaten-Hub (DESH) an das RKI übermittelt (https://doi.org/10.5281/zenodo.7992536). Mit Ablauf der Verordnung werden künftig Proben durch das IMSSC2 Labornetzwerk bereitgestellt und am RKI sequenziert, analysiert und hier bereitgestellt. Trotz reduzierter  Probenanzahl, wird durch die sorgfältige Auswahl der beteiligten Labore ein repräsentativer Einblick in die Viruspopluation gesichert (Djin Ye Oh  et al. 2022) (https://doi.org/10.1093/cid/ciac399). Zusätzlich werden Sequenzen vom NRZ Coronaviren an der Charité beigetragen um das IMSSC2 Netzwerk zu ergänzen."
+        "text": "Im Datensatz \"SARS-CoV-2-Sequenzdaten aus Deutschland\" umfasst vollständige Virusgenomsequenzen sowie zugehörige Metadaten aus bundesweit erhobenen Proben. Die Proben werden in Zusammenarbeit vom IMSSC2-Labornetzwerk, dem Nationalen Referenzzentrum für Coronaviren an der Charité sowie dem RKI sequenziert und bioinformatisch analysiert. Der Datensatz ermöglicht eine fundierte molekular-epidemiologische Analyse der SARS-CoV-2-Ausbreitung in Deutschland und stellt eine zentrale Ressource für Forschung und öffentliche Gesundheitsüberwachung dar."
       }
     ],
     "titles": [
@@ -20,7 +20,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.17047123",
+        "identifier": "10.5281/zenodo.17093147",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -116,7 +116,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2025-09-02"
+      "version": "2025-09-09"
     },
     "webpage": "https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland/",
     "contributors": [
