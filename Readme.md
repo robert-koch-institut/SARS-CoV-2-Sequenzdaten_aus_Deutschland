@@ -19,7 +19,7 @@ Dokumentation
 <br> 
 
 **Zitieren**  
-Robert Koch-Institut. (2025). SARS-CoV-2 Sequenzdaten aus Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.17295212](https://doi.org/10.5281/zenodo.17295212)
+Robert Koch-Institut. (2025). SARS-CoV-2 Sequenzdaten aus Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.17359712](https://doi.org/10.5281/zenodo.17359712)
 
 <br>
 
