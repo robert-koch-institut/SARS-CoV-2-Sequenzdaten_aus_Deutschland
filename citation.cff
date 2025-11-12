@@ -2,7 +2,7 @@ cff-version: 1.2.0
 type: dataset
 title: SARS-CoV-2 Sequenzdaten aus Deutschland
 abstract: "Im Datensatz &quot;SARS-CoV-2-Sequenzdaten aus Deutschland&quot; umfasst vollständige Virusgenomsequenzen sowie zugehörige Metadaten aus bundesweit erhobenen Proben.\_Die Proben werden in Zusammenarbeit vom IMSSC2-Labornetzwerk, dem Nationalen Referenzzentrum für Coronaviren an der Charité sowie dem RKI sequenziert und bioinformatisch analysiert.\_Der Datensatz ermöglicht eine fundierte molekular-epidemiologische Analyse der SARS-CoV-2-Ausbreitung in Deutschland und stellt eine zentrale Ressource für Forschung und öffentliche Gesundheitsüberwachung dar."
-date-released: '2025-11-05'
+date-released: '2025-11-12'
 keywords:
   - COVID-19
   - SARS-CoV-2
@@ -28,8 +28,8 @@ message: Cite me!
 url: >-
   https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland/
 license: CC-BY-4.0
-doi: 10.5281/zenodo.17533770
-version: '2025-11-04T09:26:00+01:00'
+doi: 10.5281/zenodo.17591499
+version: '2025-11-11T06:53:00+01:00'
 authors:
   - name: Robert Koch-Institut
     email: info@rki.de
