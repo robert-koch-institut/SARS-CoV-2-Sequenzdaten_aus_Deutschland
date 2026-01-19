@@ -13,7 +13,7 @@ jobs:
       ZENODOJSON_PATH: Metadaten/zenodo.json
     
       # Push to OpenCoDE
-      OPENCODE_ACTIVE: true
+      OPENCODE_ACTIVE: false
       OPENCODE_GROUPID: 2781
       OPENCODE_ACCESS_USER: RKIOpenData
       
