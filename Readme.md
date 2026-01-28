@@ -202,13 +202,13 @@ Die Datei [SARS-CoV-2-Entwicklungslinien_zu_Varianten.tsv](https://github.com/ro
 
 #### Formatierung der Sequenzmetadaten  
 
-Die Sequenzmetadaten werden als [xz-komprimierte](https://en.wikipedia.org/wiki/XZ_Utils), kommaseparierte .csv-Datei bereitgestellt. Daraus ergibt sich die Dateiendung .csv.xz. Der verwendete Zeichensatz der .csv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". Datumsangaben sind im ISO-8601-Standard formatiert.  
+Die Sequenzmetadaten werden als [xz-komprimierte](https://en.wikipedia.org/wiki/XZ_Utils), Tab-separierte .tsv-Datei bereitgestellt. Daraus ergibt sich die Dateiendung .tsv.xz. Der verwendete Zeichensatz der .tsv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Tab `\t` . Datumsangaben sind im ISO-8601-Standard formatiert.  
 
 * Zeichensatz: UTF-8  
 * Datumsformat: ISO 8601  
 * Komprimierung: [.xz](https://en.wikipedia.org/wiki/XZ_Utils)  
 * Enthaltenes Dateiformat: .tsv  
-* .csv-Trennzeichen: Tab "\t"  
+* .tsv-Trennzeichen: Tab `\t`  
 
 Die Dateien können auf gängigen Betriebssystemen, beispielsweise mit den Programmen [7zip](https://www.7-zip.org/) oder [XZ Utils](https://tukaani.org/xz/), entpackt werden. Die Komprimierung wird vorgenommen, da insbesondere die .fasta-Dateien mehrere Gigabyte (GB) groß sind.   
 
