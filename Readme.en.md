@@ -20,7 +20,7 @@ Documentation
 <br> 
 
 **Cite**  
-Robert Koch Institute. (2026). SARS-CoV-2 Sequence Data from Germany [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18610507](https://doi.org/10.5281/zenodo.18610507)
+Robert Koch Institute. (2026). SARS-CoV-2 Sequence Data from Germany [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.18682282](https://doi.org/10.5281/zenodo.18682282)
 
 
 <br>
