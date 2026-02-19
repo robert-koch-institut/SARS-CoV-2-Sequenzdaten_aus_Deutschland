@@ -3,6 +3,7 @@
 
 
 Documentation  
+
 # SARS-CoV-2 Sequence Data from Germany
 
 <br> 
@@ -20,7 +21,9 @@ Documentation
 <br> 
 
 **Cite**  
+<!-- CITATION_START: {"citation_style": "apa"} -->
 Robert Koch Institute. (2025). SARS-CoV-2 Sequence Data from Germany [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.17150957](https://doi.org/10.5281/zenodo.17150957)
+<!-- CITATION_END -->
 
 
 <br>
@@ -30,14 +33,16 @@ The dataset ‘SARS-CoV-2 Sequence Data from Germany’ consists of complete vir
 
 <br>
 
-**Table of Content**
+**Table of Content**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [Information on the data set and context of origin](#information-on-the-data-set-and-context-of-origin)
-  - [Structure and content of the dataset](#structure-and-content-of-the-dataset)
-  - [Guidelines for reuse of the data](#guidelines-for-reuse-of-the-data)
+  - [Information on the data set and context of origin](#information-on-the-data-set-and-context-of-origin)  
+  - [Structure and content of the dataset](#structure-and-content-of-the-dataset)  
+  - [Guidelines for reuse of the data](#guidelines-for-reuse-of-the-data)  
 <!-- TOC_END -->
 
 <br>
+
 <!-- HEADER_END -->
 
 <br>
@@ -53,7 +58,7 @@ The dataset ‘SARS-CoV-2 Sequence Data from Germany’ consists of complete vir
 
 A central component of successful pathogen surveillance is understanding the spread of a pathogen and its pathogenic properties. Knowledge of the pathogen genome is an important source of information here. The detection of mutations in the genome of a pathogen makes it possible to reconstruct relationships, uncover transmission routes and predict resistance. The Integrated Genomic Surveillance (IGS) of SARS-CoV-2 aims to monitor the spread of the virus and in particular of virus variants of concern in the population and to closely observe any changes in the virus that occur. The public provision of genomic data is of particular importance in order to enable scientists in Germany and worldwide to carry out their own analyses.  
 
-As part of the [Coronavirus Surveillance Ordinance](https://www.gesetze-im-internet.de/corsurv/BJNR601910021.html), [SARS-CoV-2 sequence data from all over Germany were transmitted to the RKI via the German Electronic Sequence Data Hub (DESH) until 31.05.2023](https://doi.org/10.5281/zenodo.7992536). With the expiration of the ordinance, samples will be provided by the IMSSC2 laboratory network in the future and sequenced, analyzed and made available here at the RKI. Despite the reduced number of samples, the careful selection of the participating laboratories ensures a representative insight into the virus population ([Djin Ye Oh *et al.* **2022**)](https://doi.org/10.1093/cid/ciac399). In addition, sequences from the NRZ Coronaviruses at the Charité will be contributed to complement the IMSSC2 network.
+As part of the [Coronavirus Surveillance Ordinance](https://web.archive.org/web/20230512153111/https://www.gesetze-im-internet.de/corsurv/BJNR601910021.html), [SARS-CoV-2 sequence data from all over Germany were transmitted to the RKI via the German Electronic Sequence Data Hub (DESH) until 31.05.2023](https://doi.org/10.5281/zenodo.7992536). With the expiration of the ordinance, samples will be provided by the IMSSC2 laboratory network in the future and sequenced, analyzed and made available here at the RKI. Despite the reduced number of samples, the careful selection of the participating laboratories ensures a representative insight into the virus population ([Djin Ye Oh *et al.* **2022**)](https://doi.org/10.1093/cid/ciac399). In addition, sequences from the NRZ Coronaviruses at the Charité will be contributed to complement the IMSSC2 network.
  
 ### Administrative and organizational information
 
@@ -168,6 +173,7 @@ The file [SARS-CoV-2-Sequenzdaten_Deutschland.tsv.xz](https://github.com/robert-
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "SARS-CoV-2-Entwicklungslinien_berichtet", "lang": "en"} -->
 
 The file [SARS-CoV-2-Entwicklungslinien_berichtet.tsv](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/SARS-CoV-2-Entwicklungslinien_berichtet.tsv) contains the variables and their values shown in the following table. A machine-readable data schema is stored in [Data Package Format](https://datapackage.org/) in [tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.en.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.en.json):
+
 > [tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.en.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.en.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
@@ -184,16 +190,17 @@ The file [SARS-CoV-2-Entwicklungslinien_berichtet.tsv](https://github.com/robert
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "SARS-CoV-2-Entwicklungslinien_zu_Varianten", "lang": "en"} -->
 
 The file [SARS-CoV-2-Entwicklungslinien_zu_Varianten.tsv](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/SARS-CoV-2-Entwicklungslinien_zu_Varianten.tsv) contains the variables and their values shown in the following table. A machine-readable data schema is stored in [Data Package Format](https://datapackage.org/) in [tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.en.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.en.json):
+
 > [tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.en.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.en.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable              | Type   | Characteristic       | Description                                                                                |
-|:----------------------|:-------|:---------------------|:-------------------------------------------------------------------------------------------|
-| LINEAGE               | string | Example: `BA.2`      | Assigned Pangolin Lineage                                                                  |
-| WHO_LABEL             | string | Example: `Omikron`   | Name of the virus variant assigned by the World Health Organization                        |
-| CONTRIBUTING_LINEAGES | string | Example: `JN.13.1`   | Pangolin lineages derived from the lineage                                                 |
-| COLOR                 | any    |                      | Legacy variable. It is no longer relevant and will be removed perspectively.               |
-| variant_category      | string | Values: `VOC`, `VOI` | WHO Classification of the variant as VOC (variant of concern) or VOI (variant of interest) |
+| Variable              | Type   | Characteristic          | Description                                                                                |
+|:----------------------|:-------|:------------------------|:-------------------------------------------------------------------------------------------|
+| LINEAGE               | string | Example: `BA.2`         | Assigned Pangolin Lineage                                                                  |
+| WHO_LABEL             | string | Example: `Omikron`      | Name of the virus variant assigned by the World Health Organization                        |
+| CONTRIBUTING_LINEAGES | string | Example: `JN.13.1`      | Pangolin lineages derived from the lineage                                                 |
+| COLOR                 | any    |                         | Legacy variable. It is no longer relevant and will be removed perspectively.               |
+| variant_category      | string | Values:<br>`VOC`, `VOI` | WHO Classification of the variant as VOC (variant of concern) or VOI (variant of interest) |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -215,14 +222,13 @@ The files can be unpacked on common operating systems, for example with the prog
 
 <!-- FOOTER_START: {"lang": "en"} -->
 
-
 ### Metadata
 
 To increase findability, the provided data are described with metadata. The Metadata are distributed to the relevant platforms via GitHub Actions. There is a specific metadata file for each platform; these are stored in the metadata folder:
 
 > [Metadaten/](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/main/Metadaten/)
 
-Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/zenodo.json). Documentation of the individual metadata variables can be found at https://developers.zenodo.org/representation.
+Versioning and DOI assignment are performed via [Zenodo.org](https://zenodo.org). The metadata prepared for import into Zenodo are stored in the [zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/zenodo.json). Documentation of the individual metadata variables can be found at [https://developers.zenodo.org/representation](https://developers.zenodo.org/#representation).
 
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/zenodo.json)
 
@@ -233,8 +239,8 @@ The zenodo.json includes the publication date and the date of the data status in
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Collected",
-      "description": "Date when the dataset was created"
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
 ```
@@ -259,10 +265,12 @@ For tabular data, we additionally define a [Table Schema](https://datapackage.or
 
 Open data from the RKI are available on [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de), and [Edoc.rki.de](http://Edoc.rki.de/):
 
-- https://zenodo.org/communities/robertkochinstitut
-- https://github.com/robert-koch-institut
-- https://gitlab.opencode.de/robert-koch-institut
-- https://edoc.rki.de/
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)
+- [https://edoc.rki.de/](https://edoc.rki.de/)
+
+
 
 ### License
 

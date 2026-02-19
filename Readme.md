@@ -2,6 +2,7 @@
 
 
 Dokumentation  
+
 # SARS-CoV-2 Sequenzdaten aus Deutschland
 
 <br> 
@@ -19,21 +20,24 @@ Dokumentation
 <br> 
 
 **Zitieren**  
+<!-- CITATION_START: {"citation_style": "apa"} -->
 Robert Koch-Institut. (2025). SARS-CoV-2 Sequenzdaten aus Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.17150957](https://doi.org/10.5281/zenodo.17150957)
+<!-- CITATION_END -->
+
 
 <br>
-
 
 **Zusammenfassung**    
 Im Datensatz "SARS-CoV-2-Sequenzdaten aus Deutschland" umfasst vollständige Virusgenomsequenzen sowie zugehörige Metadaten aus bundesweit erhobenen Proben. Die Proben werden in Zusammenarbeit vom IMSSC2-Labornetzwerk, dem Nationalen Referenzzentrum für Coronaviren an der Charité sowie dem RKI sequenziert und bioinformatisch analysiert. Der Datensatz ermöglicht eine fundierte molekular-epidemiologische Analyse der SARS-CoV-2-Ausbreitung in Deutschland und stellt eine zentrale Ressource für Forschung und öffentliche Gesundheitsüberwachung dar.
 
 <br>
 
-**Inhaltsverzeichnis** 
+**Inhaltsverzeichnis**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)
-  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)
-  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)  
+  - [Aufbau und Inhalt des Datensatzes](#aufbau-und-inhalt-des-datensatzes)  
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)  
 <!-- TOC_END -->
 
 <br>
@@ -53,7 +57,7 @@ Im Datensatz "SARS-CoV-2-Sequenzdaten aus Deutschland" umfasst vollständige Vir
 
 Ein zentraler Bestandteil einer erfolgreichen Erregersurveillance ist das Verständnis der Verbreitung eines Erregers sowie seiner pathogenen Eigenschaften. Hierbei stellt das Wissen über das Erregergenom eine wichtige Informationsquelle dar. So erlaubt der Nachweis von Mutationen im Genom eines Erregers, Verwandtschaftsbeziehungen zu rekonstruieren, Übertragungswege aufzudecken und Resistenzen vorherzusagen. Die Integrierte Genomische Surveillance (IGS) von SARS-CoV-2 zielt darauf ab, die Verbreitung des Virus und insbesondere von besorgniserregenden Virusvarianten in der Bevölkerung zu überwachen sowie auftretende Veränderungen des Virus genau zu beobachten. Besondere Bedeutung kommt dabei der öffentlichen Bereitstellung der genomischen Daten zu, um Wissenschaftlern in Deutschland und weltweit die Möglichkeit zu eigenständigen Analysen zu eröffnen.  
 
-Im Rahmen der [Coronavirus-Surveillanceverordnung](https://www.gesetze-im-internet.de/corsurv/BJNR601910021.html) wurden bis zum 31.05.2023 [SARS-CoV-2 Sequenzdaten aus ganz Deutschland über den Deutschen Elektronischen Sequenzdaten-Hub (DESH) an das RKI übermittelt](https://doi.org/10.5281/zenodo.7992536). Mit Ablauf der Verordnung werden künftig Proben durch das IMSSC2 Labornetzwerk bereitgestellt und am RKI sequenziert, analysiert und hier bereitgestellt. Trotz reduzierter  Probenanzahl, wird durch die sorgfältige Auswahl der beteiligten Labore ein repräsentativer Einblick in die Viruspopluation gesichert ([Djin Ye Oh  *et al.* **2022**)](https://doi.org/10.1093/cid/ciac399). Zusätzlich werden Sequenzen vom NRZ Coronaviren an der Charité beigetragen um das IMSSC2 Netzwerk zu ergänzen. 
+Im Rahmen der [Coronavirus-Surveillanceverordnung](https://web.archive.org/web/20230512153111/https://www.gesetze-im-internet.de/corsurv/BJNR601910021.html) wurden bis zum 31.05.2023 [SARS-CoV-2 Sequenzdaten aus ganz Deutschland über den Deutschen Elektronischen Sequenzdaten-Hub (DESH) an das RKI übermittelt](https://doi.org/10.5281/zenodo.7992536). Mit Ablauf der Verordnung werden künftig Proben durch das IMSSC2 Labornetzwerk bereitgestellt und am RKI sequenziert, analysiert und hier bereitgestellt. Trotz reduzierter  Probenanzahl, wird durch die sorgfältige Auswahl der beteiligten Labore ein repräsentativer Einblick in die Viruspopluation gesichert ([Djin Ye Oh  *et al.* **2022**)](https://doi.org/10.1093/cid/ciac399). Zusätzlich werden Sequenzen vom NRZ Coronaviren an der Charité beigetragen um das IMSSC2 Netzwerk zu ergänzen. 
  
 ### Administrative und organisatorische Angaben
 
@@ -168,6 +172,7 @@ Die Datei [SARS-CoV-2-Sequenzdaten_Deutschland.tsv.xz](https://github.com/robert
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "SARS-CoV-2-Entwicklungslinien_berichtet", "lang": "de"} -->
 
 Die Datei [SARS-CoV-2-Entwicklungslinien_berichtet.tsv](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/SARS-CoV-2-Entwicklungslinien_berichtet.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json) hinterlegt:
+
 > [tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
@@ -184,16 +189,17 @@ Die Datei [SARS-CoV-2-Entwicklungslinien_berichtet.tsv](https://github.com/rober
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "SARS-CoV-2-Entwicklungslinien_zu_Varianten", "lang": "de"} -->
 
 Die Datei [SARS-CoV-2-Entwicklungslinien_zu_Varianten.tsv](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/SARS-CoV-2-Entwicklungslinien_zu_Varianten.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json) hinterlegt:
+
 > [tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable              | Typ    | Ausprägungen        | Beschreibung                                                                            |
-|:----------------------|:-------|:--------------------|:----------------------------------------------------------------------------------------|
-| LINEAGE               | string | Beispiel: `BA.2`    | Zugewiesene Pangolin Lineage                                                            |
-| WHO_LABEL             | string | Beispiel: `Omikron` | Name der Virusvariante, der  von der World Health Organisation vergeben wurde           |
-| CONTRIBUTING_LINEAGES | string | Beispiel: `JN.13.1` | Pangolin Lineages, die von der Lineage abstammen                                        |
-| COLOR                 | any    |                     | Veraltete Variable. Ist nicht mehr relevant und wird persepektivisch entfernt.          |
-| variant_category      | string | Werte: `VOC`, `VOI` | WHO Einstufung der Variante als VOC (variant of concern) oder VOI (variant of interest) |
+| Variable              | Typ    | Ausprägungen           | Beschreibung                                                                            |
+|:----------------------|:-------|:-----------------------|:----------------------------------------------------------------------------------------|
+| LINEAGE               | string | Beispiel: `BA.2`       | Zugewiesene Pangolin Lineage                                                            |
+| WHO_LABEL             | string | Beispiel: `Omikron`    | Name der Virusvariante, der  von der World Health Organisation vergeben wurde           |
+| CONTRIBUTING_LINEAGES | string | Beispiel: `JN.13.1`    | Pangolin Lineages, die von der Lineage abstammen                                        |
+| COLOR                 | any    |                        | Veraltete Variable. Ist nicht mehr relevant und wird persepektivisch entfernt.          |
+| variant_category      | string | Werte:<br>`VOC`, `VOI` | WHO Einstufung der Variante als VOC (variant of concern) oder VOI (variant of interest) |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -215,15 +221,13 @@ Die Dateien können auf gängigen Betriebssystemen, beispielsweise mit den Progr
 
 <!-- FOOTER_START: {"lang": "de"} -->
 
-
-
 ### Metadaten  
 
 Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
 > [Metadaten/](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/tree/main/Metadaten/) 
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter [https://developers.zenodo.org/#representation](https://developers.zenodo.org/#representation) nachlesbar.
  
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland/blob/main/Metadaten/zenodo.json)  
 
@@ -234,8 +238,8 @@ In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch d
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Collected",
-      "description": "Date when the Dataset was created"
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
 ```    
@@ -260,11 +264,13 @@ Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://d
 
 Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-- https://zenodo.org/communities/robertkochinstitut  
-- https://github.com/robert-koch-institut  
-- https://gitlab.opencode.de/robert-koch-institut  
-- https://edoc.rki.de/  
- 
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)  
+- [https://edoc.rki.de/](https://edoc.rki.de/) 
+
+
+
 ### Lizenz  
 
 Der Datensatz "SARS-CoV-2 Sequenzdaten aus Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
