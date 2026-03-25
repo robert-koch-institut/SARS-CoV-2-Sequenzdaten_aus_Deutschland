@@ -915,6 +915,7 @@ JN.1	Omikron	RF.1
 JN.1	Omikron	RF.2
 JN.1	Omikron	RF.3
 JN.1	Omikron	RF.4
+JN.1	Omikron	RF.5
 JN.1	Omikron	RG.1
 JN.1	Omikron	RG.1.1
 JN.1	Omikron	RG.1.2
@@ -1198,6 +1199,14 @@ NB.1.8.1	Rekombinant	PQ.43
 NB.1.8.1	Rekombinant	PQ.43.1
 NB.1.8.1	Rekombinant	PQ.43.1.1
 NB.1.8.1	Rekombinant	PQ.43.2
+NB.1.8.1	Rekombinant	PQ.44
+NB.1.8.1	Rekombinant	PQ.45
+NB.1.8.1	Rekombinant	PQ.46
+NB.1.8.1	Rekombinant	PQ.46.1
+NB.1.8.1	Rekombinant	PQ.47
+NB.1.8.1	Rekombinant	PQ.48
+NB.1.8.1	Rekombinant	PQ.48.1
+NB.1.8.1	Rekombinant	PQ.49
 NB.1.8.1	Rekombinant	PQ.5
 NB.1.8.1	Rekombinant	PQ.5.1
 NB.1.8.1	Rekombinant	PQ.5.1.1
@@ -1227,6 +1236,8 @@ XFG	Rekombinant	QF.2
 XFG	Rekombinant	QF.2.1
 XFG	Rekombinant	QF.2.2
 XFG	Rekombinant	QF.2.2.1
+XFG	Rekombinant	QF.2.3
+XFG	Rekombinant	QF.2.4
 XFG	Rekombinant	QF.3
 XFG	Rekombinant	QF.4
 XFG	Rekombinant	QF.5
@@ -1264,6 +1275,7 @@ XFG	Rekombinant	RN.2
 XFG	Rekombinant	RN.2.1
 XFG	Rekombinant	RP.1
 XFG	Rekombinant	RP.2
+XFG	Rekombinant	RV.1
 XFG	Rekombinant	XFG
 XFG	Rekombinant	XFG.1
 XFG	Rekombinant	XFG.1.1
@@ -1401,6 +1413,7 @@ XFG	Rekombinant	XFG.3.30.1
 XFG	Rekombinant	XFG.3.30.2
 XFG	Rekombinant	XFG.3.31
 XFG	Rekombinant	XFG.3.32
+XFG	Rekombinant	XFG.3.33
 XFG	Rekombinant	XFG.3.4
 XFG	Rekombinant	XFG.3.4.1
 XFG	Rekombinant	XFG.3.4.2
@@ -1462,6 +1475,7 @@ XFG	Rekombinant	XFG.5.2.6
 XFG	Rekombinant	XFG.5.3
 XFG	Rekombinant	XFG.5.4
 XFG	Rekombinant	XFG.5.4.1
+XFG	Rekombinant	XFG.5.4.2
 XFG	Rekombinant	XFG.6
 XFG	Rekombinant	XFG.6.1
 XFG	Rekombinant	XFG.6.10
@@ -1469,6 +1483,7 @@ XFG	Rekombinant	XFG.6.11
 XFG	Rekombinant	XFG.6.12
 XFG	Rekombinant	XFG.6.2
 XFG	Rekombinant	XFG.6.2.1
+XFG	Rekombinant	XFG.6.2.2
 XFG	Rekombinant	XFG.6.3
 XFG	Rekombinant	XFG.6.3.1
 XFG	Rekombinant	XFG.6.3.2
@@ -1515,6 +1530,7 @@ BA.3.2	Omikron	RE.1.1
 BA.3.2	Omikron	RE.1.1.1
 BA.3.2	Omikron	RE.1.1.2
 BA.3.2	Omikron	RE.1.1.3
+BA.3.2	Omikron	RE.1.2
 BA.3.2	Omikron	RE.2
 BA.3.2	Omikron	RE.2.1
 BA.3.2	Omikron	RE.2.1.1
@@ -1527,7 +1543,12 @@ BA.3.2	Omikron	RE.2.2.3
 BA.3.2	Omikron	RE.2.2.4
 BA.3.2	Omikron	RE.2.2.5
 BA.3.2	Omikron	RE.2.2.6
+BA.3.2	Omikron	RE.2.2.7
+BA.3.2	Omikron	RE.2.2.8
 BA.3.2	Omikron	RE.2.3
 BA.3.2	Omikron	RE.2.4
 BA.3.2	Omikron	RE.3
 BA.3.2	Omikron	RE.3.1
+BA.3.2	Omikron	RS.1
+BA.3.2	Omikron	RT.1
+BA.3.2	Omikron	RU.1

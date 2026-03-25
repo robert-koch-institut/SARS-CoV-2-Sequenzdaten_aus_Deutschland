@@ -1838,6 +1838,7 @@ BA.2	Omikron	RF.1		VOC
 BA.2	Omikron	RF.2		VOC
 BA.2	Omikron	RF.3		VOC
 BA.2	Omikron	RF.4		VOC
+BA.2	Omikron	RF.5		VOC
 BA.2	Omikron	RG.1		VOC
 BA.2	Omikron	RG.1.1		VOC
 BA.2	Omikron	RG.1.2		VOC
@@ -1857,6 +1858,7 @@ BA.3	Omikron	RE.1.1		VOC
 BA.3	Omikron	RE.1.1.1		VOC
 BA.3	Omikron	RE.1.1.2		VOC
 BA.3	Omikron	RE.1.1.3		VOC
+BA.3	Omikron	RE.1.2		VOC
 BA.3	Omikron	RE.2		VOC
 BA.3	Omikron	RE.2.1		VOC
 BA.3	Omikron	RE.2.1.1		VOC
@@ -1869,10 +1871,15 @@ BA.3	Omikron	RE.2.2.3		VOC
 BA.3	Omikron	RE.2.2.4		VOC
 BA.3	Omikron	RE.2.2.5		VOC
 BA.3	Omikron	RE.2.2.6		VOC
+BA.3	Omikron	RE.2.2.7		VOC
+BA.3	Omikron	RE.2.2.8		VOC
 BA.3	Omikron	RE.2.3		VOC
 BA.3	Omikron	RE.2.4		VOC
 BA.3	Omikron	RE.3		VOC
 BA.3	Omikron	RE.3.1		VOC
+BA.3	Omikron	RS.1		VOC
+BA.3	Omikron	RT.1		VOC
+BA.3	Omikron	RU.1		VOC
 BA.4	Omikron	BA.4		VOC
 BA.4	Omikron	BA.4.1		VOC
 BA.4	Omikron	BA.4.1.1		VOC
@@ -3261,6 +3268,14 @@ X	Rekombinant	PQ.43		VOC
 X	Rekombinant	PQ.43.1		VOC
 X	Rekombinant	PQ.43.1.1		VOC
 X	Rekombinant	PQ.43.2		VOC
+X	Rekombinant	PQ.44		VOC
+X	Rekombinant	PQ.45		VOC
+X	Rekombinant	PQ.46		VOC
+X	Rekombinant	PQ.46.1		VOC
+X	Rekombinant	PQ.47		VOC
+X	Rekombinant	PQ.48		VOC
+X	Rekombinant	PQ.48.1		VOC
+X	Rekombinant	PQ.49		VOC
 X	Rekombinant	PQ.5		VOC
 X	Rekombinant	PQ.5.1		VOC
 X	Rekombinant	PQ.5.1.1		VOC
@@ -3281,6 +3296,8 @@ X	Rekombinant	QF.2		VOC
 X	Rekombinant	QF.2.1		VOC
 X	Rekombinant	QF.2.2		VOC
 X	Rekombinant	QF.2.2.1		VOC
+X	Rekombinant	QF.2.3		VOC
+X	Rekombinant	QF.2.4		VOC
 X	Rekombinant	QF.3		VOC
 X	Rekombinant	QF.4		VOC
 X	Rekombinant	QF.5		VOC
@@ -3333,6 +3350,7 @@ X	Rekombinant	RP.2		VOC
 X	Rekombinant	RQ.1		VOC
 X	Rekombinant	RQ.2		VOC
 X	Rekombinant	RR.1		VOC
+X	Rekombinant	RV.1		VOC
 X	Rekombinant	XA		VOC
 X	Rekombinant	XAA		VOC
 X	Rekombinant	XAB		VOC
@@ -4176,6 +4194,7 @@ X	Rekombinant	XFG.3.30.1		VOC
 X	Rekombinant	XFG.3.30.2		VOC
 X	Rekombinant	XFG.3.31		VOC
 X	Rekombinant	XFG.3.32		VOC
+X	Rekombinant	XFG.3.33		VOC
 X	Rekombinant	XFG.3.4		VOC
 X	Rekombinant	XFG.3.4.1		VOC
 X	Rekombinant	XFG.3.4.2		VOC
@@ -4237,6 +4256,7 @@ X	Rekombinant	XFG.5.2.6		VOC
 X	Rekombinant	XFG.5.3		VOC
 X	Rekombinant	XFG.5.4		VOC
 X	Rekombinant	XFG.5.4.1		VOC
+X	Rekombinant	XFG.5.4.2		VOC
 X	Rekombinant	XFG.6		VOC
 X	Rekombinant	XFG.6.1		VOC
 X	Rekombinant	XFG.6.10		VOC
@@ -4244,6 +4264,7 @@ X	Rekombinant	XFG.6.11		VOC
 X	Rekombinant	XFG.6.12		VOC
 X	Rekombinant	XFG.6.2		VOC
 X	Rekombinant	XFG.6.2.1		VOC
+X	Rekombinant	XFG.6.2.2		VOC
 X	Rekombinant	XFG.6.3		VOC
 X	Rekombinant	XFG.6.3.1		VOC
 X	Rekombinant	XFG.6.3.2		VOC
@@ -4334,6 +4355,8 @@ X	Rekombinant	XFW.1.1		VOC
 X	Rekombinant	XFW.1.1.1		VOC
 X	Rekombinant	XFY		VOC
 X	Rekombinant	XFY.1		VOC
+X	Rekombinant	XFY.2		VOC
+X	Rekombinant	XFY.3		VOC
 X	Rekombinant	XFZ		VOC
 X	Rekombinant	XFZ.1		VOC
 X	Rekombinant	XFZ.2		VOC
@@ -4356,6 +4379,9 @@ X	Rekombinant	XGM		VOC
 X	Rekombinant	XGN		VOC
 X	Rekombinant	XGP		VOC
 X	Rekombinant	XGQ		VOC
+X	Rekombinant	XGR		VOC
+X	Rekombinant	XGS		VOC
+X	Rekombinant	XGT		VOC
 X	Rekombinant	XH		VOC
 X	Rekombinant	XJ		VOC
 X	Rekombinant	XK		VOC
@@ -5428,6 +5454,7 @@ JN.1	Omikron	RF.1		VOI
 JN.1	Omikron	RF.2		VOI
 JN.1	Omikron	RF.3		VOI
 JN.1	Omikron	RF.4		VOI
+JN.1	Omikron	RF.5		VOI
 JN.1	Omikron	RG.1		VOI
 JN.1	Omikron	RG.1.1		VOI
 JN.1	Omikron	RG.1.2		VOI
