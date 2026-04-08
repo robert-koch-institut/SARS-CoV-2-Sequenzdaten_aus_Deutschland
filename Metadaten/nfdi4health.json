@@ -10,25 +10,33 @@
       {
         "language": "DE (German)",
         "text": "Im Datensatz \"SARS-CoV-2-Sequenzdaten aus Deutschland\" umfasst vollständige Virusgenomsequenzen sowie zugehörige Metadaten aus bundesweit erhobenen Proben. Die Proben werden in Zusammenarbeit vom IMSSC2-Labornetzwerk, dem Nationalen Referenzzentrum für Coronaviren an der Charité sowie dem RKI sequenziert und bioinformatisch analysiert. Der Datensatz ermöglicht eine fundierte molekular-epidemiologische Analyse der SARS-CoV-2-Ausbreitung in Deutschland und stellt eine zentrale Ressource für Forschung und öffentliche Gesundheitsüberwachung dar."
+      },
+      {
+        "language": "EN (English)",
+        "text": "The dataset ‘SARS-CoV-2 Sequence Data from Germany’ consists of complete virus genome sequences and associated metadata from samples collected nationwide. The samples are sequenced and bioinformatically analysed in collaboration with the IMSSC2 laboratory network, the National Reference Centre for Coronaviruses at Charité and the RKI. The dataset enables robust molecular epidemiological analyses of the spread of SARS-CoV-2 in Germany and represents a central resource for research and public health surveillance."
       }
     ],
     "titles": [
       {
         "language": "DE (German)",
         "text": "SARS-CoV-2 Sequenzdaten aus Deutschland"
+      },
+      {
+        "language": "EN (English)",
+        "text": "SARS-CoV-2 Sequence Data from Germany"
       }
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.19369499",
+        "identifier": "10.5281/zenodo.19473684",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
       },
       {
         "identifier": "https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland",
-        "relationType": "A references B",
         "typeGeneral": "Dataset",
+        "relationType": "A references B",
         "scheme": "URL"
       }
     ],
@@ -37,10 +45,12 @@
     },
     "keywords": [
       {
-        "label": "COVID-19"
+        "label": "COVID-19",
+        "code": "http://id.nlm.nih.gov/mesh/D000086382"
       },
       {
-        "label": "SARS-CoV-2"
+        "label": "SARS-CoV-2",
+        "code": "http://id.nlm.nih.gov/mesh/D000086402"
       },
       {
         "label": "Virussequenzen"
@@ -52,7 +62,8 @@
         "label": "Basensequenz"
       },
       {
-        "label": "Deutschland"
+        "label": "Deutschland",
+        "code": "http://id.nlm.nih.gov/mesh/D005858"
       },
       {
         "label": "Viral Sequences"
@@ -65,27 +76,27 @@
       },
       {
         "label": "Gesundheitsberichterstattung",
-        "code": "info:ddc/22/de//614.42"
+        "code": "http://id.nlm.nih.gov/mesh/D062486"
       },
       {
         "label": "Biochemische Genetik",
-        "code": "info:ddc/22/de//572.8"
+        "code": "http://id.nlm.nih.gov/mesh/D008967"
       },
       {
         "label": "Epidemiologie",
-        "code": "info:ddc/22/de//614.4"
+        "code": "http://id.nlm.nih.gov/mesh/D004813"
       },
       {
         "label": "Biochemical genetics",
-        "code": "info:ddc/22/eng//572.8"
+        "code": "http://id.nlm.nih.gov/mesh/D008967"
       },
       {
         "label": "Public health surveillance",
-        "code": "info:ddc/22/eng//614.42"
+        "code": "http://id.nlm.nih.gov/mesh/D062486"
       },
       {
         "label": "Epidemiology",
-        "code": "info:ddc/22/eng//614.4"
+        "code": "http://id.nlm.nih.gov/mesh/D004813"
       },
       {
         "label": "Open Data"
@@ -94,10 +105,12 @@
         "label": "Offene Daten"
       },
       {
-        "label": "Deutschland"
+        "label": "Deutschland",
+        "code": "http://id.nlm.nih.gov/mesh/D005858"
       },
       {
-        "label": "Germany"
+        "label": "Germany",
+        "code": "http://id.nlm.nih.gov/mesh/D005858"
       },
       {
         "label": "RKI"
@@ -116,11 +129,12 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2026-03-24"
+      "version": "2026-04-08"
     },
-    "webpage": "https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland/",
+    "webpage": "https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland",
     "contributors": [
       {
+        "nameType": "Organisational",
         "affiliations": [
           {
             "name": "Robert Koch-Institut",
@@ -132,7 +146,6 @@
             ]
           }
         ],
-        "nameType": "Organisational",
         "organisational": {
           "name": "Robert Koch-Institut",
           "type": "Creator/Author"

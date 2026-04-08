@@ -1,6 +1,15 @@
 {
   "title": "SARS-CoV-2 Sequenzdaten aus Deutschland",
-  "description": "<p>Im Datensatz &quot;SARS-CoV-2-Sequenzdaten aus Deutschland&quot; umfasst vollständige Virusgenomsequenzen sowie zugehörige Metadaten aus bundesweit erhobenen Proben. Die Proben werden in Zusammenarbeit vom IMSSC2-Labornetzwerk, dem Nationalen Referenzzentrum für Coronaviren an der Charité sowie dem RKI sequenziert und bioinformatisch analysiert. Der Datensatz ermöglicht eine fundierte molekular-epidemiologische Analyse der SARS-CoV-2-Ausbreitung in Deutschland und stellt eine zentrale Ressource für Forschung und öffentliche Gesundheitsüberwachung dar.</p>\n",
+  "description": "<p>Im Datensatz \"SARS-CoV-2-Sequenzdaten aus Deutschland\" umfasst vollständige Virusgenomsequenzen sowie zugehörige Metadaten aus bundesweit erhobenen Proben. Die Proben werden in Zusammenarbeit vom IMSSC2-Labornetzwerk, dem Nationalen Referenzzentrum für Coronaviren an der Charité sowie dem RKI sequenziert und bioinformatisch analysiert. Der Datensatz ermöglicht eine fundierte molekular-epidemiologische Analyse der SARS-CoV-2-Ausbreitung in Deutschland und stellt eine zentrale Ressource für Forschung und öffentliche Gesundheitsüberwachung dar.</p>",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "deu",
+  "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+  ],
   "creators": [
     {
       "name": "Robert Koch-Institut",
@@ -18,47 +27,31 @@
     "Viral Sequences",
     "Genome",
     "Base Sequence",
+    "Gesundheitsberichterstattung",
+    "Biochemische Genetik",
+    "Epidemiologie",
+    "Biochemical genetics",
+    "Public health surveillance",
+    "Epidemiology",
     "Open Data",
     "Offene Daten",
     "Deutschland",
     "Germany",
     "RKI"
   ],
-  "publication_date": "2026-04-01",
+  "subjects": [],
+  "publication_date": "2026-04-08",
   "version": "2026-03-24",
-  "upload_type": "dataset",
-  "access_right": "open",
-  "license": "CC-BY-4.0",
-  "language": "deu",
-  "communities": [
+  "related_identifiers": [
     {
-      "identifier": "robertkochinstitut"
-    }
-  ],
-  "subjects": [
-    {
-      "term": "Gesundheitsberichterstattung",
-      "identifier": "info:ddc/22/de//614.42"
+      "identifier": "https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
     },
     {
-      "term": "Biochemische Genetik",
-      "identifier": "info:ddc/22/de//572.8"
-    },
-    {
-      "term": "Epidemiologie",
-      "identifier": "info:ddc/22/de//614.4"
-    },
-    {
-      "term": "Biochemical genetics",
-      "identifier": "info:ddc/22/eng//572.8"
-    },
-    {
-      "term": "Public health surveillance",
-      "identifier": "info:ddc/22/eng//614.42"
-    },
-    {
-      "term": "Epidemiology",
-      "identifier": "info:ddc/22/eng//614.4"
+      "identifier": "https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland",
+      "relation": "isDescribedBy",
+      "resource_type": "other"
     }
   ],
   "dates": [
@@ -67,18 +60,6 @@
       "end": "2026-03-24T07:22:00+01:00",
       "type": "Created",
       "description": "Date when the published data was created"
-    }
-  ],
-  "related_identifiers": [
-    {
-      "relation": "isSupplementTo",
-      "identifier": "https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland",
-      "resource_type": "dataset"
-    },
-    {
-      "relation": "isDescribedBy",
-      "identifier": "https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland/",
-      "resource_type": "other"
     }
   ]
 }
