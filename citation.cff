@@ -8,7 +8,7 @@ abstract: Im Datensatz "SARS-CoV-2-Sequenzdaten aus Deutschland" umfasst vollst�
   Datensatz ermöglicht eine fundierte molekular-epidemiologische Analyse der SARS-CoV-2-Ausbreitung
   in Deutschland und stellt eine zentrale Ressource für Forschung und öffentliche
   Gesundheitsüberwachung dar.
-date-released: '2026-04-08'
+date-released: '2026-04-15'
 keywords:
   - COVID-19
   - SARS-CoV-2
@@ -33,8 +33,8 @@ keywords:
 message: Cite me!
 url: https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland
 license: CC-BY-4.0
-doi: 10.5281/zenodo.19473684
-version: '2026-03-24T07:22:00+01:00'
+doi: 10.5281/zenodo.19594501
+version: '2026-04-14T07:01:00+02:00'
 authors:
   - name: Robert Koch-Institut
     email: info@rki.de
