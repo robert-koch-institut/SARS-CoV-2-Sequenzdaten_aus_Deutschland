@@ -58,7 +58,7 @@ The dataset ‘SARS-CoV-2 Sequence Data from Germany’ consists of complete vir
 
 A central component of successful pathogen surveillance is understanding the spread of a pathogen and its pathogenic properties. Knowledge of the pathogen genome is an important source of information here. The detection of mutations in the genome of a pathogen makes it possible to reconstruct relationships, uncover transmission routes and predict resistance. The Integrated Genomic Surveillance (IGS) of SARS-CoV-2 aims to monitor the spread of the virus and in particular of virus variants of concern in the population and to closely observe any changes in the virus that occur. The public provision of genomic data is of particular importance in order to enable scientists in Germany and worldwide to carry out their own analyses.  
 
-As part of the [Coronavirus Surveillance Ordinance](https://www.gesetze-im-internet.de/corsurv/BJNR601910021.html), [SARS-CoV-2 sequence data from all over Germany were transmitted to the RKI via the German Electronic Sequence Data Hub (DESH) until 31.05.2023](https://doi.org/10.5281/zenodo.7992536). With the expiration of the ordinance, samples will be provided by the IMSSC2 laboratory network in the future and sequenced, analyzed and made available here at the RKI. Despite the reduced number of samples, the careful selection of the participating laboratories ensures a representative insight into the virus population ([Djin Ye Oh *et al.* **2022**)](https://doi.org/10.1093/cid/ciac399). In addition, sequences from the NRZ Coronaviruses at the Charité will be contributed to complement the IMSSC2 network.
+As part of the [Coronavirus Surveillance Ordinance](https://web.archive.org/web/20230512153111/https://www.gesetze-im-internet.de/corsurv/BJNR601910021.html), [SARS-CoV-2 sequence data from all over Germany were transmitted to the RKI via the German Electronic Sequence Data Hub (DESH) until 31.05.2023](https://doi.org/10.5281/zenodo.7992536). With the expiration of the ordinance, samples will be provided by the IMSSC2 laboratory network in the future and sequenced, analyzed and made available here at the RKI. Despite the reduced number of samples, the careful selection of the participating laboratories ensures a representative insight into the virus population ([Djin Ye Oh *et al.* **2022**)](https://doi.org/10.1093/cid/ciac399). In addition, sequences from the NRZ Coronaviruses at the Charité will be contributed to complement the IMSSC2 network.
  
 ### Administrative and organizational information
 
@@ -210,13 +210,13 @@ The file [SARS-CoV-2-Entwicklungslinien_zu_Varianten.tsv](https://github.com/rob
 
 #### Formatting the sequence metadata
 
-The sequence metadata is provided as an [xz-compressed](https://en.wikipedia.org/wiki/XZ_Utils), comma-separated .csv file. This results in the file extension .csv.xz. The character set used in the .csv file is UTF-8. The individual values are separated by a comma ",". Dates are formatted in the ISO 8601 standard.  
+The sequence metadata is provided as an [xz-compressed](https://en.wikipedia.org/wiki/XZ_Utils), tab-separated .tsv file. This results in the file extension .csv.xz. The character set used in the .tsv file is UTF-8. The individual values are separated by a tab `\t`. Dates are formatted in the ISO 8601 standard.  
 
 * Character set: UTF-8
 * Date format: ISO 8601
 * Compression: [.xz](https://en.wikipedia.org/wiki/XZ_Utils)
 * Included file format: .tsv
-* .csv separator: Tab "\t"
+* .tsv separator: tab `\t`
 
 The files can be unpacked on common operating systems, for example with the programs [7zip](https://www.7-zip.org/) or [XZ Utils](https://tukaani.org/xz/). Compression is performed as the .fasta files in particular are several gigabytes (GB) in size.   
 
