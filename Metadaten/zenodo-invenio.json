@@ -1,24 +1,30 @@
 {
   "title": "SARS-CoV-2 Sequenzdaten aus Deutschland",
-  "description": "<p>Im Datensatz &quot;SARS-CoV-2-Sequenzdaten aus Deutschland&quot; umfasst vollständige Virusgenomsequenzen sowie zugehörige Metadaten aus bundesweit erhobenen Proben. Die Proben werden in Zusammenarbeit vom IMSSC2-Labornetzwerk, dem Nationalen Referenzzentrum für Coronaviren an der Charité sowie dem RKI sequenziert und bioinformatisch analysiert. Der Datensatz ermöglicht eine fundierte molekular-epidemiologische Analyse der SARS-CoV-2-Ausbreitung in Deutschland und stellt eine zentrale Ressource für Forschung und öffentliche Gesundheitsüberwachung dar.</p>\n",
+  "description": "<p>Im Datensatz \"SARS-CoV-2-Sequenzdaten aus Deutschland\" umfasst vollständige Virusgenomsequenzen sowie zugehörige Metadaten aus bundesweit erhobenen Proben. Die Proben werden in Zusammenarbeit vom IMSSC2-Labornetzwerk, dem Nationalen Referenzzentrum für Coronaviren an der Charité sowie dem RKI sequenziert und bioinformatisch analysiert. Der Datensatz ermöglicht eine fundierte molekular-epidemiologische Analyse der SARS-CoV-2-Ausbreitung in Deutschland und stellt eine zentrale Ressource für Forschung und öffentliche Gesundheitsüberwachung dar.</p>",
   "resource_type": {
     "id": "dataset"
   },
-  "publication_date": "2026-03-11",
+  "publication_date": "2026-04-15",
   "creators": [
     {
       "person_or_org": {
         "type": "organizational",
-        "name": "Robert Koch-Institut"
+        "name": "Robert Koch-Institut",
+        "identifiers": [
+          {
+            "scheme": "ror",
+            "identifier": "01k5qnb77"
+          }
+        ]
       }
     }
   ],
   "contributors": [],
   "publisher": "Zenodo",
-  "version": "2026-03-11",
+  "version": "2026-04-15",
   "dates": [
     {
-      "date": "2026-03-10T07:13:00+01:00",
+      "date": "2026-04-14T07:01:00+02:00",
       "type": {
         "id": "created"
       },
@@ -76,6 +82,24 @@
       "subject": "Base Sequence"
     },
     {
+      "subject": "Gesundheitsberichterstattung"
+    },
+    {
+      "subject": "Biochemische Genetik"
+    },
+    {
+      "subject": "Epidemiologie"
+    },
+    {
+      "subject": "Biochemical genetics"
+    },
+    {
+      "subject": "Public health surveillance"
+    },
+    {
+      "subject": "Epidemiology"
+    },
+    {
       "subject": "Open Data"
     },
     {
@@ -94,32 +118,6 @@
   "custom_fields": {
     "legacy:communities": [
       "robertkochinstitut"
-    ],
-    "legacy:subjects": [
-      {
-        "term": "Gesundheitsberichterstattung",
-        "identifier": "info:ddc/22/de//614.42"
-      },
-      {
-        "term": "Biochemische Genetik",
-        "identifier": "info:ddc/22/de//572.8"
-      },
-      {
-        "term": "Epidemiologie",
-        "identifier": "info:ddc/22/de//614.4"
-      },
-      {
-        "term": "Biochemical genetics",
-        "identifier": "info:ddc/22/eng//572.8"
-      },
-      {
-        "term": "Public health surveillance",
-        "identifier": "info:ddc/22/eng//614.42"
-      },
-      {
-        "term": "Epidemiology",
-        "identifier": "info:ddc/22/eng//614.4"
-      }
     ]
   }
 }
