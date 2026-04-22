@@ -28,7 +28,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.19594501",
+        "identifier": "10.5281/zenodo.19695820",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -105,10 +105,6 @@
         "label": "Offene Daten"
       },
       {
-        "label": "Deutschland",
-        "code": "http://id.nlm.nih.gov/mesh/D005858"
-      },
-      {
         "label": "Germany",
         "code": "http://id.nlm.nih.gov/mesh/D005858"
       },
@@ -129,7 +125,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2026-04-15"
+      "version": "2026-04-22"
     },
     "webpage": "https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland",
     "contributors": [
