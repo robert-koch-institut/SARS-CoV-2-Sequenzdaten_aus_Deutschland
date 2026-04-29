@@ -3,9 +3,6 @@
     "classification": {
       "type": "Dataset"
     },
-    "collection": [
-      "Robert Koch Institute"
-    ],
     "descriptions": [
       {
         "language": "DE (German)",
@@ -28,7 +25,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.19695820",
+        "identifier": "10.5281/zenodo.19887416",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -125,7 +122,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2026-04-22"
+      "version": "2026-04-29"
     },
     "webpage": "https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland",
     "contributors": [
