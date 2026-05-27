@@ -39,8 +39,8 @@
     "RKI"
   ],
   "subjects": [],
-  "publication_date": "2026-05-13",
-  "version": "2026-05-12",
+  "publication_date": "2026-05-27",
+  "version": "2026-05-26",
   "related_identifiers": [
     {
       "identifier": "https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland",
@@ -55,8 +55,8 @@
   ],
   "dates": [
     {
-      "start": "2026-05-12T07:34:00+02:00",
-      "end": "2026-05-12T07:34:00+02:00",
+      "start": "2026-05-26T09:44:00+02:00",
+      "end": "2026-05-26T09:44:00+02:00",
       "type": "Created",
       "description": "Date when the published data was created"
     }
