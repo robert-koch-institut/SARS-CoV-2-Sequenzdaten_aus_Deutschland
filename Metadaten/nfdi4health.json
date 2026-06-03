@@ -25,7 +25,7 @@
     ],
     "ids": [
       {
-        "identifier": "10.5281/zenodo.20412329",
+        "identifier": "10.5281/zenodo.20527966",
         "typeGeneral": "Dataset",
         "relationType": "A references B",
         "scheme": "DOI"
@@ -122,7 +122,7 @@
         },
         "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
       },
-      "version": "2026-05-27"
+      "version": "2026-06-03"
     },
     "webpage": "https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland",
     "contributors": [
