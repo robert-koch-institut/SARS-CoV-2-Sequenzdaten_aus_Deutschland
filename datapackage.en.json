@@ -1,7 +1,7 @@
 {
   "name": "10.5281/zenodo.5139363",
-  "title": "SARS-CoV-2 Sequenzdaten aus Deutschland",
-  "description": "Diese Datei gibt eine Übersicht über die im Datensatz enthaltenen Daten im Data Package Standard (https://datapackage.org). Der dokumentierte Datensatz ist auf den Plattformen Zenodo (https://doi.org/10.5281/zenodo.5139363) und Github (https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland) verfügbar.",
+  "title": "SARS-CoV-2 Sequence Data from Germany",
+  "description": "This file gives an overview of the data provided in the dataset in Data Package Standard format (https://datapackage.org). The documented data set is available on Zenodo (https://doi.org/10.5281/zenodo.5139363) and Github (https://github.com/robert-koch-institut/SARS-CoV-2-Sequenzdaten_aus_Deutschland).",
   "homepage": "https://doi.org/10.5281/zenodo.5139363",
   "resources": [
     {
@@ -11,7 +11,7 @@
       "scheme": "file",
       "format": "tsv",
       "mediatype": "text/csv",
-      "schema": "Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.json"
+      "schema": "Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_berichtet.en.json"
     },
     {
       "name": "sars-cov-2-entwicklungslinien_zu_varianten",
@@ -20,7 +20,7 @@
       "scheme": "file",
       "format": "tsv",
       "mediatype": "text/csv",
-      "schema": "Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.json"
+      "schema": "Metadaten/schemas/tableschema_SARS-CoV-2-Entwicklungslinien_zu_Varianten.en.json"
     },
     {
       "name": "sars-cov-2-sequenzdaten_deutschland",
@@ -29,7 +29,7 @@
       "scheme": "file",
       "format": "tsv",
       "mediatype": "text/csv",
-      "schema": "Metadaten/schemas/tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.json"
+      "schema": "Metadaten/schemas/tableschema_SARS-CoV-2-Sequenzdaten_Deutschland.en.json"
     }
   ]
 }
