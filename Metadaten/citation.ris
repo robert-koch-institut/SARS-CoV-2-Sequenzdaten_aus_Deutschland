@@ -1,0 +1,30 @@
+TY  - DATA
+AB  - Im Datensatz "SARS-CoV-2-Sequenzdaten aus Deutschland" umfasst vollständige Virusgenomsequenzen sowie zugehörige Metadaten aus bundesweit erhobenen Proben. Die Proben werden in Zusammenarbeit vom IMSSC2-Labornetzwerk, dem Nationalen Referenzzentrum für Coronaviren an der Charité sowie dem RKI sequenziert und bioinformatisch analysiert. Der Datensatz ermöglicht eine fundierte molekular-epidemiologische Analyse der SARS-CoV-2-Ausbreitung in Deutschland und stellt eine zentrale Ressource für Forschung und öffentliche Gesundheitsüberwachung dar.
+AU  - Robert Koch-Institut
+DA  - 2026-09-16
+DO  - 10.5281/zenodo.22796147
+KW  - COVID-19
+KW  - SARS-CoV-2
+KW  - Virussequenzen
+KW  - Genom
+KW  - Basensequenz
+KW  - Deutschland
+KW  - Viral Sequences
+KW  - Genome
+KW  - Base Sequence
+KW  - Gesundheitsberichterstattung
+KW  - Biochemische Genetik
+KW  - Epidemiologie
+KW  - Biochemical genetics
+KW  - Public health surveillance
+KW  - Epidemiology
+KW  - Open Data
+KW  - Offene Daten
+KW  - Germany
+KW  - RKI
+PY  - 2026
+TI  - SARS-CoV-2 Sequenzdaten aus Deutschland
+UR  - https://robert-koch-institut.github.io/SARS-CoV-2-Sequenzdaten_aus_Deutschland
+ET  - 2026-09-16
+N1  - License: CC-BY-4.0
+ER  -
