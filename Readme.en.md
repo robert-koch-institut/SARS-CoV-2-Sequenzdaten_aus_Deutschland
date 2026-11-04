@@ -22,7 +22,7 @@ Documentation
 
 **Cite**  
 <!-- CITATION_START: {"citation_style": "apa", "markdown_style": "plain"} -->
-Robert Koch Institute. (2026). SARS-CoV-2 Sequence Data from Germany [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.23733175](https://doi.org/10.5281/zenodo.23733175)
+Robert Koch Institute. (2026). SARS-CoV-2 Sequence Data from Germany [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.23952439](https://doi.org/10.5281/zenodo.23952439)
 <!-- CITATION_END -->
 
 
@@ -33,7 +33,7 @@ The dataset ‘SARS-CoV-2 Sequence Data from Germany’ consists of complete vir
 
 <br>
 
-**Table of Content**  
+**Table of Contents**  
 
 <!-- TOC_START: {"heading_depth": 2} -->
   - [Information on the data set and context of origin](#information-on-the-data-set-and-context-of-origin)  
